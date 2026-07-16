@@ -9,7 +9,10 @@ services:
       - "3306"
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./food101.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - ./food101.sql:/docker-entrypoint-initdb.d/01_food101.sql:ro
+      - ./food_recipe_dhr.sql:/docker-entrypoint-initdb.d/02_food_recipe_dhr.sql:ro
+      - ./food_recipe_hr.sql:/docker-entrypoint-initdb.d/03_food_recipe_hr.sql:ro
+      - ./food_recipe_nr.sql:/docker-entrypoint-initdb.d/04_food_recipe_nr.sql:ro
 
   web:
     build:
