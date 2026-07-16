@@ -1,0 +1,38 @@
+services:
+  mysql:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: weiwei2003921124
+      MYSQL_DATABASE: food_recipe
+    ports:
+      - "3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./food101.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+  web:
+    build:
+      context: .
+      secrets:
+        - GIT_AUTH_TOKEN
+    container_name: flask_app
+    depends_on:
+      - mysql
+    environment:
+      DB_USER: root
+      DB_PASSWORD: weiwei2003921124
+      DB_HOST: mysql
+      DB_NAME: food_recipe
+    ports:
+      - "4322:5000"
+    # volumes:
+    #   - .:/app
+    command: python app.py
+
+volumes:
+  mysql_data:
+
+secrets:
+  GIT_AUTH_TOKEN:
+    environment: GIT_AUTH_TOKEN

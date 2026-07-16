@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>深度學習食譜推薦系統 | Deep Learning Recipe Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='homepage.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- 語言切換按鈕 -->
+        <div class="language-toggle">
+            <button id="lang-zh" class="lang-btn active" onclick="setLanguage('zh')">中文</button>
+            <button id="lang-en" class="lang-btn" onclick="setLanguage('en')">English</button>
+        </div>
+
+        <!-- 標題區 -->
+        <div class="header">
+            <h1 id="page-title">深度學習食譜推薦系統</h1>
+            <p class="subtitle">BASED ON DATASET FOOD 101</p>
+        </div>
+
+        <!-- 搜尋框區域 -->
+        <div class="search-section">
+            <input type="text" placeholder="輸入菜名：（獲得食譜成份、步驟）" id="search-input">
+            <button id="search-button">🔎</button>
+        </div>
+
+        <!-- 搜尋結果區域 -->
+        <div id="search-results" class="search-results-section"></div>
+
+        <!-- 圖片上傳區域 -->
+        <div class="upload-section">
+            <label for="upload-input" class="upload-label">
+                上傳圖片辨識
+                <span class="upload-icon">⤴️</span>
+            </label>
+            <input type="file" id="upload-input" accept="image/*">
+        </div>
+
+        <!-- 圖片預覽區域 -->
+        <div id="image-preview" class="image-preview-section"></div>
+
+        <!-- 確定和取消按鈕 -->
+        <div id="image-buttons" class="image-buttons-section" style="display: none;">
+            <button id="confirm-upload">確定上傳</button>
+            <button id="cancel-upload">取消重新上傳</button>
+        </div>
+         <!-- 搜尋結果區域 -->
+         <div id="transformer-results" class="transformer-results-section"></div>
+
+        <!-- 支援的食物列表區域 -->
+        <div class="supported-foods-section">
+            <h2 id="supported-foods-title">目前支援的 101 種食物</h2>
+            <div id="food-list" class="food-list">
+                <p id="loading-foods" class="loading-foods">載入中...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入 JavaScript -->
+    <script src="{{ url_for('static', filename='homepage.js') }}" defer></script>
+</body>
+</html>
