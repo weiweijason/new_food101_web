@@ -194,14 +194,3 @@ INSERT INTO food101_recipe (title, ingredients, directions) VALUES
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- 測試查詢
-SELECT COUNT(*) as dhr_count FROM dhr;
-SELECT COUNT(*) as nr_count FROM nr;
-SELECT COUNT(*) as hr_count FROM hr;
-SELECT COUNT(*) as food101_recipe_count FROM food101_recipe;
-
--- 測試特定資料查詢
-SELECT * FROM dhr WHERE title = 'pizza';
-SELECT * FROM nr WHERE title = 'risotto';
-SELECT * FROM hr WHERE title = 'risotto';
