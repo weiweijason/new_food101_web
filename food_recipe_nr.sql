@@ -32,9 +32,42 @@ CREATE TABLE nr (
 /*!40000 ALTER TABLE `nr` DISABLE KEYS */;
 INSERT INTO nr 
 VALUES
-('apple_pie','[\"2 c. water\", \"1 1/2 c. sugar\", \"2 tsp. cream of tartar\", \"23 Ritz crackers\", \"1 uncooked pie crust\", \"2 tsp. butter\", \"1 tsp. cinnamon\"]','[\"Bring water, sugar and cream of tartar to a boil and boil 1 minute.\", \"Add Ritz crackers, one at a time.\", \"Allow to boil 2 minutes after last cracker is dropped in.\", \"Remove from heat. Pour into unbaked pie shell.\", \"Dot filling with butter and sprinkle cinnamon over filling.\", \"Bake 20 minutes at 425° (pastry strips can be added across the top before baking, if desired).\"]'),
-('baby_back_ribs','[\"1-2 slabs of baby back ribs\", \"2 Tbsp pickling spice\", \"water to cover\", \"1 bottle Open Pit BBQ sauce\", \"1-2 c. brown sugar\"]','[\"Place ribs in a large pan.\", \"Cover with water and add pickling spice.\", \"Boil for 1 hour.\", \"Remove ribs and place on outdoor grill. Generously brush on BBQ sauce mixture of brown sugar and Open Pit BBQ sauce.\"]'),
-('baklava','[\"4 lb. ground nuts (walnuts, pecans or almonds)\", \"1 c. sugar\", \"1 1/2 tsp. cinnamon\", \"1/2 tsp. nutmeg\", \"2 lb. margarine, melted\", \"2 lb. filo dough\"]','[\"Grind nuts fine and mix with sugar and spices.\", \"Grease 11 x 16-inch pan (not a cookie sheet) with butter.\", \"Place 4 sheets of filo into pan.\", \"Brush each sheet with butter.\", \"Sprinkle with nuts thinly.\", \"Cover with 3 sheets of filo, brushing each with butter. Add mixture of nuts again as before.\", \"Repeat this until all nuts are used.\", \"End with 3 sheets of filo on top.\", \"Brush with final butter.\", \"Slice the entire thing into diamond shapes to aid in baking.\", \"Preheat oven to 300°.\", \"Place in oven.\", \"Cook for 1 hour, until lightly brown.\", \"Remove from oven.\", \"Let cool.\"]'),
+(
+'apple_pie',
+'[
+    "2 c. water",
+    "1 1/2 c. sugar",
+    "2 tsp. cream of tartar",
+    "23 Ritz crackers",
+    "1 uncooked pie crust",
+    "2 tsp. butter",
+    "1 tsp. cinnamon"
+]',
+'[
+    "Bring water, sugar and cream of tartar to a boil and boil 1 minute.",
+    "Add Ritz crackers, one at a time.",
+    "Allow to boil 2 minutes after last cracker is dropped in.",
+    "Remove from heat. Pour into unbaked pie shell.",
+    "Dot filling with butter and sprinkle cinnamon over filling.",
+    "Bake 20 minutes at 425° (pastry strips can be added across the top before baking, if desired)."
+]'
+),
+(
+'baby_back_ribs',
+'[
+    "1-2 slabs of baby back ribs",
+    "2 Tbsp pickling spice",
+    "water to cover",
+    "1 bottle Open Pit BBQ sauce",
+    "1-2 c. brown sugar"
+]',
+'[
+    "Place ribs in a large pan.",
+    "Cover with water and add pickling spice.",
+    "Boil for 1 hour.",
+    "Remove ribs and place on outdoor grill. Generously brush on BBQ sauce mixture of brown sugar and Open Pit BBQ sauce."
+]'
+),
 ('beef_carpaccio','[\"8 -10 ounces beef tenderloin, from the tip end of the roast\", \"4 cups arugula or 4 cups mixed greens\", \"your favorite vinaigrette (amount to taste)\", \"kosher salt\", \"fresh ground black pepper\", \"shaved parmesan cheese\"]','[\"Wrap the tenderloin in plastic wrap and place in the freezer for 2 hours.\", \"After 2 hours, unwrap the tenderloin and thinly slice the beef into approximately into 1/8 to 1/4-inch pieces.\", \"Lay out sheets of plastic wrap and place each slice onto the plastic. Top with another piece of plastic and gently pound the meat with a meat mallet until paper thin.\", \"Repeat until all of the meat is sliced and pounded.\", \"Divide the meat evenly among 4 chilled plates. Serve with greens tossed with vinaigrette, salt, pepper and/or Parmesan.\"]'),
 ('beef_tartare','[\"1 lb. ground sirloin (very lean)\", \"1 egg\", \"1 small onion, chopped very fine\", \"2 Tbsp. olive oil\", \"1 tsp. Worcestershire sauce\", \"salt and pepper to taste\"]','[\"Cut away all visible fat from ground sirloin.\", \"Grind meat twice.\", \"Add eggs, onion and olive oil.\", \"Mix very well.\", \"Add Worcestershire sauce, salt and pepper to taste.\", \"Form into mound.\"]'),
 ('beet_salad','[\"1 can beets, drained well and liquid reserved\", \"1 c. sugar\", \"1 (6 oz.) pkg. raspberry Jell-O\", \"1 Tbsp. unflavored gelatin\", \"1/2 c. wine vinegar\", \"1 tsp. onion, grated\", \"1 tsp. mustard seed\"]','[\"Mash beets.\", \"Combine reserved liquid with enough water to make 3 cups.\", \"Heat and add sugar.\", \"Add Jell-O and gelatin; dissolve.\", \"Let mixture cool.\", \"Pour vinegar over beets.\", \"Fold beets, onion, and mustard seed into jello mixture.\", \"Allow to cool and gel.\"]'),

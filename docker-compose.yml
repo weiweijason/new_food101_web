@@ -37,7 +37,8 @@ services:
     # volumes:
     #   - .:/app
     command: >
-      sh -c "echo '等待 MySQL 就緒...' && 
+      sh -c "echo '等待 MySQL 完全初始化...' && 
+      python -c \"import time; time.sleep(10)\" && 
       python app.py"
 
 volumes:
