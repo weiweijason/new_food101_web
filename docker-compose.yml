@@ -26,7 +26,7 @@ services:
       DB_HOST: mysql
       DB_NAME: food_recipe
     ports:
-      - "4322:5000"
+      - "10443:5000"
     # volumes:
     #   - .:/app
     command: python app.py
