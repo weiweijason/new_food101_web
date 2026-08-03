@@ -21,11 +21,12 @@
 
 DROP TABLE IF EXISTS nr;
 
+
 CREATE TABLE nr (
-    id SERIAL PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
-    ingredients JSONB,
-    directions JSONB,
+    ingredients JSON,
+    directions JSON,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
