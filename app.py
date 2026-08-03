@@ -12,7 +12,8 @@ import requests
 from pathlib import Path
 from tqdm import tqdm
 
-# logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 CORS(app)
@@ -24,7 +25,34 @@ DB_HOST = os.getenv("DB_HOST", "localhost")
 DB_NAME = os.getenv("DB_NAME", "food_recipe")
 
 DATABASE_URL = f"mysql+pymysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:3306/{DB_NAME}"
-engine = create_engine(DATABASE_URL)
+engine = create_engine(DATABASE_URL, pool_pre_ping=True)
+
+
+def check_database_counts():
+    """檢查資料庫中的記錄數量"""
+    try:
+        with engine.connect() as conn:
+            dhr_count = conn.execute(text("SELECT COUNT(*) FROM dhr")).scalar()
+            hr_count = conn.execute(text("SELECT COUNT(*) FROM hr")).scalar()
+            nr_count = conn.execute(text("SELECT COUNT(*) FROM nr")).scalar()
+            
+            print("\n" + "="*50)
+            print("資料庫記錄數量檢查")
+            print("="*50)
+            print(f"dhr 表: {dhr_count} 筆 (預期: 101)")
+            print(f"hr 表:  {hr_count} 筆 (預期: 約 50-60)")
+            print(f"nr 表:  {nr_count} 筆 (預期: 101)")
+            print("="*50 + "\n")
+            
+            if nr_count != 101:
+                logger.warning(f"nr 表記錄數量不符! 預期 101 筆，實際 {nr_count} 筆")
+            else:
+                logger.info("所有資料表匯入成功!")
+            
+            return dhr_count, hr_count, nr_count
+    except Exception as e:
+        logger.error(f"檢查資料庫失敗: {e}")
+        return 0, 0, 0
 
 # url = "https://weiweihsu-my.sharepoint.com/:u:/g/personal/best_weiweihsu_onmicrosoft_com/EV14Df_TOEpGtp4z7Xh5NrAB7dqUsHUyggBk8sgk4oLgzA?download=1"
 
@@ -54,14 +82,21 @@ def search_recipes():
     if not query:
         return jsonify({'error': 'Missing query parameter'}), 400
 
+    logger.info(f"搜尋請求: '{query}'")
+    
     try:
         with engine.connect() as conn:
-            result = conn.execute(text("SELECT title FROM nr WHERE title LIKE :query"), 
-                                {"query": f"%{query}%"})
+            # 使用參數化查詢防止 SQL 注入
+            result = conn.execute(
+                text("SELECT title FROM nr WHERE title LIKE :query"), 
+                {"query": f"%{query}%"}
+            )
             results = [{"title": row[0]} for row in result]
+            
+        logger.info(f"搜尋 '{query}' 找到 {len(results)} 筆結果")
         return jsonify(results)
     except Exception as e:
-        logging.error(f"Error occurred during search: {e}")
+        logger.error(f"搜尋發生錯誤: {e}")
         return jsonify({'error': str(e)}), 500
 
 # 詳細食譜顯示
@@ -284,6 +319,29 @@ def load_model():
 
 # 在應用啟動時載入模型，而不是每個請求時
 load_model()
+
+
+def wait_for_mysql(max_retries=30, retry_delay=2):
+    """等待 MySQL 就緒"""
+    import time
+    for i in range(max_retries):
+        try:
+            with engine.connect() as conn:
+                conn.execute(text("SELECT 1"))
+            logger.info("MySQL 連接成功!")
+            return True
+        except Exception as e:
+            if i < max_retries - 1:
+                logger.info(f"等待 MySQL 就緒... ({i+1}/{max_retries})")
+                time.sleep(retry_delay)
+            else:
+                logger.error(f"無法連接到 MySQL: {e}")
+    return False
+
+
+# 在應用啟動時檢查資料庫
+if wait_for_mysql():
+    check_database_counts()
 
 
 @app.route('/upload', methods=['POST'])

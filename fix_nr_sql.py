@@ -1,74 +1,50 @@
 #!/usr/bin/env python3
 """修復 food_recipe_nr.sql 的 SQL 語法格式錯誤"""
+import re
 
 def fix_nr_sql():
     input_file = r'd:\food101_web\food-detect\food_recipe_nr.sql'
+    output_file = r'd:\food101_web\food-detect\food_recipe_nr_fixed.sql'
     
     with open(input_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+        content = f.read()
     
     print("開始修復 food_recipe_nr.sql...")
     
-    output_lines = []
-    in_insert = False
-    line_count = 0
+    # 統計原始的反引號數量
+    original_backticks = content.count('`')
+    print(f"原始檔案中的反引號數量: {original_backticks}")
     
-    for line in lines:
-        # 檢測 INSERT 區塊開始
-        if "INSERT INTO `nr` VALUES" in line:
-            in_insert = True
-            output_lines.append(line)
-            continue
-        
-        # 檢測 INSERT 區塊結束
-        if in_insert and "/*!40000 ALTER TABLE `nr` ENABLE KEYS */;" in line:
-            in_insert = False
-            output_lines.append(line)
-            continue
-        
-        if in_insert and line.strip():
-            line_count += 1
-            fixed = line.rstrip()
-            
-            # 檢查是否是最後一行
-            if "]);" in fixed:
-                # 最後一行，保持不變
-                output_lines.append(fixed + "\n")
-                continue
-            
-            # 修復行開頭
-            stripped = fixed.strip()
-            
-            if stripped.startswith(")"):
-                # )recipe_name' → ('recipe_name'
-                # 移除開頭的 ) 並添加 ('
-                inner = stripped[1:]  # 移除 )
-                # 找到第一個 ' 的位置
-                quote_pos = inner.find("'")
-                if quote_pos > 0:
-                    recipe_name = inner[:quote_pos]
-                    rest = inner[quote_pos:]
-                    fixed = fixed.replace(stripped, "(" + "'" + recipe_name + rest)
-            
-            elif stripped.startswith("'"):
-                # 'recipe_name' → ('recipe_name'
-                fixed = fixed.replace(stripped, "(" + stripped)
-            
-            # 修復行結尾
-            if fixed.rstrip().endswith("],)'"):
-                fixed = fixed.rstrip()[:-3] + "]),"
-            elif fixed.rstrip().endswith("],"):
-                fixed = fixed.rstrip()[:-2] + "]),"
-            
-            output_lines.append(fixed + "\n")
-        else:
-            output_lines.append(line)
+    # 修復問題：將 INSERT 值中的反引號替換為單引號
+    # 問題模式: (`recipe_name' → ('recipe_name')
+    # 問題模式: `) → ')
+    # 問題模式: `), → '),
     
-    with open(input_file, 'w', encoding='utf-8') as f:
-        f.writelines(output_lines)
+    # 替換 (` 為 ('
+    content = content.replace('(`', "('")
     
-    print(f"已修復 {input_file}")
-    print(f"共修復 {line_count} 筆記錄")
+    # 替換 `) 為 ')
+    content = content.replace('`)', "')")
+    
+    # 替換 `), 為 '),
+    content = content.replace('`),', "'),")
+    
+    # 統計修復後的反引號數量
+    fixed_backticks = content.count('`')
+    print(f"修復後的反引號數量: {fixed_backticks}")
+    print(f"已修復的反引號數量: {original_backticks - fixed_backticks}")
+    
+    # 計算 INSERT 記錄數量
+    insert_pattern = r"\('\w+(_\w+)*'"
+    insert_count = len(re.findall(insert_pattern, content))
+    print(f"INSERT 記錄數量: {insert_count}")
+    
+    # 寫入修復後的檔案
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(content)
+    
+    print(f"修復完成！已儲存至 {output_file}")
+    return insert_count
 
 if __name__ == '__main__':
     fix_nr_sql()

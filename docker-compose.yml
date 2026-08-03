@@ -1,25 +1,32 @@
 services:
   mysql:
     image: mysql:8.0
+    container_name: mysql_db
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: weiwei2003921124
       MYSQL_DATABASE: food_recipe
     ports:
-      - "3306"
+      - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
       - ./food101.sql:/docker-entrypoint-initdb.d/01_food101.sql:ro
       - ./food_recipe_dhr.sql:/docker-entrypoint-initdb.d/02_food_recipe_dhr.sql:ro
       - ./food_recipe_hr.sql:/docker-entrypoint-initdb.d/03_food_recipe_hr.sql:ro
-      - ./food_recipe_nr.sql:/docker-entrypoint-initdb.d/04_food_recipe_nr.sql:ro
+      - ./food_recipe_nr_fixed.sql:/docker-entrypoint-initdb.d/04_food_recipe_nr.sql:ro
+      - ./init-check.sh:/docker-entrypoint-initdb.d/99_init_check.sh:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pweiwei2003921124"]
+      timeout: 20s
+      retries: 10
 
   web:
     build:
       context: .
     container_name: flask_app
     depends_on:
-      - mysql
+      mysql:
+        condition: service_healthy
     environment:
       DB_USER: root
       DB_PASSWORD: weiwei2003921124
@@ -29,7 +36,9 @@ services:
       - "10443:5000"
     # volumes:
     #   - .:/app
-    command: python app.py
+    command: >
+      sh -c "echo '等待 MySQL 就緒...' && 
+      python app.py"
 
 volumes:
   mysql_data:

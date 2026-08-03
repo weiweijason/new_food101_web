@@ -137,17 +137,6 @@ INSERT INTO `nr` VALUES
 (`tiramisu','[\"8 oz. bittersweet chocolate\", \"24 ladyfingers\", \"2 c. strong Espresso coffee, cooled\", \"6 eggs, separated\", \"6 heaping Tbsp. granulated sugar\", \"1 lb. Mascarpone\"]','[\"Chop the chocolate coarsely or cut into small pieces.\", \"Put ladyfingers on a plate and lightly soak them with cold coffee. Arrange half of the ladyfingers in 1 layer on a rectangular or oval serving dish with sides at least 2 inches high.\"]`),
 (`tuna_tartare','[\"1 pound sushi grade tuna, finely diced\", \"3 tablespoons olive oil\", \"1/4 teaspoon wasabi powder\", \"1 tablespoon sesame seeds\", \"1/8 teaspoon cracked black pepper\", \"sliced French bread\"]','[\"In a bowl, stir together olive oil, wasabi powder, sesame seeds, and cracked black pepper. Toss tuna into mixture until evenly coated. Adjust seasoning as desired with additional wasabi powder or black pepper. Serve on sliced French bread.\"]`),
 (`waffles','[\"2 c. flour\", \"2 c. milk\", \"3 tsp. baking powder\", \"1/2 tsp. salt\", \"4 Tbsp. melted butter\", \"2 eggs, beat separately\"]','[\"Sift flour, salt and baking powder into bowl.\", \"Beat yolks well and add milk.\", \"Beat, adding this to the flour mixture, slowly beating until smooth.\", \"Add melted butter and fold in stiffly beaten egg whites.\", \"Makes four big ones.\"]')`)
-/*!40000 ALTER TABLE `nr` ENABLE KEYS */;
+
 
 UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2025-06-20 12:00:15
