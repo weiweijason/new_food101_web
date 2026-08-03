@@ -11,8 +11,7 @@ CREATE TABLE nr (
 );
 
 /*!40000 ALTER TABLE `nr` DISABLE KEYS */;
-INSERT INTO nr 
-VALUES
+INSERT INTO nr (title, ingredients, directions) VALUES
 (
 'apple_pie',
 '[
