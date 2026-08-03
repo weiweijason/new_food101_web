@@ -13,7 +13,7 @@ services:
       - ./food101.sql:/docker-entrypoint-initdb.d/01_food101.sql:ro
       - ./food_recipe_dhr.sql:/docker-entrypoint-initdb.d/02_food_recipe_dhr.sql:ro
       - ./food_recipe_hr.sql:/docker-entrypoint-initdb.d/03_food_recipe_hr.sql:ro
-      - ./food_recipe_nr_fixed.sql:/docker-entrypoint-initdb.d/04_food_recipe_nr.sql:ro
+      - ./food_recipe_nr.sql:/docker-entrypoint-initdb.d/04_food_recipe_nr.sql:ro
       - ./init-check.sh:/docker-entrypoint-initdb.d/99_init_check.sh:ro
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pweiwei2003921124"]
