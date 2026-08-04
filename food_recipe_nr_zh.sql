@@ -2,13 +2,13 @@ DROP TABLE IF EXISTS `nr`;
 
 
 CREATE TABLE `nr` (
-    title VARCHAR(255) NOT NULL,
-    title_zh VARCHAR(255) DEFAULT NULL,
-    ingredients JSON,
-    ingredients_zh JSON,
-    directions JSON,
-    directions_zh JSON,
-)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+    `title` text,
+    `title_zh` text DEFAULT NULL,
+    `ingredients` json,
+    `ingredients_zh` json,
+    `directions` json,
+    `directions_zh` json
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /*!40000 ALTER TABLE `nr` DISABLE KEYS */;
 INSERT INTO `nr` (
