@@ -79,6 +79,7 @@ def home():
 @app.route('/search', methods=['GET'])
 def search_recipes():
     query = request.args.get('query', '')
+    lang = request.args.get('lang', 'en')
     if not query:
         return jsonify({'error': 'Missing query parameter'}), 400
 
@@ -87,11 +88,12 @@ def search_recipes():
     try:
         with engine.connect() as conn:
             # 使用參數化查詢防止 SQL 注入
+            # 同時選取英文與中文欄位，並嘗試在 title 或 title_zh 中比對
             result = conn.execute(
-                text("SELECT title FROM nr WHERE title LIKE :query"), 
+                text("SELECT title, title_zh FROM nr WHERE title LIKE :query OR title_zh LIKE :query"), 
                 {"query": f"%{query}%"}
             )
-            results = [{"title": row[0]} for row in result]
+            results = [{"title": row[0], "title_zh": row[1]} for row in result]
             
         logger.info(f"搜尋 '{query}' 找到 {len(results)} 筆結果")
         return jsonify(results)
@@ -104,6 +106,7 @@ def search_recipes():
 def recipe_detail():
     title = request.args.get('title', '')
     format = request.args.get('format', '')
+    lang = request.args.get('lang', 'en')
     if not title:
         return "Missing title parameter", 400
 
@@ -144,6 +147,19 @@ def recipe_detail():
                 except json.JSONDecodeError:
                     pass  # 如果無法解析 JSON，保持原始字串
 
+            # 處理中文欄位的 JSON 結構（如果存在）
+            if original_recipe.get('ingredients_zh') and isinstance(original_recipe['ingredients_zh'], str):
+                try:
+                    original_recipe['ingredients_zh'] = json.loads(original_recipe['ingredients_zh'])
+                except json.JSONDecodeError:
+                    pass
+
+            if original_recipe.get('directions_zh') and isinstance(original_recipe['directions_zh'], str):
+                try:
+                    original_recipe['directions_zh'] = json.loads(original_recipe['directions_zh'])
+                except json.JSONDecodeError:
+                    pass
+
             response_data = {'original': original_recipe}
 
             # 如果 have_healthy_recipe 為 1，獲取健康版本食譜
@@ -169,13 +185,26 @@ def recipe_detail():
                         except json.JSONDecodeError:
                             pass
                             
+                    # 處理健康版本的中文欄位 JSON
+                    if healthy_recipe.get('ingredients_zh') and isinstance(healthy_recipe['ingredients_zh'], str):
+                        try:
+                            healthy_recipe['ingredients_zh'] = json.loads(healthy_recipe['ingredients_zh'])
+                        except json.JSONDecodeError:
+                            pass
+
+                    if healthy_recipe.get('directions_zh') and isinstance(healthy_recipe['directions_zh'], str):
+                        try:
+                            healthy_recipe['directions_zh'] = json.loads(healthy_recipe['directions_zh'])
+                        except json.JSONDecodeError:
+                            pass
+
                     response_data['healthy'] = healthy_recipe
                 else:
                     response_data['healthy'] = {'message': 'Healthy recipe not found'}
             else:
                 response_data['healthy'] = None  # 沒有健康版本時設為 None
         if format == '':
-            return render_template('recipe_detail.html', recipe=response_data)
+            return render_template('recipe_detail.html', recipe=response_data, lang=lang)
         else:
             return jsonify(response_data)
     except Exception as e:
@@ -381,6 +410,8 @@ def upload():
 @app.route('/api/labels')
 def get_labels():
     """Return the list of 101 food categories supported by the model."""
+    lang = request.args.get('lang', 'en')
+    # 未提供中文翻譯對應時，暫時回傳英文清單；前端會帶上 lang 以利未來擴充
     return jsonify(LABELS)
 
 

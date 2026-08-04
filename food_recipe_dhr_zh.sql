@@ -1,0 +1,714 @@
+INSERT INTO `dhr` (
+    `title`, 
+    `title_zh`, 
+    `have_healthy_recipe`, 
+    `remark`, 
+    `remark_zh`
+) VALUES 
+(
+    'apple_pie',
+    '蘋果派',
+    1,
+    'Sugarless',
+    '無糖'
+),
+(
+    'baby_back_ribs',
+    '豬小排',
+    NULL,
+    '',
+    ''
+),
+(
+    'baklava',
+    '巴克拉瓦甜點',
+    NULL,
+    '',
+    ''
+),
+(
+    'beef_carpaccio',
+    '生牛肉薄片',
+    NULL,
+    '',
+    ''
+),
+(
+    'beef_tartare',
+    '生牛肉塔塔',
+    NULL,
+    '',
+    ''
+),
+(
+    'beet_salad',
+    '甜菜沙拉',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'beignets',
+    '貝奈特炸糕',
+    NULL,
+    '',
+    ''
+),
+(
+    'bibimbap',
+    '韓式拌飯',
+    NULL,
+    '',
+    ''
+),
+(
+    'bread_pudding',
+    '麵包布丁',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'breakfast_burrito',
+    '早餐捲餅',
+    NULL,
+    '',
+    ''
+),
+(
+    'bruschetta',
+    '義式烤麵包',
+    1,
+    'Low-calorie',
+    '低卡路里'
+),
+(
+    'caesar_salad',
+    '凱薩沙拉',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'cannoli',
+    '義大利奶油香酥卷',
+    NULL,
+    '',
+    ''
+),
+(
+    'caprese_salad',
+    '卡普里沙拉',
+    NULL,
+    '',
+    ''
+),
+(
+    'carrot_cake',
+    '胡蘿蔔蛋糕',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'ceviche',
+    '酸橘汁醃魚',
+    NULL,
+    '',
+    ''
+),
+(
+    'cheesecake',
+    '芝士蛋糕',
+    1,
+    '',
+    ''
+),
+(
+    'cheese_plate',
+    '起司拼盤',
+    NULL,
+    '',
+    ''
+),
+(
+    'chicken_curry',
+    '咖哩雞',
+    1,
+    'Good-for-heart',
+    '有益心臟健康'
+),
+(
+    'chicken_quesadilla',
+    '雞肉烤餅',
+    NULL,
+    '',
+    ''
+),
+(
+    'chicken_wings',
+    '雞翅',
+    NULL,
+    '',
+    ''
+),
+(
+    'chocolate_cake',
+    '巧克力蛋糕',
+    1,
+    'Fat-free',
+    '無脂'
+),
+(
+    'chocolate_mousse',
+    '巧克力慕斯',
+    1,
+    'Low-calorie',
+    '低卡路里'
+),
+(
+    'churros',
+    '吉拿棒',
+    NULL,
+    '',
+    ''
+),
+(
+    'clam_chowder',
+    '蛤蜊濃湯',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'club_sandwich',
+    '俱樂部三明治',
+    NULL,
+    '',
+    ''
+),
+(
+    'crab_cakes',
+    '蟹肉餅',
+    NULL,
+    '',
+    ''
+),
+(
+    'creme_brulee',
+    '法式焦糖布丁',
+    NULL,
+    '',
+    ''
+),
+(
+    'croque_madame',
+    '法式火腿起司三明治',
+    NULL,
+    '',
+    ''
+),
+(
+    'cup_cakes',
+    '紙杯蛋糕',
+    NULL,
+    '',
+    ''
+),
+(
+    'deviled_eggs',
+    '魔鬼蛋',
+    1,
+    'Low-calorie',
+    '低卡路里'
+),
+(
+    'donuts',
+    '甜甜圈',
+    NULL,
+    '',
+    ''
+),
+(
+    'dumplings',
+    '餃子',
+    NULL,
+    '',
+    ''
+),
+(
+    'edamame',
+    '毛豆',
+    NULL,
+    '',
+    ''
+),
+(
+    'eggs_benedict',
+    '班尼迪克蛋',
+    1,
+    'diabetic',
+    '適合糖尿病患者'
+),
+(
+    'escargots',
+    '法式田螺',
+    NULL,
+    '',
+    ''
+),
+(
+    'falafel',
+    '法拉費爾',
+    NULL,
+    '',
+    ''
+),
+(
+    'filet_mignon',
+    '菲力牛排',
+    NULL,
+    '',
+    ''
+),
+(
+    'fish_and_chips',
+    '炸魚薯條',
+    NULL,
+    '',
+    ''
+),
+(
+    'foie_gras',
+    '鵝肝醬',
+    NULL,
+    '',
+    ''
+),
+(
+    'french_fries',
+    '法式薯條',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'french_onion_soup',
+    '法式洋蔥湯',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'french_toast',
+    '法式吐司',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'fried_calamari',
+    '炸魷魚',
+    NULL,
+    '',
+    ''
+),
+(
+    'fried_rice',
+    '炒飯',
+    1,
+    '',
+    ''
+),
+(
+    'frozen_yogurt',
+    '冷凍優格',
+    1,
+    'Diabetic',
+    '適合糖尿病患者'
+),
+(
+    'garlic_bread',
+    '蒜味麵包',
+    NULL,
+    '',
+    ''
+),
+(
+    'gnocchi',
+    '義大利土豆麵疙瘩',
+    NULL,
+    '',
+    ''
+),
+(
+    'greek_salad',
+    '希臘沙拉',
+    1,
+    'Low-crab',
+    '低卡路里'
+),
+(
+    'grilled_cheese_sandwich',
+    '烤起司三明治',
+    NULL,
+    '',
+    ''
+),
+(
+    'grilled_salmon',
+    '烤鮭魚',
+    NULL,
+    '',
+    ''
+),
+(
+    'guacamole',
+    '酪梨醬',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'gyoza',
+    '日式煎餃',
+    NULL,
+    '',
+    ''
+),
+(
+    'hamburger',
+    '漢堡',
+    NULL,
+    '',
+    ''
+),
+(
+    'hot_and_sour_soup',
+    '酸辣湯',
+    NULL,
+    '',
+    ''
+),
+(
+    'hot_dog',
+    '熱狗',
+    NULL,
+    '',
+    ''
+),
+(
+    'huevos_rancheros',
+    '墨西哥煎蛋',
+    1,
+    'Non-fat',
+    '無脂'
+),
+(
+    'hummus',
+    '鷹嘴豆泥',
+    NULL,
+    '',
+    ''
+),
+(
+    'ice_cream',
+    '冰淇淋',
+    1,
+    'Sugarfree',
+    '無糖'
+),
+(
+    'lasagna',
+    '千層麵',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'lobster_bisque',
+    '龍蝦濃湯',
+    NULL,
+    '',
+    ''
+),
+(
+    'lobster_roll_sandwich',
+    '龍蝦堡',
+    NULL,
+    '',
+    ''
+),
+(
+    'macaroni_and_cheese',
+    '起司通心麵',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'macarons',
+    '馬卡龍',
+    NULL,
+    '',
+    ''
+),
+(
+    'miso_soup',
+    '味噌湯',
+    NULL,
+    '',
+    ''
+),
+(
+    'mussels',
+    '青口貝',
+    NULL,
+    '',
+    ''
+),
+(
+    'nachos',
+    '墨西哥玉米片',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'omelette',
+    '煎蛋捲',
+    NULL,
+    '',
+    ''
+),
+(
+    'onion_rings',
+    '洋蔥圈',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'oysters',
+    '牡蠣',
+    NULL,
+    '',
+    ''
+),
+(
+    'pad_thai',
+    '泰式炒河粉',
+    NULL,
+    '',
+    ''
+),
+(
+    'paella',
+    '西班牙海鮮飯',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'pancakes',
+    '鬆餅',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'panna_cotta',
+    '義大利奶凍',
+    NULL,
+    '',
+    ''
+),
+(
+    'peking_duck',
+    '北京烤鴨',
+    NULL,
+    '',
+    ''
+),
+(
+    'pho',
+    '越南河粉',
+    NULL,
+    '',
+    ''
+),
+(
+    'pizza',
+    '披薩',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'pork_chop',
+    '豬排',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'poutine',
+    '魁北克薯條起司球',
+    NULL,
+    '',
+    ''
+),
+(
+    'prime_rib',
+    '頂級肋眼牛排',
+    NULL,
+    '',
+    ''
+),
+(
+    'pulled_pork_sandwich',
+    '手撕豬肉堡',
+    NULL,
+    '',
+    ''
+),
+(
+    'ramen',
+    '拉麵',
+    NULL,
+    '',
+    ''
+),
+(
+    'ravioli',
+    '義大利餃',
+    NULL,
+    '',
+    ''
+),
+(
+    'red_velvet_cake',
+    '紅絲絨蛋糕',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'risotto',
+    '義大利燉飯',
+    1,
+    'Low-calorie and Low-cholesterol',
+    '低卡路里和低膽固醇'
+),
+(
+    'samosa',
+    '印度三角餃',
+    NULL,
+    '',
+    ''
+),
+(
+    'sashimi',
+    '生魚片',
+    NULL,
+    '',
+    ''
+),
+(
+    'scallops',
+    '干貝',
+    1,
+    'Low-calorie',
+    '低卡路里'
+),
+(
+    'seaweed_salad',
+    '海帶沙拉',
+    NULL,
+    '',
+    ''
+),
+(
+    'shrimp_and_grits',
+    '蝦仁粗玉米粉',
+    NULL,
+    '',
+    ''
+),
+(
+    'spaghetti_bolognese',
+    '肉醬義大利麵',
+    NULL,
+    '',
+    ''
+),
+(
+    'spaghetti_carbonara',
+    '奶油培根義大利麵',
+    NULL,
+    '',
+    ''
+),
+(
+    'spring_rolls',
+    '春捲',
+    NULL,
+    '',
+    ''
+),
+(
+    'steak',
+    '牛排',
+    1,
+    'Low-calorie',
+    '低卡路里'
+),
+(
+    'strawberry_shortcake',
+    '草莓鮮奶油蛋糕',
+    1,
+    'Fat-free',
+    '無脂'
+),
+(
+    'sushi',
+    '壽司',
+    NULL,
+    '',
+    ''
+),
+(
+    'tacos',
+    '墨西哥捲餅',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'takoyaki',
+    '章魚燒',
+    NULL,
+    '',
+    ''
+),
+(
+    'tiramisu',
+    '提拉米蘇',
+    1,
+    'Low-fat',
+    '低脂'
+),
+(
+    'tuna_tartare',
+    '吞拿魚塔塔',
+    NULL,
+    '',
+    ''
+),
+(
+    'waffles',
+    '華夫餅',
+    1,
+    'Low-fat',
+    '低脂'
+);

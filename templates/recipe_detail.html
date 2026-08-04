@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='detail.css') }}">
 </head>
 <body>
-    <h1>{{ recipe.original.title }}</h1>
+    <h1>{{ recipe.original.title_zh if lang=='zh' and recipe.original.title_zh else recipe.original.title }}</h1>
 
     <!-- 顯示原始食譜 -->
-    <h3>Ingredients (Original):</h3>
+    <h3>{{ 'Ingredients (Original):' if lang!='zh' else '食材（原始）' }}</h3>
     <ul>
-        {% for ingredient in recipe.original.ingredients %}
+        {% set orig_ings = recipe.original.ingredients_zh if lang=='zh' and recipe.original.ingredients_zh else recipe.original.ingredients %}
+        {% for ingredient in orig_ings %}
             <li>{{ ingredient }}</li>
         {% endfor %}
     </ul>
     
-    <h3>Directions (Original):</h3>
+    <h3>{{ 'Directions (Original):' if lang!='zh' else '步驟（原始）' }}</h3>
     <ol>
-        {% for direction in recipe.original.directions %}
+        {% set orig_dirs = recipe.original.directions_zh if lang=='zh' and recipe.original.directions_zh else recipe.original.directions %}
+        {% for direction in orig_dirs %}
             <li>{{ direction }}</li>
         {% endfor %}
     </ol>
@@ -27,26 +29,28 @@
     <!-- 顯示健康食譜，如果存在 -->
     {% if recipe.healthy %}
         <hr>
-        <h2>Healthier Version</h2>
-        <h3>Ingredients (Healthy):</h3>
+        <h2>{{ 'Healthier Version' if lang!='zh' else '較健康的版本' }}</h2>
+        <h3>{{ 'Ingredients (Healthy):' if lang!='zh' else '食材（健康版）' }}</h3>
         <ul>
-            {% for ingredient in recipe.healthy.ingredients %}
+            {% set healthy_ings = recipe.healthy.ingredients_zh if lang=='zh' and recipe.healthy.ingredients_zh else recipe.healthy.ingredients %}
+            {% for ingredient in healthy_ings %}
                 <li>{{ ingredient }}</li>
             {% endfor %}
         </ul>
 
-        <h3>Directions (Healthy):</h3>
+        <h3>{{ 'Directions (Healthy):' if lang!='zh' else '步驟（健康版）' }}</h3>
         <ol>
-            {% for direction in recipe.healthy.directions %}
+            {% set healthy_dirs = recipe.healthy.directions_zh if lang=='zh' and recipe.healthy.directions_zh else recipe.healthy.directions %}
+            {% for direction in healthy_dirs %}
                 <li>{{ direction }}</li>
             {% endfor %}
         </ol>
     {% else %}
-        <p>No healthier version available.</p>
+        <p>{{ 'No healthier version available.' if lang!='zh' else '沒有較健康的版本。' }}</p>
     {% endif %}
 
     <div class="back-button">
-        <button onclick="window.location.href='/'">返回上一頁</button>
+        <button onclick="window.location.href='/'">{{ 'Back' if lang!='zh' else '返回上一頁' }}</button>
     </div>
     
 </body>

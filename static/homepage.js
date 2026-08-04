@@ -133,8 +133,8 @@ searchButton.addEventListener("click", () => {
         return;
     }
 
-    // 呼叫 Flask /search API
-    fetch(`/search?query=${query}`)
+    // 呼叫 Flask /search API，帶上語言參數
+    fetch(`/search?query=${encodeURIComponent(query)}&lang=${currentLanguage}`)
         .then(response => response.json())
         .then(data => {
             searchResults.innerHTML = ""; // 清空舊結果
@@ -146,7 +146,9 @@ searchButton.addEventListener("click", () => {
             // 顯示搜尋結果
             data.forEach(item => {
                 const resultItem = document.createElement("p");
-                resultItem.textContent = item.title;
+                // 根據當前語言顯示本地化標題（若資料庫有提供 title_zh）
+                const label = (currentLanguage === 'zh' && item.title_zh) ? item.title_zh : item.title;
+                resultItem.textContent = label;
                 resultItem.style.cursor = "pointer";
                 resultItem.style.color = "blue";
 
@@ -163,7 +165,7 @@ searchButton.addEventListener("click", () => {
 
 function showRecipeDetails(title) {
     // 跳轉到新的頁面
-    window.location.href = `/recipe_detail?title=${title}`;
+    window.location.href = `/recipe_detail?title=${encodeURIComponent(title)}&lang=${currentLanguage}`;
 }
 
 
@@ -215,7 +217,7 @@ confirmButton.addEventListener('click', async function () {
             // 顯示結果
             resultsContainer.innerHTML = `
     <h3>${t("recognitionResult")}</h3>
-    <p><a href="/recipe_detail?title=${encodeURIComponent(result.swin_prediction)}" target="_blank">${result.swin_prediction}</a></p>
+    <p><a href="/recipe_detail?title=${encodeURIComponent(result.swin_prediction)}&lang=${currentLanguage}" target="_blank">${result.swin_prediction}</a></p>
 `;
 
         } catch (error) {
@@ -255,7 +257,7 @@ async function loadSupportedFoods() {
     }
 
     try {
-        const response = await fetch("/api/labels");
+        const response = await fetch(`/api/labels?lang=${currentLanguage}`);
         if (!response.ok) throw new Error("Failed to load labels");
 
         const labels = await response.json();
