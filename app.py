@@ -89,11 +89,24 @@ def search_recipes():
         with engine.connect() as conn:
             # 使用參數化查詢防止 SQL 注入
             # 同時選取英文與中文欄位，並嘗試在 title 或 title_zh 中比對
-            result = conn.execute(
-                text("SELECT title, title_zh FROM nr WHERE title LIKE :query OR title_zh LIKE :query"), 
-                {"query": f"%{query}%"}
-            )
-            results = [{"title": row[0], "title_zh": row[1]} for row in result]
+            # 如果 title_zh 欄位不存在，fallback 到只搜尋 title
+            try:
+                result = conn.execute(
+                    text("SELECT title, title_zh FROM nr WHERE title LIKE :query OR title_zh LIKE :query"), 
+                    {"query": f"%{query}%"}
+                )
+                results = [{"title": row[0], "title_zh": row[1]} for row in result]
+            except Exception as inner_e:
+                # 如果 title_zh 欄位不存在，fallback 到只搜尋 title
+                if 'Unknown column' in str(inner_e) or '1054' in str(inner_e):
+                    logger.warning(f"title_zh 欄位不存在，使用 fallback 查詢")
+                    result = conn.execute(
+                        text("SELECT title FROM nr WHERE title LIKE :query"), 
+                        {"query": f"%{query}%"}
+                    )
+                    results = [{"title": row[0], "title_zh": None} for row in result]
+                else:
+                    raise
             
         logger.info(f"搜尋 '{query}' 找到 {len(results)} 筆結果")
         return jsonify(results)
