@@ -390,239 +390,239 @@ INSERT INTO `nr` (
     '["蛋", "培根或火腿", "起司", "青椒或其他蔬菜", "植物油"]',
     '["Cook bacon or ham.", "Beat eggs; pour in hot skillet with oil. Add cheese slices.", "Crumble bacon.", "Dice peppers and onions and add.", "Cook until eggs bubble and hold together.", "Then fold one side over other.", "Cook until done.", "Do not overcook or burn."]',
     '["煮熟培根或火腿。", "打蛋；倒入有油的熱平底鍋中。加入起司片。", "將培根弄碎。", "將青椒和洋蔥切丁並加入。", "煮到蛋起泡並保持形狀。", "然後將一側折到另一側上。", "煮到熟。", "不要煮過頭或燒焦。"]'
+),
+(
+    'onion_rings',
+    '洋蔥圈',
+    '["1 c. flour", "1/4 tsp. salt", "1/2 c. milk", "2 Tbsp. salad oil", "1 egg white (unbeaten)", "6 Tbsp. water", "2 to 3 large onions"]',
+    '["1杯麵粉", "1/4茶匙鹽", "1/2杯牛奶", "2大匙沙拉油", "1個蛋清（未打發）", "6大匙水", "2至3個大洋蔥"]',
+    '["Mix together in large bowl.", "Cut onions into slices; separate into rings.", "Deep-fry in hot oil."]',
+    '["在大碗中混合均勻。", "將洋蔥切片；分離成圈。", "在熱油中深炸。"]'
+),
+(
+    'oysters',
+    '牡蠣',
+    '["12 oz. pkg. frozen spinach souffle", "1 pt. oysters, drained", "dash of Tabasco", "3 Tbsp. Parmesan cheese", "2 Tbsp. melted butter", "1/2 tsp. minced onion", "1/4 c. seasoned crumbs"]',
+    '["12盎司包冷凍菠菜舒芙蕾", "1品脫牡蠣，瀝乾", "少許塔巴斯科辣醬", "3大匙帕馬森起司", "2大匙融化奶油", "1/2茶匙碎洋蔥", "1/4杯調味麵包屑"]',
+    '["Mix together spinach, oysters, onions and Tabasco and put into casserole dish.", "Top with bread crumbs, butter and Parmesan.", "Bake at 350° for 50 to 60 minutes."]',
+    '["混合菠菜、牡蠣、洋蔥和塔巴斯科辣醬，放入烤盤中。", "在頂部撒上麵包屑、奶油和帕馬森起司。", "以350°F烘烤50至60分鐘。"]'
+),
+(
+    'pad_thai',
+    '泰式炒河粉',
+    '["1/2 lb. linguine (fresh is best)", "3 Tbsp. soy sauce", "2 tsp. sugar", "3 Tbsp. vegetable oil or butter", "1/2 lb. boneless chicken breast, cut into small pieces", "1/2 lb. bean sprouts, drained", "1/2 lb. cooked shrimp", "curry powder and/or cayenne pepper", "3/4 c. tomato juice", "1 Tbsp. vinegar", "3/4 tsp. cornstarch", "garlic to taste", "1/2 c. chopped green onions and tops"]',
+    '["1/2磅長麵（新鮮最好）", "3大匙醬油", "2茶匙糖", "3大匙植物油或奶油", "1/2磅去骨雞胸肉，切成小塊", "1/2磅豆芽，瀝乾", "1/2磅煮熟蝦仁", "咖哩粉和/或辣椒粉", "3/4杯番茄汁", "1大匙醋", "3/4茶匙玉米澱粉", "適量大蒜", "1/2杯碎蔥和蔥葉"]',
+    '["Cook linguine according to package directions; drain.", "Combine tomato juice, soy sauce, vinegar, sugar and cornstarch; set aside. Heat 1 tablespoon of oil or butter in hot wok or large skillet. Add chicken and stir-fry 1 minute; remove.", "(I cook my chicken until it is completely done which takes quite a bit longer than 1 minute.)", "Add garlic, bean sprouts and green onions and stir-fry for 1 minute.", "Stir in linguine and cook 2 more minutes or until heated through.", "Return chicken with shrimp, curry, pepper and tomato mixture.", "Cook, stirring until sauce boils and thickens. Makes 4 servings."]',
+    '["按照包裝說明煮長麵；瀝乾。", "混合番茄汁、醬油、醋、糖和玉米澱粉；備用。在熱炒鍋或大平底鍋中加熱1大匙油或奶油。加入雞肉，炒1分鐘；取出。", "（我將雞肉煮到完全熟，這比1分鐘長很多。）", "加入大蒜、豆芽和蔥，炒1分鐘。", "拌入長麵，再煮2分鐘或直到熱透。", "將雞肉與蝦仁、咖哩、黑胡椒和番茄混合物一起放回。", "邊煮邊攪拌直到醬汁沸騰並濃稠。可做4份。"]'
+),
+(
+    'paella',
+    '西班牙海鮮飯',
+    '["1 lb. chicken, cut in small pieces", "1 lb. rabbit, cut in small pieces", "1/2 lb. pork, chopped, boned and cut in small pieces", "1 lb. mussels", "1 lb. shrimp, leave in shell", "1 clove garlic", "1 lb. clams", "3 tomatoes, peeled and chopped", "1 small onion, chopped", "1 Tbsp. parsley", "1/2 lb. scallops", "1 can peas or frozen", "pinch of saffron or 2 tsp. turmeric", "olive oil for frying", "1 chopped green pepper"]',
+    '["1磅雞肉，切成小塊", "1磅兔肉，切成小塊", "1/2磅豬肉，切碎、去骨並切成小塊", "1磅青口貝", "1磅蝦仁，保留殼", "1瓣大蒜", "1磅蛤蜊", "3個番茄，去皮並切碎", "1個小洋蔥，切碎", "1大匙歐芹", "1/2磅干貝", "1罐青豆或冷凍", "少許藏紅花或2茶匙薑黃", "油炸用橄欖油", "1個切碎青椒"]',
+    '["In a paella pan or large skillet, fry chicken and rabbit. Remove.", "In same pan, cook pork.", "Remove.", "In pan, saute onion, green pepper and garlic.", "Add to the vegetables and chopped tomatoes.", "Add parsley.", "Re-add poultry and pork.", "Mix well.", "Add all seafood that has been washed.", "Fill pan with water and bring to a boil.", "Add 2 cups rice and saffron/turmeric and bring to second boil.", "Add peas.", "Simmer for 20 minutes or until rice is cooked.", "Garnish with red peppers, sliced lemons or sliced oranges."]',
+    '["在西班牙海鮮飯鍋或大平底鍋中，煎雞肉和兔肉。取出。", "在同一鍋中，煮豬肉。", "取出。", "在鍋中，炒洋蔥、青椒和大蒜。", "加入蔬菜和碎番茄。", "加入歐芹。", "重新加入家禽和豬肉。", "充分混合。", "加入所有已清洗的海鮮。", "在鍋中加水，煮沸。", "加入2杯米和藏紅花/薑黃，再次煮沸。", "加入青豆。", "小火煮20分鐘或直到米煮熟。", "用紅椒、切片檸檬或切片柳橙裝飾。"]'
+),
+(
+    'pancakes',
+    '鬆餅',
+    '["1 c. flour", "1 tsp. soda", "1 tsp. salt", "1 Tbsp. sugar", "1 egg", "3 Tbsp. margarine, melted", "1 c. buttermilk"]',
+    '["1杯麵粉", "1茶匙小蘇打", "1茶匙鹽", "1大匙糖", "1個蛋", "3大匙融化的人造奶油", "1杯酪乳"]',
+    '["Mix dry ingredients.", "Add egg, margarine and buttermilk. Stir by hand until well blended.", "Pour onto non-stick pan or griddle with a little oil added.", "Cook until bubbly and turn over."]',
+    '["混合乾性材料。", "加入蛋、人造奶油和酪乳。用手攪拌直到充分混合。", "倒入加少量油的不沾鍋或烤盤中。", "煮到起泡並翻面。"]'
+),
+(
+    'panna_cotta',
+    '義大利奶凍',
+    '["1/3 cup skim milk", "1 (.25 ounce) envelope unflavored gelatin", "2 1/2 cups heavy cream", "1/2 cup white sugar", "1 1/2 teaspoons vanilla extract"]',
+    '["1/3杯脫脂牛奶", "1包（0.25盎司）無味吉利丁", "2.5杯鮮奶油", "1/2杯白砂糖", "1.5茶匙香草精"]',
+    '["Pour milk into a small bowl, and stir in the gelatin powder. Set aside.", "In a saucepan, stir together the heavy cream and sugar, and set over medium heat. Bring to a full boil, watching carefully, as the cream will quickly rise to the top of the pan. Pour the gelatin and milk into the cream, stirring until completely dissolved. Cook for one minute, stirring constantly. Remove from heat, stir in the vanilla and pour into six individual ramekin dishes.", "Cool the ramekins uncovered at room temperature. When cool, cover with plastic wrap, and refrigerate for at least 4 hours, but preferably overnight before serving."]',
+    '["將牛奶倒入小碗中，加入吉利丁粉，攪拌均勻。備用。", "在鍋中，將鮮奶油和糖混合，以中火加熱。煮沸，小心觀察，因為奶油會快速上升到鍋頂。將吉利丁和牛奶倒入奶油中，攪拌直到完全溶解。煮1分鐘，不斷攪拌。離火，加入香草精，倒入六個個人小烤盅中。", "不蓋蓋子在室溫下冷卻小烤盅。冷卻後，用保鮮膜覆蓋，冷藏至少4小時，最好過夜後食用。"]'
+),
+(
+    'peking_duck',
+    '北京烤鴨',
+    '["1 (4 pound) whole duck, dressed", "1/2 teaspoon ground cinnamon", "1/2 teaspoon ground ginger", "1/4 teaspoon ground nutmeg", "1/4 teaspoon ground white pepper", "1/8 teaspoon ground cloves", "3 tablespoons soy sauce", "1 tablespoon honey", "1 orange, sliced in rounds", "1 tablespoon chopped fresh parsley, for garnish", "5 green onions", "1/2 cup plum jam", "1 1/2 teaspoons sugar", "1 1/2 teaspoons distilled white vinegar", "1/4 cup finely chopped chutney"]',
+    '["1隻（4磅）整鴨，處理過", "1/2茶匙肉桂粉", "1/2茶匙薑粉", "1/4茶匙肉豆蔻粉", "1/4茶匙白胡椒粉", "1/8茶匙丁香粉", "3大匙醬油", "1大匙蜂蜜", "1個柳橙，切片", "1大匙碎新鮮歐芹，裝飾用", "5根蔥", "1/2杯梅子果醬", "1.5茶匙糖", "1.5茶匙白醋", "1/4杯細碎酸辣醬"]',
+    '["Rinse the duck inside and out, and pat dry. Cut off tail and discard. In a small bowl, mix together the cinnamon, ginger, nutmeg, white pepper and cloves. Sprinkle one teaspoon of the mixture into the cavity of the duck. Stir one tablespoon of the soy sauce into the remaining spice mixture and rub evenly over the entire outside of the bird. Cut one of the green onions in half and tuck inside the cavity. Cover and refrigerate the bird for at least 2 hours, or overnight.", "Place duck breast side up on a rack in a big enough wok or pot and steam for an hour adding a little more water, if necessary, as it evaporates. Lift duck with two large spoons, and drain juices and green onion.", "Preheat the oven to 375 degrees F (190 degrees C). Place duck breast side up in a roasting pan and prick skin all over using a fork.", "Roast for 30 minutes in the preheated oven. While the duck is roasting, mix together the remaining 2 tablespoons of soy sauce and honey. After 30 minutes, brush the honey mixture onto the duck and return it to the oven. Turn the heat up to 500 degrees F (260 degrees C). Roast for 5 minutes, or until the skin is richly browned. Do not allow the skin to char.", "Prepare the duck sauce by mixing the plum jam with the sugar, vinegar and chutney in a small serving bowl. Chop remaining green onions and place them into a separate bowl. Place whole duck onto a serving platter and garnish with orange slices and fresh parsley. Use plum sauce and onion"]',
+    '["將鴨子內外沖洗，拍乾。切掉尾巴，丟棄。在小碗中，混合肉桂、薑、肉豆蔻、白胡椒和丁香。將1茶匙混合物撒入鴨子腔內。將1大匙醬油加入剩下的香料混合物中，均勻塗抹在鴨子整個外側。將一根蔥切半，塞入腔內。覆蓋，將鴨子冷藏至少2小時，或過夜。", "將鴨子胸朝上放在足夠大的炒鍋或鍋中的烤架上，蒸一小時，如需，隨著水分蒸發加入更多水。用兩個大勺子將鴨子抬起，瀝乾汁液和蔥。", "預熱烤箱至375°F（190°C）。將鴨子胸朝上放在烤盤中，用叉子在皮膚上戳洞。", "在預熱的烤箱中烘烤30分鐘。在鴨子烘烤時，混合剩下的2大匙醬油和蜂蜜。30分鐘後，將蜂蜜混合物刷在鴨子上，放回烤箱。將溫度調高至500°F（260°C）。烘烤5分鐘，或直到皮膚呈深棕色。不要讓皮膚燒焦。", "將梅子果醬與糖、醋和酸辣醬在小碗中混合，製成鴨醬。將剩下的蔥切碎，放在單獨的碗中。將整鴨放在餐盤上，用柳橙片和新鲜歐芹裝飾。搭配梅子醬和蔥"]'
+),
+(
+    'pho',
+    '越南河粉',
+    '["2 packs Vietnamese rice noodles", "4 ounces fresh beef slices", "Beef broth base", "2 pounds beef bones", "1 pound beef brisket", "1 onion", "5 liters water", "Broth seasonings", "4 thick slices ginger", "1 onion", "3 cinnamon sticks", "4 cardamom pods", "3 star anise", "4 sprigs cilantro stems", "1 teaspoon salt", "1 teaspoon sugar", "1/2 cup fish sauce", "Garnishes", "4 ounces bean sprouts", "1/2 onion", "A few red and green chilies", "A few chopped scallions", "Several stalks of scallions", "A small handful of basil", "A pinch of black pepper", "1/4 lime"]',
+    '["2包越南米粉", "4盎司新鮮牛肉片", "牛高湯基底", "2磅牛骨", "1磅牛腩", "1個洋蔥", "5公升水", "高湯調味料", "4片厚薑", "1個洋蔥", "3根肉桂", "4顆豆蔻", "3顆八角", "4枝香菜莖", "1茶匙鹽", "1茶匙糖", "1/2杯魚露", "裝飾", "4盎司豆芽", "1/2個洋蔥", "幾個紅綠辣椒", "幾根碎蔥", "幾根蔥", "一小把羅勒", "少許黑胡椒", "1/4個萊姆"]',
+    '["Clean the beef bones in a large pot, blanch in boiling water for 5 minutes to remove excess fat and impurities. Remove and rinse the bones.", "Clean the pot, add beef bones, cleaned brisket, peeled whole onion, and 5 liters of water.", "Bring to a boil on high heat, then reduce to medium heat and simmer for 2 hours. During this time, prepare the broth seasonings.", "Cut ginger into thick slices about the size of a finger, halve the onion, wash cilantro stems, and set aside cinnamon sticks, cardamom pods, and star anise.", "Heat a dry pan and add the ginger, onion, cilantro stems, cinnamon, cardamom, and star anise. Toast over medium-high heat until fragrant.", "Once toasted, scrape off the burnt parts of the ginger and onion to avoid clouding the broth. Add the toasted seasonings to the beef broth and simmer to infuse the flavors.", "After 1 hour of simmering, remove the brisket and slice it.", "After 2 hours of simmering, add salt, sugar, and fish sauce to taste.", "Meanwhile, prepare the garnishes: blanch the bean sprouts in boiling water for 10 seconds, drain and set aside.", "Cut half an onion into thin strips and soak in ice water to remove the pungency.", "Deseed and dice the red and green chilies (keep the seeds for extra spice if desired), chop the scallions, split the white parts to enhance flavor, and wash the basil leaves.", "Cut the lime into 4 wedges. Optionally, prepare seafood sauce and sriracha.", "Cook the Vietnamese rice noodles according to the package instructions: soak in cold water for 5-10 minutes, then cook in boiling water for 6-8 minutes, drain and set aside.", "Thinly slice the fresh beef (ask your butcher to slice it thinly). If concerned, you can blanch it in boiling water briefly before use.", "For the soup, you can"]',
+    '["在大鍋中清洗牛骨，在沸水中焯水5分鐘以去除多餘的脂肪和雜質。取出並沖洗牛骨。", "清洗鍋，加入牛骨、清洗過的牛腩、去皮的整洋蔥和5公升水。", "以大火煮沸，然後轉中火小火煮2小時。在此期間，準備高湯調味料。", "將薑切成約手指大小的厚片，洋蔥切半，洗淨香菜莖，備用肉桂、豆蔻和八角。", "加熱乾鍋，加入薑、洋蔥、香菜莖、肉桂、豆蔻和八角。以中高火烘烤直到出香味。", "烘烤後，刮掉薑和洋蔥的燒焦部分，以避免高湯變渾濁。將烘烤過的調味料加入牛高湯中，小火煮以融入風味。", "小火煮1小時後，取出牛腩並切片。", "小火煮2小時後，加入鹽、糖和魚露調味。", "同時，準備裝飾：將豆芽在沸水中焯水10秒，瀝乾，備用。", "將半個洋蔥切成細條，浸泡在冰水中以去除辛辣味。", "將紅綠辣椒去籽並切丁（如需保留籽以增加辣味），切碎蔥，將白色部分切開以增強風味，洗淨羅勒葉。", "將萊姆切成4塊。可選，準備海鮮醬和是拉差辣醬。", "按照包裝說明煮越南米粉：在冷水中浸泡5-10分鐘，然後在沸水中煮6-8分鐘，瀝乾，備用。", "將新鮮牛肉切片（請肉販切薄片）。如有需要，可以在使用前在沸水中快速焯水。", "對於湯，你可以"]'
+),
+(
+    'pizza',
+    '披薩',
+    '["4 c. self-rising flour", "1/4 c. sugar", "2 c. warm milk", "1/3 c. oil"]',
+    '["4杯自發麵粉", "1/4杯糖", "2杯溫牛奶", "1/3杯油"]',
+    '["Dissolve yeast in milk; add oil, flour and sugar.", "Knead 3 to 4 minutes.", "Divide and then spread on a greased pizza pan or cookie sheet.", "Let rise for 15 to 30 minutes.", "Bake 15 minutes. Take out and add sauce, meat, etc. and then cheese.", "Cook until cheese melts.", "For sauce use 1 jar Always Save spaghetti sauce. Add your own spices.", "Use Velveeta, Cheddar or Mozzarella cheeses."]',
+    '["將酵母溶於牛奶中；加入油、麵粉和糖。", "揉3至4分鐘。", "分開，然後塗在塗油的披薩盤或餅乾盤上。", "發酵15至30分鐘。", "烘烤15分鐘。取出，加入醬汁、肉等，然後加起司。", "煮到起司融化。", "醬汁使用1罐Always Save義大利麵醬。加入你自己的香料。", "使用維維塔、切達或莫札瑞拉起司。"]'
+),
+(
+    'pork_chop',
+    '豬排',
+    '["1 medium onion", "1 large pepper", "1 can stewed tomatoes, chopped", "2 tsp. sugar", "salt and pepper to taste", "1/2 c. V-8 tomato juice", "4 to 5 pork chops"]',
+    '["1個中等洋蔥", "1個大辣椒", "1罐燉番茄，切碎", "2茶匙糖", "適量鹽和胡椒", "1/2杯V-8番茄汁", "4至5片豬排"]',
+    '["Clean the beef bones in a large pot, blanch in boiling water for 5 minutes to remove excess fat and impurities. Remove and rinse the bones.", "Clean the pot, add beef bones, cleaned brisket, peeled whole onion, and 5 liters of water.", "Bring to a boil on high heat, then reduce to medium heat and simmer for 2 hours. During this time, prepare the broth seasonings.", "Cut ginger into thick slices about the size of a finger, halve the onion, wash cilantro stems, and set aside cinnamon sticks, cardamom pods, and star anise.", "Heat a dry pan and add the ginger, onion, cilantro stems, cinnamon, cardamom, and star anise. Toast over medium-high heat until fragrant.", "Once toasted, scrape off the burnt parts of the ginger and onion to avoid clouding the broth. Add the toasted seasonings to the beef broth and simmer to infuse the flavors.", "After 1 hour of simmering, remove the brisket and slice it.", "After 2 hours of simmering, add salt, sugar, and fish sauce to taste.", "Meanwhile, prepare the garnishes: blanch the bean sprouts in boiling water for 10 seconds, drain and set aside.", "Cut half an onion into thin strips and soak in ice water to remove the pungency.", "Deseed and dice the red and green chilies (keep the seeds for extra spice if desired), chop the scallions, split the white parts to enhance flavor, and wash the basil leaves.", "Cut the lime into 4 wedges. Optionally, prepare seafood sauce and sriracha.", "Cook the Vietnamese rice noodles according to the package instructions: soak in cold water for 5-10 minutes, then cook in boiling water for 6-8 minutes, drain and set aside.", "Thinly slice the fresh beef (ask your butcher to slice it thinly). If concerned, you can blanch it in boiling water briefly before use.", "For the soup, you can"]',
+    '["在大鍋中清洗牛骨，在沸水中焯水5分鐘以去除多餘的脂肪和雜質。取出並沖洗牛骨。", "清洗鍋，加入牛骨、清洗過的牛腩、去皮的整洋蔥和5公升水。", "以大火煮沸，然後轉中火小火煮2小時。在此期間，準備高湯調味料。", "將薑切成約手指大小的厚片，洋蔥切半，洗淨香菜莖，備用肉桂、豆蔻和八角。", "加熱乾鍋，加入薑、洋蔥、香菜莖、肉桂、豆蔻和八角。以中高火烘烤直到出香味。", "烘烤後，刮掉薑和洋蔥的燒焦部分，以避免高湯變渾濁。將烘烤過的調味料加入牛高湯中，小火煮以融入風味。", "小火煮1小時後，取出牛腩並切片。", "小火煮2小時後，加入鹽、糖和魚露調味。", "同時，準備裝飾：將豆芽在沸水中焯水10秒，瀝乾，備用。", "將半個洋蔥切成細條，浸泡在冰水中以去除辛辣味。", "將紅綠辣椒去籽並切丁（如需保留籽以增加辣味），切碎蔥，將白色部分切開以增強風味，洗淨羅勒葉。", "將萊姆切成4塊。可選，準備海鮮醬和是拉差辣醬。", "按照包裝說明煮越南米粉：在冷水中浸泡5-10分鐘，然後在沸水中煮6-8分鐘，瀝乾，備用。", "將新鮮牛肉切片（請肉販切薄片）。如有需要，可以在使用前在沸水中快速焯水。", "對於湯，你可以"]'
+),
+(
+    'poutine',
+    '魁北克薯條起司球',
+    '["3 tablespoons extra-virgin olive oil", "1 teaspoon salt", "1 teaspoon freshly ground black pepper", "1/2 teaspoon garlic powder", "1 teaspoon dried parsley", "5 red potatoes, scrubbed and cut into wedges", "2 (.75 ounce) packets brown gravy mix", "2 cups low-sodium chicken broth", "2 cups cheese curds"]',
+    '["3大匙特級初榨橄欖油", "1茶匙鹽", "1茶匙新鮮研磨黑胡椒", "1/2茶匙大蒜粉", "1茶匙乾歐芹", "5個紅馬鈴薯，刷洗並切成楔形", "2包（0.75盎司）棕色肉汁粉", "2杯低鈉雞高湯", "2杯起司塊"]',
+    '["Preheat oven to 350 degrees F (175 degrees C).", "Combine extra-virgin olive oil, salt, black pepper, garlic powder, and parsley in a large zip lock bag; add cut red potatoes and shake until potatoes are covered.", "Line a cookie sheet with foil; lightly cover with oil. Arrange potatoes on cookie sheet. Bake potatoes, flipping every 20 minutes, until golden brown, about 45 minutes to 1 hour. Transfer fries to a large bowl.", "Whisk brown gravy mix with chicken broth in a saucepan, place over medium heat, and bring to a boil, whisking often. Reduce heat to low; simmer for 1 minute, continuing to whisk. Let stand off the heat for 1 minute for gravy to thicken.", "Layer cheese curds over fries and top with prepared gravy."]',
+    '["預熱烤箱至350°F（175°C）。", "在大拉鍊袋中混合特級初榨橄欖油、鹽、黑胡椒、大蒜粉和歐芹；加入切好的紅馬鈴薯，搖晃直到馬鈴薯被覆蓋。", "在餅乾盤上鋪上鋁箔紙；輕輕塗上油。將馬鈴薯排列在餅乾盤上。烘烤馬鈴薯，每20分鐘翻一次，直到金棕色，約45分鐘至1小時。將薯條轉移到碗中。", "在鍋中將棕色肉汁粉與雞高湯混合，以中火加熱，煮沸，經常攪拌。轉小火；小火煮1分鐘，繼續攪拌。離火靜置1分鐘，讓肉汁濃稠。", "在薯條上鋪上起司塊，頂部放上準備好的肉汁。"]'
+),
+(
+    'prime_rib',
+    '頂級肋眼牛排',
+    '["1 large prime rib roast", "12 cloves garlic", "3 Tbsp. kosher salt", "3 Tbsp. pepper", "1 1/2 Tbsp. paprika"]',
+    '["1個大頂級肋眼牛排", "12瓣大蒜", "3大匙 kosher鹽", "3大匙黑胡椒", "1.5大匙紅椒粉"]',
+    '["Cover meat with all ingredients.", "Cover with rock salt all over top.", "Bake, uncovered, at 200° for 3 to 4 hours or if a large roast, bake 7 to 8 hours."]',
+    '["用所有材料覆蓋肉。", "在頂部覆蓋岩鹽。", "不蓋蓋子，以200°F烘烤3至4小時，或如果是大烤肉，烘烤7至8小時。"]'
+),
+(
+    'pulled_pork_sandwich',
+    '手撕豬肉堡',
+    '["1 1/2 cups barbeque sauce, or more as desired", "1/2 cup chopped white onion", "1/4 cup ketchup", "1/4 cup brown sugar", "1 teaspoon salt", "1 teaspoon ground black pepper", "1/2 teaspoon chili powder", "1 pound boneless pork loin, quartered", "4 onion rolls, halved"]',
+    '["1.5杯烤肉醬，或按需更多", "1/2杯碎白洋蔥", "1/4杯番茄醬", "1/4杯紅糖", "1茶匙鹽", "1茶匙黑胡椒粉", "1/2茶匙辣椒粉", "1磅去骨豬里脊，切成四塊", "4個洋蔥麵包，切半"]',
+    '["Stir barbeque sauce, onion, ketchup, brown sugar, salt, black pepper, and chili powder in slow cooker; add pork loin and coat with sauce. Cover and cook on High until pork is very tender, about 4 1/2 hours. Shred pork with 2 forks. Keep warm on Low until ready to serve.", "Serve on onion rolls."]',
+    '["在慢煮鍋中攪拌烤肉醬、洋蔥、番茄醬、紅糖、鹽、黑胡椒和辣椒粉；加入豬里脊，塗上醬汁。覆蓋，以高檔煮直到豬肉非常軟嫩，約4.5小時。用2把叉子將豬肉撕碎。以低檔保持溫暖直到準備食用。", "放在洋蔥麵包上食用。"]'
+),
+(
+    'ramen',
+    '拉麵',
+    '["1 pkg. Ramen Oriental noodles", "4 c. chopped cabbage", "3 Tbsp. sugar", "3 Tbsp. vinegar", "2 Tbsp. olive oil", "dry soup base packet"]',
+    '["1包拉麵東方麵條", "4杯碎高麗菜", "3大匙糖", "3大匙醋", "2大匙橄欖油", "乾湯料包"]',
+    '["Cook noodles according to package and drain.", "Mix sugar, vinegar, dry soup base and olive oil.", "Add to cabbage and drained noodles.", "Toss gently and chill.", "May add nuts, chicken or shrimp."]',
+    '["按照包裝說明煮麵條，瀝乾。", "混合糖、醋、乾湯料和橄欖油。", "加入高麗菜和瀝乾的麵條。", "輕輕拌勻，冷藏。", "可加入堅果、雞肉或蝦仁。"]'
+),
+(
+    'ravioli',
+    '義大利餃',
+    '["2 lb. can Ricotta cheese", "8 eggs (large)", "handful of Romano cheese, grated", "salt", "pepper", "3 c. flour", "8 oz. water"]',
+    '["2磅罐裝瑞可塔起司", "8個蛋（大）", "一把羅馬諾起司，磨碎", "鹽", "黑胡椒", "3杯麵粉", "8盎司水"]',
+    '["Mix together in a bowl the Ricotta cheese, 5 eggs, Romano cheese and salt and pepper to taste.", "Beat with electric mixer. Set aside."]',
+    '["在碗中混合瑞可塔起司、5個蛋、羅馬諾起司和適量鹽和黑胡椒。", "用電動攪拌器攪打。備用。"]'
+),
+(
+    'red_velvet_cake',
+    '紅絲絨蛋糕',
+    '["2 c. Wesson oil", "2 1/2 c. plain flour", "1 1/2 c. sugar", "1 c. buttermilk", "2 eggs", "2 tsp. cocoa", "2 tsp. soda", "1 tsp. baking powder", "1 tsp. vinegar", "1 oz. red food coloring", "1 tsp. vanilla"]',
+    '["2杯Wesson油", "2.5杯普通麵粉", "1.5杯糖", "1杯酪乳", "2個蛋", "2茶匙可可", "2茶匙小蘇打", "1茶匙泡打粉", "1茶匙醋", "1盎司紅色食用色素", "1茶匙香草精"]',
+    '["Grease and flour pans.", "(Makes three (9-inch) layers.) Mix all ingredients together and bake at 350° for 30 minutes."]',
+    '["在烤盤上塗油並撒麵粉。", "（可做三層（9英寸）。）將所有材料混合均勻，以350°F烘烤30分鐘。"]'
+),
+(
+    'risotto',
+    '義大利燉飯',
+    '["3 c. low salt chicken broth", "1 medium onion, chopped", "6 Tbsp. extra virgin flavorful olive oil", "1 1/3 c. raw Italian Arborio rice", "1/3 c. grated Parmesan cheese", "1/4 tsp. black pepper"]',
+    '["3杯低鹽雞高湯", "1個中等洋蔥，切碎", "6大匙特級初榨風味橄欖油", "1.33杯生義大利阿博里奧米", "1/3杯帕馬森起司碎", "1/4茶匙黑胡椒"]',
+    '["In a medium pan, heat chicken broth to a simmer over medium heat.", "While broth is heating, saute onion in oil for 3 or 5 minutes until soft.", "Add rice and stir to coat with oil.", "Add 1/2 cup broth and stir with a wooden spoon until the broth has been absorbed.", "Continue this pattern with rest of broth, adding it 1/2 cup at a time and stirring until it is absorbed by the rice.", "When you have used all the broth, test the rice to see if it is still too chewy.", "If so, add more hot broth or hot water until it reaches the desired consistency.", "Remove from heat and stir in cheese and black pepper."]',
+    '["在中號鍋中，以中火將雞高湯加熱到小火煮。", "在高湯加熱時，在油中炒洋蔥3或5分鐘直到軟。", "加入米，攪拌使其裹上油。", "加入1/2杯高湯，用木勺攪拌直到高湯被吸收。", "用剩下的高湯繼續此模式，每次加入1/2杯，攪拌直到被米吸收。", "當你用完了所有高湯，測試米是否仍然太有嚼勁。", "如果是，加入更多熱高湯或熱水直到達到理想的稠度。", "離火，加入起司和黑胡椒，攪拌。"]'
+),
+(
+    'samosa',
+    '印度三角餃',
+    '["8 oz. potatoes, cut in even size pieces", "3/4 c. frozen green peas", "2 Tbsp. corn oil", "1 onion, finely chopped", "1/2 tsp. cumin seed", "1 (1/2-inch) piece ginger root, peeled and grated", "1/2 tsp. turmeric", "1/2 tsp. Garam Masala", "1/2 tsp. salt", "2 tsp. lemon juice", "1 c. all-purpose flour", "2 Tbsp. butter", "2 Tbsp. warm milk", "vegetable oil for deep frying", "lime twists, if desired", "fresh celery leaves, if desired", "Mango Chutney"]',
+    '["8盎司馬鈴薯，切成均勻大小的塊", "3/4杯冷凍青豆", "2大匙玉米油", "1個洋蔥，細切", "1/2茶匙孜然籽", "1塊（1/2英寸）薑根，去皮並磨碎", "1/2茶匙薑黃", "1/2茶匙印度綜合香料", "1/2茶匙鹽", "2茶匙檸檬汁", "1杯全能麵粉", "2大匙奶油", "2大匙溫牛奶", "深炸用植物油", "萊姆皮扭，可選", "新鮮芹菜葉，可選", "芒果酸辣醬"]',
+    '["In a saucepan, boil potatoes in salted water 15 to 20 minutes or until tender.", "Drain well, return to saucepan and shake over low heat a few moments or until dry.", "Mash well.", "Cook peas in boiling salted water 4 minutes.", "Drain well."]',
+    '["在鍋中，在鹽水中煮馬鈴薯15至20分鐘或直到軟。", "充分瀝乾，放回鍋中，在小火上搖晃幾分鐘或直到乾。", "充分壓碎。", "在沸鹽水中煮青豆4分鐘。", "充分瀝乾。"]'
+),
+(
+    'sashimi',
+    '生魚片',
+    '["1/2 to 1 lb. fresh ahi", "2 to 3 Tbsp. garlic, minced", "4 Tbsp. capers", "1/4 c. virgin olive oil", "1/4 c. balsamic vinegar or other seasoned vinegar", "grated fresh Parmesan cheese (may use fresh Romano cheese)"]',
+    '["1/2至1磅新鮮黃鰭金槍魚", "2至3大匙大蒜，切碎", "4大匙酸豆", "1/4杯初榨橄欖油", "1/4杯香醋或其他調味醋", "新鮮帕馬森起司碎（可用新鮮羅馬諾起司）"]',
+    '["Thinly slice ahi and lay on platter.", "Cover with plastic wrap. Use wooden meat hammer to pound thin.", "Remove plastic wrap.", "Spread minced (or crushed) garlic over ahi.", "Grate fresh Parmesan and sprinkle capers.", "Chill until ready to serve.", "Mix olive oil and seasoned vinegar in a small covered jar.", "Shake well.", "Just prior to serving, pour vinegar and oil mixture evenly over the dish and enjoy."]',
+    '["將黃鰭金槍魚切片，放在盤子上。", "用保鮮膜覆蓋。用木肉鎚敲打直到薄。", "移除保鮮膜。", "在黃鰭金槍魚上塗上碎（或壓碎）大蒜。", "磨上新鮮帕馬森起司，撒上酸豆。", "冷藏直到準備食用。", "在帶蓋小罐中混合橄欖油和調味醋。", "充分搖晃。", "在食用前，將醋和油混合物均勻倒在菜上，享用。"]'
+),
+(
+    'scallops',
+    '干貝',
+    '["6 oz. onion cheese", "1/4 c. dry white wine", "1 medium onion, chopped", "1 c. real mayonnaise", "1 lb. bay scallops", "1/2 lb. mushrooms, sliced"]',
+    '["6盎司洋蔥起司", "1/4杯乾白葡萄酒", "1個中等洋蔥，切碎", "1杯真美乃滋", "1磅灣干貝", "1/2磅蘑菇，切片"]',
+    '["Stir together the cheese, mayonnaise and wine; reserve.", "In a 10-inch skillet over medium-high heat, melt 2 tablespoons butter; add the scallops and cook, stirring, just until they are opaque, a minute or so.", "With a slotted spoon, remove scallops to paper toweling to drain.", "Add the remaining 2 tablespoons butter to the skillet with the onion; cook gently until slightly golden and add mushrooms.", "Cook rapidly, stirring, so they do not release their liquid, a few minutes.", "Turn off heat and stir in the reserved cheese mixture and scallops.", "Bake in casserole until warmed through.", "Serve over noodles."]',
+    '["將起司、美乃滋和葡萄酒混合；備用。", "在10英寸平底鍋中以中高火加熱，融化2大匙奶油；加入干貝，邊煮邊攪拌，直到它們變不透明，約1分鐘。", "用漏勺將干貝移到紙巾上瀝乾。", "在平底鍋中加入剩下的2大匙奶油和洋蔥；輕輕煮直到稍微金黃色，加入蘑菇。", "快速煮，攪拌，使它們不釋放汁液，幾分鐘。", "關火，拌入備用的起司混合物和干貝。", "在烤盤中烘烤直到熱透。", "放在麵條上食用。"]'
+),
+(
+    'seaweed_salad',
+    '海帶沙拉',
+    '["1 pkg. lemon jello", "1 pkg. lime jello", "1 1/2 c. boiling water", "1 (No. 2) can crushed pineapple", "1 c. evaporated milk", "pinch of salt", "1 lb. cottage cheese", "1 c. mayonnaise", "1 Tbsp. horseradish", "1 c. nuts"]',
+    '["1包檸檬果凍粉", "1包萊姆果凍粉", "1.5杯沸水", "1罐（2號）碎鳳梨", "1杯蒸餾牛奶", "少許鹽", "1磅起司", "1杯美乃滋", "1大匙辣根", "1杯堅果"]',
+    '["Make day before.", "Combine jello and water, then add other ingredients, leaving cottage cheese and nuts last.", "Keep in refrigerator until ready to use.", "Serve on lettuce leaf, if desired."]',
+    '["提前一天製作。", "混合果凍粉和水，然後加入其他材料，起司和堅果最後加入。", "存放在冰箱中直到準備食用。", "如需，放在生菜葉上食用。"]'
+),
+(
+    'shrimp_and_grits',
+    '蝦仁粗玉米粉',
+    '["1 lb. fresh shrimp, peeled", "6 slices bacon", "peanut oil", "2 c. sliced mushrooms", "1 c. scallions or green onions", "1 large clove garlic, minced", "4 tsp. lemon juice", "Tabasco sauce", "chopped parsley", "salt and pepper to taste", "Cheese Grits (see index)"]',
+    '["1磅新鮮蝦仁，去皮", "6片培根", "花生油", "2杯切片蘑菇", "1杯蔥或青蔥", "1大瓣大蒜，切碎", "4茶匙檸檬汁", "塔巴斯科辣醬", "碎歐芹", "適量鹽和胡椒", "起司粗玉米粉（見索引）"]',
+    '["Wash shrimp and pat dry.", "Dice bacon and cook until just crisp in a large skillet. Drain bacon and reserve. Add enough oil to bacon fat to make a thin layer.", "When hot, add shrimp.", "Stir about and add scallions and garlic.", "Season to taste with lemon, hot sauce, parsley, salt and pepper. Divide grits. Spoon shrimp over grits and top with bacon.", "Serves 4."]',
+    '["洗蝦仁，拍乾。", "將培根切丁，在大平底鍋中煮到剛脆。瀝乾培根，備用。在培根脂肪中加入足夠的油形成一層薄油。", "當熱時，加入蝦仁。", "攪拌，加入蔥和大蒜。", "用檸檬、辣醬、歐芹、鹽和胡椒調味。分裝粗玉米粉。將蝦仁舀在粗玉米粉上，頂部放上培根。", "4人份。"]'
+),
+(
+    'spaghetti_bolognese',
+    '肉醬義大利麵',
+    '["1 lb. ground beef", "1 onion", "1/2 lb. mushrooms", "1 oz. butter", "garlic to taste", "2 Tbsp. Worcestershire sauce", "1 c. ketchup", "1 tsp. paprika", "1 c. Naturally Fresh sweet and sour sauce", "1 packet spaghetti"]',
+    '["1磅牛肉末", "1個洋蔥", "1/2磅蘑菇", "1盎司奶油", "適量大蒜", "2大匙伍斯特醬", "1杯番茄醬", "1茶匙紅椒粉", "1杯Naturally Fresh甜酸醬", "1包義大利麵"]',
+    '["Fry meat until brown.", "In separate pan, fry mushrooms, garlic and onions in the butter.", "Drain off fat from both pans and join together.", "Cook spaghetti as directed on package.", "Add all other ingredients, stirring until blended.", "Cook over medium heat while spaghetti is cooking."]',
+    '["將肉煎至棕色。", "在單獨的鍋中，在奶油中煎蘑菇、大蒜和洋蔥。", "將兩個鍋中的脂肪瀝乾，合併。", "按照包裝說明煮義大利麵。", "加入所有其他材料，攪拌直到混合。", "在義大利麵煮的時候以中火煮。"]'
+),
+(
+    'spaghetti_carbonara',
+    '奶油培根義大利麵',
+    '["3 gloves garlic", "1/2 lb. bacon, chopped", "1/4 c. white wine", "salt and pepper", "grated cheese", "1 medium onion, chopped", "1 pkg. frozen peas", "1/4 c. chicken broth", "1 egg, beaten", "1 lb. spaghetti"]',
+    '["3瓣大蒜", "1/2磅培根，切碎", "1/4杯白葡萄酒", "鹽和黑胡椒", "起司碎", "1個中等洋蔥，切碎", "1包冷凍青豆", "1/4杯雞高湯", "1個蛋，打散", "1磅義大利麵"]',
+    '["Saute onion, garlic and bacon together.", "Add wine and broth; cook 10 minutes.", "Add defrosted peas; continue cooking over medium heat for 5 more minutes.", "Cook spaghetti according to package directions.", "Add mixture to spaghetti.", "Add egg and cheese; mix well and serve."]',
+    '["一起炒洋蔥、大蒜和培根。", "加入葡萄酒和高湯；煮10分鐘。", "加入解凍的青豆；以中火繼續煮5分鐘。", "按照包裝說明煮義大利麵。", "將混合物加入義大利麵中。", "加入蛋和起司；充分混合，食用。"]'
+),
+(
+    'spring_rolls',
+    '春捲',
+    '["1 c. ground pork", "1/2 c. cooked shrimp, chopped", "1/2 c. crab meat, boiled", "1 c. bean sprouts", "1 Tbsp. sugar", "2 Tbsp. chopped green onion", "2 Tbsp. chopped celery leaves", "2 tsp. salt", "1/2 c. jelly noodles (a kind of transparent vermicelli made of mung bean)", "1/2 Tbsp. chopped garlic", "6 dried black mushrooms, chopped", "1 Tbsp. nampla (fish sauce)", "1 Tbsp. soy sauce", "4 eggs, slightly beaten, fried and chopped", "1 egg yolk", "2 c. vegetable oil", "1 tsp. pepper"]',
+    '["1杯豬肉末", "1/2杯煮熟蝦仁，切碎", "1/2杯蟹肉，煮熟", "1杯豆芽", "1大匙糖", "2大匙碎蔥", "2大匙碎芹菜葉", "2茶匙鹽", "1/2杯粉條（一種由綠豆製成的透明細麵）", "1/2大匙碎大蒜", "6個乾香菇，切碎", "1大匙魚露", "1大匙醬油", "4個蛋，輕打，煎熟並切碎", "1個蛋黃", "2杯植物油", "1茶匙黑胡椒"]',
+    '["Heat vegetable oil in frying pan.", "Add chopped garlic and fry for 2 minutes.", "Put in ground pork, shrimp, crab meat, bean sprouts, eggs, green onion, celery, black mushrooms and jelly noodles.", "Fry for 5 minutes.", "Add soy sauce, nampla, salt and pepper"]',
+    '["在平底鍋中加熱植物油。", "加入碎大蒜，煎2分鐘。", "加入豬肉末、蝦仁、蟹肉、豆芽、蛋、蔥、芹菜、香菇和粉條。", "煎5分鐘。", "加入醬油、魚露、鹽和黑胡椒"]'
+),
+(
+    'steak',
+    '牛排',
+    '["1 whole deer tenderloin steak", "bacon", "wine", "A.1. steak sauce", "onion", "pepper", "butter", "season salt"]',
+    '["1整塊鹿里脊牛排", "培根", "葡萄酒", "A.1牛排醬", "洋蔥", "黑胡椒", "奶油", "調味鹽"]',
+    '["Take whole deer tenderloin steak, put 5 or 6 slices of bacon in pan, a little cooking wine (red) and a little A.1.", "steak sauce.", "Add sliced onion and pepper.", "Fry all in butter for 5 to 7 minutes on high.", "Add a little Morton Nature Season."]',
+    '["取整塊鹿里脊牛排，在鍋中放入5或6片培根、少量烹飪葡萄酒（紅）和少量A.1。", "牛排醬。", "加入切片洋蔥和黑胡椒。", "在奶油中以大火煎5至7分鐘。", "加入少量Morton Nature調味鹽。"]'
+),
+(
+    'strawberry_shortcake',
+    '草莓鮮奶油蛋糕',
+    '["1 1/2 c. sugar", "1/2 c. Crisco, melted", "2 eggs", "2 tsp. baking powder", "1 1/2 c. flour", "1 c. milk", "2 tsp. vanilla"]',
+    '["1.5杯糖", "1/2杯Crisco起酥油，融化", "2個蛋", "2茶匙泡打粉", "1.5杯麵粉", "1杯牛奶", "2茶匙香草精"]',
+    '["Add, in the order listed, and mix well.", "Pour into oblong baking pan or dish.", "Bake at 375° for 40 minutes.", "Cool and add fresh strawberries and milk, if so desired."]',
+    '["按照列出的順序加入，充分混合。", "倒入長方形烤盤或烤盅中。", "以375°F烘烤40分鐘。", "冷卻，如需，加入新鮮草莓和牛奶。"]'
+),
+(
+    'sushi',
+    '壽司',
+    '["1 c. water", "3 Tbsp. white vinegar", "2 Tbsp. sugar", "3/4 c. short-grain rice", "6 Nori seaweed squares", "soy sauce", "wasabi", "filling of choice (see following)"]',
+    '["1杯水", "3大匙白醋", "2大匙糖", "3/4杯短粒米", "6片海苔", "醬油", "芥末", "自選餡料（見下文）"]',
+    '["Combine rice, water, sugar and vinegar in a saucepan.", "Bring to a boil.", "Turn fire down to low.", "Cover and cook until rice is done.", "Allow to cool to room temperature.", "Toast Nori lightly by waving briefly over an open flame.", "Place on a kitchen towel or a sushi mat.", "Top with a thin layer of rice, leaving 1/2-inch at far end of Nori uncovered.", "Along the proximal end of the square, line up your filling of choice.", "Roll in jelly roll fashion, using the mat or towel as an aid.", "Remember that 1/2-inch of the tail end of the Nori you left uncovered?", "Dampen it with a wet finger and use it to seal your sushi roll. You should end up with a sausage-like black tube, the filling in the middle."]',
+    '["在鍋中混合米、水、糖和醋。", "煮沸。", "轉小火。", "蓋上鍋蓋，煮直到米熟。", "冷卻至室溫。", "將海苔在明火上輕輕揮動，稍微烘烤。", "放在廚房毛巾或壽司墊上。", "鋪上一層薄薄的米，在海苔的遠端留出1/2英寸不覆蓋。", "在方塊的近端，排列你選擇的餡料。", "像捲蛋糕一樣捲起，使用墊子或毛巾作為輔助。", "記得你留下的海苔尾端1/2英寸沒有覆蓋嗎？", "用濕手指弄濕它，用它來密封你的壽司捲。你應該得到一個像香腸一樣的黑色管子，餡料在中间。"]'
+),
+(
+    'tacos',
+    '墨西哥捲餅',
+    '["1 pkg. shaped taco shells or 1 pkg. soft tortillas", "1 lb. ground beef or turkey", "grated Cheddar cheese", "chopped olives", "chopped tomatoes", "shredded cheese", "sour cream", "hot sauce"]',
+    '["1包成型捲餅殼或1包軟玉米餅", "1磅牛肉末或火雞肉", "切達起司碎", "碎橄欖", "碎番茄", "起司絲", "酸奶油", "辣醬"]',
+    '["Brown chopped meat, stirring often.", "Add salt and pepper to taste.", "Drain off fat.", "Put ground meat in a bowl.", "Everyone puts their favorite things on their own tacos.", "Eat and enjoy."]',
+    '["將碎肉煎至棕色，經常攪拌。", "加入適量鹽和黑胡椒。", "瀝乾脂肪。", "將肉末放入碗中。", "每個人在自己的捲餅上放上他們喜歡的東西。", "食用並享用。"]'
 );
--- (
---     'onion_rings',
---     '洋蔥圈',
---     '["1 c. flour", "1/4 tsp. salt", "1/2 c. milk", "2 Tbsp. salad oil", "1 egg white (unbeaten)", "6 Tbsp. water", "2 to 3 large onions"]',
---     '["1杯麵粉", "1/4茶匙鹽", "1/2杯牛奶", "2大匙沙拉油", "1個蛋清（未打發）", "6大匙水", "2至3個大洋蔥"]',
---     '["Mix together in large bowl.", "Cut onions into slices; separate into rings.", "Deep-fry in hot oil."]',
---     '["在大碗中混合均勻。", "將洋蔥切片；分離成圈。", "在熱油中深炸。"]'
--- ),
--- (
---     'oysters',
---     '牡蠣',
---     '["12 oz. pkg. frozen spinach souffle", "1 pt. oysters, drained", "dash of Tabasco", "3 Tbsp. Parmesan cheese", "2 Tbsp. melted butter", "1/2 tsp. minced onion", "1/4 c. seasoned crumbs"]',
---     '["12盎司包冷凍菠菜舒芙蕾", "1品脫牡蠣，瀝乾", "少許塔巴斯科辣醬", "3大匙帕馬森起司", "2大匙融化奶油", "1/2茶匙碎洋蔥", "1/4杯調味麵包屑"]',
---     '["Mix together spinach, oysters, onions and Tabasco and put into casserole dish.", "Top with bread crumbs, butter and Parmesan.", "Bake at 350° for 50 to 60 minutes."]',
---     '["混合菠菜、牡蠣、洋蔥和塔巴斯科辣醬，放入烤盤中。", "在頂部撒上麵包屑、奶油和帕馬森起司。", "以350°F烘烤50至60分鐘。"]'
--- ),
--- (
---     'pad_thai',
---     '泰式炒河粉',
---     '["1/2 lb. linguine (fresh is best)", "3 Tbsp. soy sauce", "2 tsp. sugar", "3 Tbsp. vegetable oil or butter", "1/2 lb. boneless chicken breast, cut into small pieces", "1/2 lb. bean sprouts, drained", "1/2 lb. cooked shrimp", "curry powder and/or cayenne pepper", "3/4 c. tomato juice", "1 Tbsp. vinegar", "3/4 tsp. cornstarch", "garlic to taste", "1/2 c. chopped green onions and tops"]',
---     '["1/2磅長麵（新鮮最好）", "3大匙醬油", "2茶匙糖", "3大匙植物油或奶油", "1/2磅去骨雞胸肉，切成小塊", "1/2磅豆芽，瀝乾", "1/2磅煮熟蝦仁", "咖哩粉和/或辣椒粉", "3/4杯番茄汁", "1大匙醋", "3/4茶匙玉米澱粉", "適量大蒜", "1/2杯碎蔥和蔥葉"]',
---     '["Cook linguine according to package directions; drain.", "Combine tomato juice, soy sauce, vinegar, sugar and cornstarch; set aside. Heat 1 tablespoon of oil or butter in hot wok or large skillet. Add chicken and stir-fry 1 minute; remove.", "(I cook my chicken until it is completely done which takes quite a bit longer than 1 minute.)", "Add garlic, bean sprouts and green onions and stir-fry for 1 minute.", "Stir in linguine and cook 2 more minutes or until heated through.", "Return chicken with shrimp, curry, pepper and tomato mixture.", "Cook, stirring until sauce boils and thickens. Makes 4 servings."]',
---     '["按照包裝說明煮長麵；瀝乾。", "混合番茄汁、醬油、醋、糖和玉米澱粉；備用。在熱炒鍋或大平底鍋中加熱1大匙油或奶油。加入雞肉，炒1分鐘；取出。", "（我將雞肉煮到完全熟，這比1分鐘長很多。）", "加入大蒜、豆芽和蔥，炒1分鐘。", "拌入長麵，再煮2分鐘或直到熱透。", "將雞肉與蝦仁、咖哩、黑胡椒和番茄混合物一起放回。", "邊煮邊攪拌直到醬汁沸騰並濃稠。可做4份。"]'
--- ),
--- (
---     'paella',
---     '西班牙海鮮飯',
---     '["1 lb. chicken, cut in small pieces", "1 lb. rabbit, cut in small pieces", "1/2 lb. pork, chopped, boned and cut in small pieces", "1 lb. mussels", "1 lb. shrimp, leave in shell", "1 clove garlic", "1 lb. clams", "3 tomatoes, peeled and chopped", "1 small onion, chopped", "1 Tbsp. parsley", "1/2 lb. scallops", "1 can peas or frozen", "pinch of saffron or 2 tsp. turmeric", "olive oil for frying", "1 chopped green pepper"]',
---     '["1磅雞肉，切成小塊", "1磅兔肉，切成小塊", "1/2磅豬肉，切碎、去骨並切成小塊", "1磅青口貝", "1磅蝦仁，保留殼", "1瓣大蒜", "1磅蛤蜊", "3個番茄，去皮並切碎", "1個小洋蔥，切碎", "1大匙歐芹", "1/2磅干貝", "1罐青豆或冷凍", "少許藏紅花或2茶匙薑黃", "油炸用橄欖油", "1個切碎青椒"]',
---     '["In a paella pan or large skillet, fry chicken and rabbit. Remove.", "In same pan, cook pork.", "Remove.", "In pan, saute onion, green pepper and garlic.", "Add to the vegetables and chopped tomatoes.", "Add parsley.", "Re-add poultry and pork.", "Mix well.", "Add all seafood that has been washed.", "Fill pan with water and bring to a boil.", "Add 2 cups rice and saffron/turmeric and bring to second boil.", "Add peas.", "Simmer for 20 minutes or until rice is cooked.", "Garnish with red peppers, sliced lemons or sliced oranges."]',
---     '["在西班牙海鮮飯鍋或大平底鍋中，煎雞肉和兔肉。取出。", "在同一鍋中，煮豬肉。", "取出。", "在鍋中，炒洋蔥、青椒和大蒜。", "加入蔬菜和碎番茄。", "加入歐芹。", "重新加入家禽和豬肉。", "充分混合。", "加入所有已清洗的海鮮。", "在鍋中加水，煮沸。", "加入2杯米和藏紅花/薑黃，再次煮沸。", "加入青豆。", "小火煮20分鐘或直到米煮熟。", "用紅椒、切片檸檬或切片柳橙裝飾。"]'
--- ),
--- (
---     'pancakes',
---     '鬆餅',
---     '["1 c. flour", "1 tsp. soda", "1 tsp. salt", "1 Tbsp. sugar", "1 egg", "3 Tbsp. margarine, melted", "1 c. buttermilk"]',
---     '["1杯麵粉", "1茶匙小蘇打", "1茶匙鹽", "1大匙糖", "1個蛋", "3大匙融化的人造奶油", "1杯酪乳"]',
---     '["Mix dry ingredients.", "Add egg, margarine and buttermilk. Stir by hand until well blended.", "Pour onto non-stick pan or griddle with a little oil added.", "Cook until bubbly and turn over."]',
---     '["混合乾性材料。", "加入蛋、人造奶油和酪乳。用手攪拌直到充分混合。", "倒入加少量油的不沾鍋或烤盤中。", "煮到起泡並翻面。"]'
--- ),
--- (
---     'panna_cotta',
---     '義大利奶凍',
---     '["1/3 cup skim milk", "1 (.25 ounce) envelope unflavored gelatin", "2 1/2 cups heavy cream", "1/2 cup white sugar", "1 1/2 teaspoons vanilla extract"]',
---     '["1/3杯脫脂牛奶", "1包（0.25盎司）無味吉利丁", "2.5杯鮮奶油", "1/2杯白砂糖", "1.5茶匙香草精"]',
---     '["Pour milk into a small bowl, and stir in the gelatin powder. Set aside.", "In a saucepan, stir together the heavy cream and sugar, and set over medium heat. Bring to a full boil, watching carefully, as the cream will quickly rise to the top of the pan. Pour the gelatin and milk into the cream, stirring until completely dissolved. Cook for one minute, stirring constantly. Remove from heat, stir in the vanilla and pour into six individual ramekin dishes.", "Cool the ramekins uncovered at room temperature. When cool, cover with plastic wrap, and refrigerate for at least 4 hours, but preferably overnight before serving."]',
---     '["將牛奶倒入小碗中，加入吉利丁粉，攪拌均勻。備用。", "在鍋中，將鮮奶油和糖混合，以中火加熱。煮沸，小心觀察，因為奶油會快速上升到鍋頂。將吉利丁和牛奶倒入奶油中，攪拌直到完全溶解。煮1分鐘，不斷攪拌。離火，加入香草精，倒入六個個人小烤盅中。", "不蓋蓋子在室溫下冷卻小烤盅。冷卻後，用保鮮膜覆蓋，冷藏至少4小時，最好過夜後食用。"]'
--- ),
--- (
---     'peking_duck',
---     '北京烤鴨',
---     '["1 (4 pound) whole duck, dressed", "1/2 teaspoon ground cinnamon", "1/2 teaspoon ground ginger", "1/4 teaspoon ground nutmeg", "1/4 teaspoon ground white pepper", "1/8 teaspoon ground cloves", "3 tablespoons soy sauce", "1 tablespoon honey", "1 orange, sliced in rounds", "1 tablespoon chopped fresh parsley, for garnish", "5 green onions", "1/2 cup plum jam", "1 1/2 teaspoons sugar", "1 1/2 teaspoons distilled white vinegar", "1/4 cup finely chopped chutney"]',
---     '["1隻（4磅）整鴨，處理過", "1/2茶匙肉桂粉", "1/2茶匙薑粉", "1/4茶匙肉豆蔻粉", "1/4茶匙白胡椒粉", "1/8茶匙丁香粉", "3大匙醬油", "1大匙蜂蜜", "1個柳橙，切片", "1大匙碎新鮮歐芹，裝飾用", "5根蔥", "1/2杯梅子果醬", "1.5茶匙糖", "1.5茶匙白醋", "1/4杯細碎酸辣醬"]',
---     '["Rinse the duck inside and out, and pat dry. Cut off tail and discard. In a small bowl, mix together the cinnamon, ginger, nutmeg, white pepper and cloves. Sprinkle one teaspoon of the mixture into the cavity of the duck. Stir one tablespoon of the soy sauce into the remaining spice mixture and rub evenly over the entire outside of the bird. Cut one of the green onions in half and tuck inside the cavity. Cover and refrigerate the bird for at least 2 hours, or overnight.", "Place duck breast side up on a rack in a big enough wok or pot and steam for an hour adding a little more water, if necessary, as it evaporates. Lift duck with two large spoons, and drain juices and green onion.", "Preheat the oven to 375 degrees F (190 degrees C). Place duck breast side up in a roasting pan and prick skin all over using a fork.", "Roast for 30 minutes in the preheated oven. While the duck is roasting, mix together the remaining 2 tablespoons of soy sauce and honey. After 30 minutes, brush the honey mixture onto the duck and return it to the oven. Turn the heat up to 500 degrees F (260 degrees C). Roast for 5 minutes, or until the skin is richly browned. Do not allow the skin to char.", "Prepare the duck sauce by mixing the plum jam with the sugar, vinegar and chutney in a small serving bowl. Chop remaining green onions and place them into a separate bowl. Place whole duck onto a serving platter and garnish with orange slices and fresh parsley. Use plum sauce and onion"]',
---     '["將鴨子內外沖洗，拍乾。切掉尾巴，丟棄。在小碗中，混合肉桂、薑、肉豆蔻、白胡椒和丁香。將1茶匙混合物撒入鴨子腔內。將1大匙醬油加入剩下的香料混合物中，均勻塗抹在鴨子整個外側。將一根蔥切半，塞入腔內。覆蓋，將鴨子冷藏至少2小時，或過夜。", "將鴨子胸朝上放在足夠大的炒鍋或鍋中的烤架上，蒸一小時，如需，隨著水分蒸發加入更多水。用兩個大勺子將鴨子抬起，瀝乾汁液和蔥。", "預熱烤箱至375°F（190°C）。將鴨子胸朝上放在烤盤中，用叉子在皮膚上戳洞。", "在預熱的烤箱中烘烤30分鐘。在鴨子烘烤時，混合剩下的2大匙醬油和蜂蜜。30分鐘後，將蜂蜜混合物刷在鴨子上，放回烤箱。將溫度調高至500°F（260°C）。烘烤5分鐘，或直到皮膚呈深棕色。不要讓皮膚燒焦。", "將梅子果醬與糖、醋和酸辣醬在小碗中混合，製成鴨醬。將剩下的蔥切碎，放在單獨的碗中。將整鴨放在餐盤上，用柳橙片和新鲜歐芹裝飾。搭配梅子醬和蔥"]'
--- ),
--- (
---     'pho',
---     '越南河粉',
---     '["2 packs Vietnamese rice noodles", "4 ounces fresh beef slices", "Beef broth base", "2 pounds beef bones", "1 pound beef brisket", "1 onion", "5 liters water", "Broth seasonings", "4 thick slices ginger", "1 onion", "3 cinnamon sticks", "4 cardamom pods", "3 star anise", "4 sprigs cilantro stems", "1 teaspoon salt", "1 teaspoon sugar", "1/2 cup fish sauce", "Garnishes", "4 ounces bean sprouts", "1/2 onion", "A few red and green chilies", "A few chopped scallions", "Several stalks of scallions", "A small handful of basil", "A pinch of black pepper", "1/4 lime"]',
---     '["2包越南米粉", "4盎司新鮮牛肉片", "牛高湯基底", "2磅牛骨", "1磅牛腩", "1個洋蔥", "5公升水", "高湯調味料", "4片厚薑", "1個洋蔥", "3根肉桂", "4顆豆蔻", "3顆八角", "4枝香菜莖", "1茶匙鹽", "1茶匙糖", "1/2杯魚露", "裝飾", "4盎司豆芽", "1/2個洋蔥", "幾個紅綠辣椒", "幾根碎蔥", "幾根蔥", "一小把羅勒", "少許黑胡椒", "1/4個萊姆"]',
---     '["Clean the beef bones in a large pot, blanch in boiling water for 5 minutes to remove excess fat and impurities. Remove and rinse the bones.", "Clean the pot, add beef bones, cleaned brisket, peeled whole onion, and 5 liters of water.", "Bring to a boil on high heat, then reduce to medium heat and simmer for 2 hours. During this time, prepare the broth seasonings.", "Cut ginger into thick slices about the size of a finger, halve the onion, wash cilantro stems, and set aside cinnamon sticks, cardamom pods, and star anise.", "Heat a dry pan and add the ginger, onion, cilantro stems, cinnamon, cardamom, and star anise. Toast over medium-high heat until fragrant.", "Once toasted, scrape off the burnt parts of the ginger and onion to avoid clouding the broth. Add the toasted seasonings to the beef broth and simmer to infuse the flavors.", "After 1 hour of simmering, remove the brisket and slice it.", "After 2 hours of simmering, add salt, sugar, and fish sauce to taste.", "Meanwhile, prepare the garnishes: blanch the bean sprouts in boiling water for 10 seconds, drain and set aside.", "Cut half an onion into thin strips and soak in ice water to remove the pungency.", "Deseed and dice the red and green chilies (keep the seeds for extra spice if desired), chop the scallions, split the white parts to enhance flavor, and wash the basil leaves.", "Cut the lime into 4 wedges. Optionally, prepare seafood sauce and sriracha.", "Cook the Vietnamese rice noodles according to the package instructions: soak in cold water for 5-10 minutes, then cook in boiling water for 6-8 minutes, drain and set aside.", "Thinly slice the fresh beef (ask your butcher to slice it thinly). If concerned, you can blanch it in boiling water briefly before use.", "For the soup, you can"]',
---     '["在大鍋中清洗牛骨，在沸水中焯水5分鐘以去除多餘的脂肪和雜質。取出並沖洗牛骨。", "清洗鍋，加入牛骨、清洗過的牛腩、去皮的整洋蔥和5公升水。", "以大火煮沸，然後轉中火小火煮2小時。在此期間，準備高湯調味料。", "將薑切成約手指大小的厚片，洋蔥切半，洗淨香菜莖，備用肉桂、豆蔻和八角。", "加熱乾鍋，加入薑、洋蔥、香菜莖、肉桂、豆蔻和八角。以中高火烘烤直到出香味。", "烘烤後，刮掉薑和洋蔥的燒焦部分，以避免高湯變渾濁。將烘烤過的調味料加入牛高湯中，小火煮以融入風味。", "小火煮1小時後，取出牛腩並切片。", "小火煮2小時後，加入鹽、糖和魚露調味。", "同時，準備裝飾：將豆芽在沸水中焯水10秒，瀝乾，備用。", "將半個洋蔥切成細條，浸泡在冰水中以去除辛辣味。", "將紅綠辣椒去籽並切丁（如需保留籽以增加辣味），切碎蔥，將白色部分切開以增強風味，洗淨羅勒葉。", "將萊姆切成4塊。可選，準備海鮮醬和是拉差辣醬。", "按照包裝說明煮越南米粉：在冷水中浸泡5-10分鐘，然後在沸水中煮6-8分鐘，瀝乾，備用。", "將新鮮牛肉切片（請肉販切薄片）。如有需要，可以在使用前在沸水中快速焯水。", "對於湯，你可以"]'
--- ),
--- (
---     'pizza',
---     '披薩',
---     '["4 c. self-rising flour", "1/4 c. sugar", "2 c. warm milk", "1/3 c. oil"]',
---     '["4杯自發麵粉", "1/4杯糖", "2杯溫牛奶", "1/3杯油"]',
---     '["Dissolve yeast in milk; add oil, flour and sugar.", "Knead 3 to 4 minutes.", "Divide and then spread on a greased pizza pan or cookie sheet.", "Let rise for 15 to 30 minutes.", "Bake 15 minutes. Take out and add sauce, meat, etc. and then cheese.", "Cook until cheese melts.", "For sauce use 1 jar Always Save spaghetti sauce. Add your own spices.", "Use Velveeta, Cheddar or Mozzarella cheeses."]',
---     '["將酵母溶於牛奶中；加入油、麵粉和糖。", "揉3至4分鐘。", "分開，然後塗在塗油的披薩盤或餅乾盤上。", "發酵15至30分鐘。", "烘烤15分鐘。取出，加入醬汁、肉等，然後加起司。", "煮到起司融化。", "醬汁使用1罐Always Save義大利麵醬。加入你自己的香料。", "使用維維塔、切達或莫札瑞拉起司。"]'
--- ),
--- (
---     'pork_chop',
---     '豬排',
---     '["1 medium onion", "1 large pepper", "1 can stewed tomatoes, chopped", "2 tsp. sugar", "salt and pepper to taste", "1/2 c. V-8 tomato juice", "4 to 5 pork chops"]',
---     '["1個中等洋蔥", "1個大辣椒", "1罐燉番茄，切碎", "2茶匙糖", "適量鹽和胡椒", "1/2杯V-8番茄汁", "4至5片豬排"]',
---     '["Clean the beef bones in a large pot, blanch in boiling water for 5 minutes to remove excess fat and impurities. Remove and rinse the bones.", "Clean the pot, add beef bones, cleaned brisket, peeled whole onion, and 5 liters of water.", "Bring to a boil on high heat, then reduce to medium heat and simmer for 2 hours. During this time, prepare the broth seasonings.", "Cut ginger into thick slices about the size of a finger, halve the onion, wash cilantro stems, and set aside cinnamon sticks, cardamom pods, and star anise.", "Heat a dry pan and add the ginger, onion, cilantro stems, cinnamon, cardamom, and star anise. Toast over medium-high heat until fragrant.", "Once toasted, scrape off the burnt parts of the ginger and onion to avoid clouding the broth. Add the toasted seasonings to the beef broth and simmer to infuse the flavors.", "After 1 hour of simmering, remove the brisket and slice it.", "After 2 hours of simmering, add salt, sugar, and fish sauce to taste.", "Meanwhile, prepare the garnishes: blanch the bean sprouts in boiling water for 10 seconds, drain and set aside.", "Cut half an onion into thin strips and soak in ice water to remove the pungency.", "Deseed and dice the red and green chilies (keep the seeds for extra spice if desired), chop the scallions, split the white parts to enhance flavor, and wash the basil leaves.", "Cut the lime into 4 wedges. Optionally, prepare seafood sauce and sriracha.", "Cook the Vietnamese rice noodles according to the package instructions: soak in cold water for 5-10 minutes, then cook in boiling water for 6-8 minutes, drain and set aside.", "Thinly slice the fresh beef (ask your butcher to slice it thinly). If concerned, you can blanch it in boiling water briefly before use.", "For the soup, you can"]',
---     '["在大鍋中清洗牛骨，在沸水中焯水5分鐘以去除多餘的脂肪和雜質。取出並沖洗牛骨。", "清洗鍋，加入牛骨、清洗過的牛腩、去皮的整洋蔥和5公升水。", "以大火煮沸，然後轉中火小火煮2小時。在此期間，準備高湯調味料。", "將薑切成約手指大小的厚片，洋蔥切半，洗淨香菜莖，備用肉桂、豆蔻和八角。", "加熱乾鍋，加入薑、洋蔥、香菜莖、肉桂、豆蔻和八角。以中高火烘烤直到出香味。", "烘烤後，刮掉薑和洋蔥的燒焦部分，以避免高湯變渾濁。將烘烤過的調味料加入牛高湯中，小火煮以融入風味。", "小火煮1小時後，取出牛腩並切片。", "小火煮2小時後，加入鹽、糖和魚露調味。", "同時，準備裝飾：將豆芽在沸水中焯水10秒，瀝乾，備用。", "將半個洋蔥切成細條，浸泡在冰水中以去除辛辣味。", "將紅綠辣椒去籽並切丁（如需保留籽以增加辣味），切碎蔥，將白色部分切開以增強風味，洗淨羅勒葉。", "將萊姆切成4塊。可選，準備海鮮醬和是拉差辣醬。", "按照包裝說明煮越南米粉：在冷水中浸泡5-10分鐘，然後在沸水中煮6-8分鐘，瀝乾，備用。", "將新鮮牛肉切片（請肉販切薄片）。如有需要，可以在使用前在沸水中快速焯水。", "對於湯，你可以"]'
--- ),
--- (
---     'poutine',
---     '魁北克薯條起司球',
---     '["3 tablespoons extra-virgin olive oil", "1 teaspoon salt", "1 teaspoon freshly ground black pepper", "1/2 teaspoon garlic powder", "1 teaspoon dried parsley", "5 red potatoes, scrubbed and cut into wedges", "2 (.75 ounce) packets brown gravy mix", "2 cups low-sodium chicken broth", "2 cups cheese curds"]',
---     '["3大匙特級初榨橄欖油", "1茶匙鹽", "1茶匙新鮮研磨黑胡椒", "1/2茶匙大蒜粉", "1茶匙乾歐芹", "5個紅馬鈴薯，刷洗並切成楔形", "2包（0.75盎司）棕色肉汁粉", "2杯低鈉雞高湯", "2杯起司塊"]',
---     '["Preheat oven to 350 degrees F (175 degrees C).", "Combine extra-virgin olive oil, salt, black pepper, garlic powder, and parsley in a large zip lock bag; add cut red potatoes and shake until potatoes are covered.", "Line a cookie sheet with foil; lightly cover with oil. Arrange potatoes on cookie sheet. Bake potatoes, flipping every 20 minutes, until golden brown, about 45 minutes to 1 hour. Transfer fries to a large bowl.", "Whisk brown gravy mix with chicken broth in a saucepan, place over medium heat, and bring to a boil, whisking often. Reduce heat to low; simmer for 1 minute, continuing to whisk. Let stand off the heat for 1 minute for gravy to thicken.", "Layer cheese curds over fries and top with prepared gravy."]',
---     '["預熱烤箱至350°F（175°C）。", "在大拉鍊袋中混合特級初榨橄欖油、鹽、黑胡椒、大蒜粉和歐芹；加入切好的紅馬鈴薯，搖晃直到馬鈴薯被覆蓋。", "在餅乾盤上鋪上鋁箔紙；輕輕塗上油。將馬鈴薯排列在餅乾盤上。烘烤馬鈴薯，每20分鐘翻一次，直到金棕色，約45分鐘至1小時。將薯條轉移到碗中。", "在鍋中將棕色肉汁粉與雞高湯混合，以中火加熱，煮沸，經常攪拌。轉小火；小火煮1分鐘，繼續攪拌。離火靜置1分鐘，讓肉汁濃稠。", "在薯條上鋪上起司塊，頂部放上準備好的肉汁。"]'
--- ),
--- (
---     'prime_rib',
---     '頂級肋眼牛排',
---     '["1 large prime rib roast", "12 cloves garlic", "3 Tbsp. kosher salt", "3 Tbsp. pepper", "1 1/2 Tbsp. paprika"]',
---     '["1個大頂級肋眼牛排", "12瓣大蒜", "3大匙 kosher鹽", "3大匙黑胡椒", "1.5大匙紅椒粉"]',
---     '["Cover meat with all ingredients.", "Cover with rock salt all over top.", "Bake, uncovered, at 200° for 3 to 4 hours or if a large roast, bake 7 to 8 hours."]',
---     '["用所有材料覆蓋肉。", "在頂部覆蓋岩鹽。", "不蓋蓋子，以200°F烘烤3至4小時，或如果是大烤肉，烘烤7至8小時。"]'
--- ),
--- (
---     'pulled_pork_sandwich',
---     '手撕豬肉堡',
---     '["1 1/2 cups barbeque sauce, or more as desired", "1/2 cup chopped white onion", "1/4 cup ketchup", "1/4 cup brown sugar", "1 teaspoon salt", "1 teaspoon ground black pepper", "1/2 teaspoon chili powder", "1 pound boneless pork loin, quartered", "4 onion rolls, halved"]',
---     '["1.5杯烤肉醬，或按需更多", "1/2杯碎白洋蔥", "1/4杯番茄醬", "1/4杯紅糖", "1茶匙鹽", "1茶匙黑胡椒粉", "1/2茶匙辣椒粉", "1磅去骨豬里脊，切成四塊", "4個洋蔥麵包，切半"]',
---     '["Stir barbeque sauce, onion, ketchup, brown sugar, salt, black pepper, and chili powder in slow cooker; add pork loin and coat with sauce. Cover and cook on High until pork is very tender, about 4 1/2 hours. Shred pork with 2 forks. Keep warm on Low until ready to serve.", "Serve on onion rolls."]',
---     '["在慢煮鍋中攪拌烤肉醬、洋蔥、番茄醬、紅糖、鹽、黑胡椒和辣椒粉；加入豬里脊，塗上醬汁。覆蓋，以高檔煮直到豬肉非常軟嫩，約4.5小時。用2把叉子將豬肉撕碎。以低檔保持溫暖直到準備食用。", "放在洋蔥麵包上食用。"]'
--- ),
--- (
---     'ramen',
---     '拉麵',
---     '["1 pkg. Ramen Oriental noodles", "4 c. chopped cabbage", "3 Tbsp. sugar", "3 Tbsp. vinegar", "2 Tbsp. olive oil", "dry soup base packet"]',
---     '["1包拉麵東方麵條", "4杯碎高麗菜", "3大匙糖", "3大匙醋", "2大匙橄欖油", "乾湯料包"]',
---     '["Cook noodles according to package and drain.", "Mix sugar, vinegar, dry soup base and olive oil.", "Add to cabbage and drained noodles.", "Toss gently and chill.", "May add nuts, chicken or shrimp."]',
---     '["按照包裝說明煮麵條，瀝乾。", "混合糖、醋、乾湯料和橄欖油。", "加入高麗菜和瀝乾的麵條。", "輕輕拌勻，冷藏。", "可加入堅果、雞肉或蝦仁。"]'
--- ),
--- (
---     'ravioli',
---     '義大利餃',
---     '["2 lb. can Ricotta cheese", "8 eggs (large)", "handful of Romano cheese, grated", "salt", "pepper", "3 c. flour", "8 oz. water"]',
---     '["2磅罐裝瑞可塔起司", "8個蛋（大）", "一把羅馬諾起司，磨碎", "鹽", "黑胡椒", "3杯麵粉", "8盎司水"]',
---     '["Mix together in a bowl the Ricotta cheese, 5 eggs, Romano cheese and salt and pepper to taste.", "Beat with electric mixer. Set aside."]',
---     '["在碗中混合瑞可塔起司、5個蛋、羅馬諾起司和適量鹽和黑胡椒。", "用電動攪拌器攪打。備用。"]'
--- ),
--- (
---     'red_velvet_cake',
---     '紅絲絨蛋糕',
---     '["2 c. Wesson oil", "2 1/2 c. plain flour", "1 1/2 c. sugar", "1 c. buttermilk", "2 eggs", "2 tsp. cocoa", "2 tsp. soda", "1 tsp. baking powder", "1 tsp. vinegar", "1 oz. red food coloring", "1 tsp. vanilla"]',
---     '["2杯Wesson油", "2.5杯普通麵粉", "1.5杯糖", "1杯酪乳", "2個蛋", "2茶匙可可", "2茶匙小蘇打", "1茶匙泡打粉", "1茶匙醋", "1盎司紅色食用色素", "1茶匙香草精"]',
---     '["Grease and flour pans.", "(Makes three (9-inch) layers.) Mix all ingredients together and bake at 350° for 30 minutes."]',
---     '["在烤盤上塗油並撒麵粉。", "（可做三層（9英寸）。）將所有材料混合均勻，以350°F烘烤30分鐘。"]'
--- ),
--- (
---     'risotto',
---     '義大利燉飯',
---     '["3 c. low salt chicken broth", "1 medium onion, chopped", "6 Tbsp. extra virgin flavorful olive oil", "1 1/3 c. raw Italian Arborio rice", "1/3 c. grated Parmesan cheese", "1/4 tsp. black pepper"]',
---     '["3杯低鹽雞高湯", "1個中等洋蔥，切碎", "6大匙特級初榨風味橄欖油", "1.33杯生義大利阿博里奧米", "1/3杯帕馬森起司碎", "1/4茶匙黑胡椒"]',
---     '["In a medium pan, heat chicken broth to a simmer over medium heat.", "While broth is heating, saute onion in oil for 3 or 5 minutes until soft.", "Add rice and stir to coat with oil.", "Add 1/2 cup broth and stir with a wooden spoon until the broth has been absorbed.", "Continue this pattern with rest of broth, adding it 1/2 cup at a time and stirring until it is absorbed by the rice.", "When you have used all the broth, test the rice to see if it is still too chewy.", "If so, add more hot broth or hot water until it reaches the desired consistency.", "Remove from heat and stir in cheese and black pepper."]',
---     '["在中號鍋中，以中火將雞高湯加熱到小火煮。", "在高湯加熱時，在油中炒洋蔥3或5分鐘直到軟。", "加入米，攪拌使其裹上油。", "加入1/2杯高湯，用木勺攪拌直到高湯被吸收。", "用剩下的高湯繼續此模式，每次加入1/2杯，攪拌直到被米吸收。", "當你用完了所有高湯，測試米是否仍然太有嚼勁。", "如果是，加入更多熱高湯或熱水直到達到理想的稠度。", "離火，加入起司和黑胡椒，攪拌。"]'
--- ),
--- (
---     'samosa',
---     '印度三角餃',
---     '["8 oz. potatoes, cut in even size pieces", "3/4 c. frozen green peas", "2 Tbsp. corn oil", "1 onion, finely chopped", "1/2 tsp. cumin seed", "1 (1/2-inch) piece ginger root, peeled and grated", "1/2 tsp. turmeric", "1/2 tsp. Garam Masala", "1/2 tsp. salt", "2 tsp. lemon juice", "1 c. all-purpose flour", "2 Tbsp. butter", "2 Tbsp. warm milk", "vegetable oil for deep frying", "lime twists, if desired", "fresh celery leaves, if desired", "Mango Chutney"]',
---     '["8盎司馬鈴薯，切成均勻大小的塊", "3/4杯冷凍青豆", "2大匙玉米油", "1個洋蔥，細切", "1/2茶匙孜然籽", "1塊（1/2英寸）薑根，去皮並磨碎", "1/2茶匙薑黃", "1/2茶匙印度綜合香料", "1/2茶匙鹽", "2茶匙檸檬汁", "1杯全能麵粉", "2大匙奶油", "2大匙溫牛奶", "深炸用植物油", "萊姆皮扭，可選", "新鮮芹菜葉，可選", "芒果酸辣醬"]',
---     '["In a saucepan, boil potatoes in salted water 15 to 20 minutes or until tender.", "Drain well, return to saucepan and shake over low heat a few moments or until dry.", "Mash well.", "Cook peas in boiling salted water 4 minutes.", "Drain well."]',
---     '["在鍋中，在鹽水中煮馬鈴薯15至20分鐘或直到軟。", "充分瀝乾，放回鍋中，在小火上搖晃幾分鐘或直到乾。", "充分壓碎。", "在沸鹽水中煮青豆4分鐘。", "充分瀝乾。"]'
--- ),
--- (
---     'sashimi',
---     '生魚片',
---     '["1/2 to 1 lb. fresh ahi", "2 to 3 Tbsp. garlic, minced", "4 Tbsp. capers", "1/4 c. virgin olive oil", "1/4 c. balsamic vinegar or other seasoned vinegar", "grated fresh Parmesan cheese (may use fresh Romano cheese)"]',
---     '["1/2至1磅新鮮黃鰭金槍魚", "2至3大匙大蒜，切碎", "4大匙酸豆", "1/4杯初榨橄欖油", "1/4杯香醋或其他調味醋", "新鮮帕馬森起司碎（可用新鮮羅馬諾起司）"]',
---     '["Thinly slice ahi and lay on platter.", "Cover with plastic wrap. Use wooden meat hammer to pound thin.", "Remove plastic wrap.", "Spread minced (or crushed) garlic over ahi.", "Grate fresh Parmesan and sprinkle capers.", "Chill until ready to serve.", "Mix olive oil and seasoned vinegar in a small covered jar.", "Shake well.", "Just prior to serving, pour vinegar and oil mixture evenly over the dish and enjoy."]',
---     '["將黃鰭金槍魚切片，放在盤子上。", "用保鮮膜覆蓋。用木肉鎚敲打直到薄。", "移除保鮮膜。", "在黃鰭金槍魚上塗上碎（或壓碎）大蒜。", "磨上新鮮帕馬森起司，撒上酸豆。", "冷藏直到準備食用。", "在帶蓋小罐中混合橄欖油和調味醋。", "充分搖晃。", "在食用前，將醋和油混合物均勻倒在菜上，享用。"]'
--- ),
--- (
---     'scallops',
---     '干貝',
---     '["6 oz. onion cheese", "1/4 c. dry white wine", "1 medium onion, chopped", "1 c. real mayonnaise", "1 lb. bay scallops", "1/2 lb. mushrooms, sliced"]',
---     '["6盎司洋蔥起司", "1/4杯乾白葡萄酒", "1個中等洋蔥，切碎", "1杯真美乃滋", "1磅灣干貝", "1/2磅蘑菇，切片"]',
---     '["Stir together the cheese, mayonnaise and wine; reserve.", "In a 10-inch skillet over medium-high heat, melt 2 tablespoons butter; add the scallops and cook, stirring, just until they are opaque, a minute or so.", "With a slotted spoon, remove scallops to paper toweling to drain.", "Add the remaining 2 tablespoons butter to the skillet with the onion; cook gently until slightly golden and add mushrooms.", "Cook rapidly, stirring, so they do not release their liquid, a few minutes.", "Turn off heat and stir in the reserved cheese mixture and scallops.", "Bake in casserole until warmed through.", "Serve over noodles."]',
---     '["將起司、美乃滋和葡萄酒混合；備用。", "在10英寸平底鍋中以中高火加熱，融化2大匙奶油；加入干貝，邊煮邊攪拌，直到它們變不透明，約1分鐘。", "用漏勺將干貝移到紙巾上瀝乾。", "在平底鍋中加入剩下的2大匙奶油和洋蔥；輕輕煮直到稍微金黃色，加入蘑菇。", "快速煮，攪拌，使它們不釋放汁液，幾分鐘。", "關火，拌入備用的起司混合物和干貝。", "在烤盤中烘烤直到熱透。", "放在麵條上食用。"]'
--- ),
--- (
---     'seaweed_salad',
---     '海帶沙拉',
---     '["1 pkg. lemon jello", "1 pkg. lime jello", "1 1/2 c. boiling water", "1 (No. 2) can crushed pineapple", "1 c. evaporated milk", "pinch of salt", "1 lb. cottage cheese", "1 c. mayonnaise", "1 Tbsp. horseradish", "1 c. nuts"]',
---     '["1包檸檬果凍粉", "1包萊姆果凍粉", "1.5杯沸水", "1罐（2號）碎鳳梨", "1杯蒸餾牛奶", "少許鹽", "1磅起司", "1杯美乃滋", "1大匙辣根", "1杯堅果"]',
---     '["Make day before.", "Combine jello and water, then add other ingredients, leaving cottage cheese and nuts last.", "Keep in refrigerator until ready to use.", "Serve on lettuce leaf, if desired."]',
---     '["提前一天製作。", "混合果凍粉和水，然後加入其他材料，起司和堅果最後加入。", "存放在冰箱中直到準備食用。", "如需，放在生菜葉上食用。"]'
--- ),
--- (
---     'shrimp_and_grits',
---     '蝦仁粗玉米粉',
---     '["1 lb. fresh shrimp, peeled", "6 slices bacon", "peanut oil", "2 c. sliced mushrooms", "1 c. scallions or green onions", "1 large clove garlic, minced", "4 tsp. lemon juice", "Tabasco sauce", "chopped parsley", "salt and pepper to taste", "Cheese Grits (see index)"]',
---     '["1磅新鮮蝦仁，去皮", "6片培根", "花生油", "2杯切片蘑菇", "1杯蔥或青蔥", "1大瓣大蒜，切碎", "4茶匙檸檬汁", "塔巴斯科辣醬", "碎歐芹", "適量鹽和胡椒", "起司粗玉米粉（見索引）"]',
---     '["Wash shrimp and pat dry.", "Dice bacon and cook until just crisp in a large skillet. Drain bacon and reserve. Add enough oil to bacon fat to make a thin layer.", "When hot, add shrimp.", "Stir about and add scallions and garlic.", "Season to taste with lemon, hot sauce, parsley, salt and pepper. Divide grits. Spoon shrimp over grits and top with bacon.", "Serves 4."]',
---     '["洗蝦仁，拍乾。", "將培根切丁，在大平底鍋中煮到剛脆。瀝乾培根，備用。在培根脂肪中加入足夠的油形成一層薄油。", "當熱時，加入蝦仁。", "攪拌，加入蔥和大蒜。", "用檸檬、辣醬、歐芹、鹽和胡椒調味。分裝粗玉米粉。將蝦仁舀在粗玉米粉上，頂部放上培根。", "4人份。"]'
--- ),
--- (
---     'spaghetti_bolognese',
---     '肉醬義大利麵',
---     '["1 lb. ground beef", "1 onion", "1/2 lb. mushrooms", "1 oz. butter", "garlic to taste", "2 Tbsp. Worcestershire sauce", "1 c. ketchup", "1 tsp. paprika", "1 c. Naturally Fresh sweet and sour sauce", "1 packet spaghetti"]',
---     '["1磅牛肉末", "1個洋蔥", "1/2磅蘑菇", "1盎司奶油", "適量大蒜", "2大匙伍斯特醬", "1杯番茄醬", "1茶匙紅椒粉", "1杯Naturally Fresh甜酸醬", "1包義大利麵"]',
---     '["Fry meat until brown.", "In separate pan, fry mushrooms, garlic and onions in the butter.", "Drain off fat from both pans and join together.", "Cook spaghetti as directed on package.", "Add all other ingredients, stirring until blended.", "Cook over medium heat while spaghetti is cooking."]',
---     '["將肉煎至棕色。", "在單獨的鍋中，在奶油中煎蘑菇、大蒜和洋蔥。", "將兩個鍋中的脂肪瀝乾，合併。", "按照包裝說明煮義大利麵。", "加入所有其他材料，攪拌直到混合。", "在義大利麵煮的時候以中火煮。"]'
--- ),
--- (
---     'spaghetti_carbonara',
---     '奶油培根義大利麵',
---     '["3 gloves garlic", "1/2 lb. bacon, chopped", "1/4 c. white wine", "salt and pepper", "grated cheese", "1 medium onion, chopped", "1 pkg. frozen peas", "1/4 c. chicken broth", "1 egg, beaten", "1 lb. spaghetti"]',
---     '["3瓣大蒜", "1/2磅培根，切碎", "1/4杯白葡萄酒", "鹽和黑胡椒", "起司碎", "1個中等洋蔥，切碎", "1包冷凍青豆", "1/4杯雞高湯", "1個蛋，打散", "1磅義大利麵"]',
---     '["Saute onion, garlic and bacon together.", "Add wine and broth; cook 10 minutes.", "Add defrosted peas; continue cooking over medium heat for 5 more minutes.", "Cook spaghetti according to package directions.", "Add mixture to spaghetti.", "Add egg and cheese; mix well and serve."]',
---     '["一起炒洋蔥、大蒜和培根。", "加入葡萄酒和高湯；煮10分鐘。", "加入解凍的青豆；以中火繼續煮5分鐘。", "按照包裝說明煮義大利麵。", "將混合物加入義大利麵中。", "加入蛋和起司；充分混合，食用。"]'
--- ),
--- (
---     'spring_rolls',
---     '春捲',
---     '["1 c. ground pork", "1/2 c. cooked shrimp, chopped", "1/2 c. crab meat, boiled", "1 c. bean sprouts", "1 Tbsp. sugar", "2 Tbsp. chopped green onion", "2 Tbsp. chopped celery leaves", "2 tsp. salt", "1/2 c. jelly noodles (a kind of transparent vermicelli made of mung bean)", "1/2 Tbsp. chopped garlic", "6 dried black mushrooms, chopped", "1 Tbsp. nampla (fish sauce)", "1 Tbsp. soy sauce", "4 eggs, slightly beaten, fried and chopped", "1 egg yolk", "2 c. vegetable oil", "1 tsp. pepper"]',
---     '["1杯豬肉末", "1/2杯煮熟蝦仁，切碎", "1/2杯蟹肉，煮熟", "1杯豆芽", "1大匙糖", "2大匙碎蔥", "2大匙碎芹菜葉", "2茶匙鹽", "1/2杯粉條（一種由綠豆製成的透明細麵）", "1/2大匙碎大蒜", "6個乾香菇，切碎", "1大匙魚露", "1大匙醬油", "4個蛋，輕打，煎熟並切碎", "1個蛋黃", "2杯植物油", "1茶匙黑胡椒"]',
---     '["Heat vegetable oil in frying pan.", "Add chopped garlic and fry for 2 minutes.", "Put in ground pork, shrimp, crab meat, bean sprouts, eggs, green onion, celery, black mushrooms and jelly noodles.", "Fry for 5 minutes.", "Add soy sauce, nampla, salt and pepper"]',
---     '["在平底鍋中加熱植物油。", "加入碎大蒜，煎2分鐘。", "加入豬肉末、蝦仁、蟹肉、豆芽、蛋、蔥、芹菜、香菇和粉條。", "煎5分鐘。", "加入醬油、魚露、鹽和黑胡椒"]'
--- ),
--- (
---     'steak',
---     '牛排',
---     '["1 whole deer tenderloin steak", "bacon", "wine", "A.1. steak sauce", "onion", "pepper", "butter", "season salt"]',
---     '["1整塊鹿里脊牛排", "培根", "葡萄酒", "A.1牛排醬", "洋蔥", "黑胡椒", "奶油", "調味鹽"]',
---     '["Take whole deer tenderloin steak, put 5 or 6 slices of bacon in pan, a little cooking wine (red) and a little A.1.", "steak sauce.", "Add sliced onion and pepper.", "Fry all in butter for 5 to 7 minutes on high.", "Add a little Morton Nature Season."]',
---     '["取整塊鹿里脊牛排，在鍋中放入5或6片培根、少量烹飪葡萄酒（紅）和少量A.1。", "牛排醬。", "加入切片洋蔥和黑胡椒。", "在奶油中以大火煎5至7分鐘。", "加入少量Morton Nature調味鹽。"]'
--- ),
--- (
---     'strawberry_shortcake',
---     '草莓鮮奶油蛋糕',
---     '["1 1/2 c. sugar", "1/2 c. Crisco, melted", "2 eggs", "2 tsp. baking powder", "1 1/2 c. flour", "1 c. milk", "2 tsp. vanilla"]',
---     '["1.5杯糖", "1/2杯Crisco起酥油，融化", "2個蛋", "2茶匙泡打粉", "1.5杯麵粉", "1杯牛奶", "2茶匙香草精"]',
---     '["Add, in the order listed, and mix well.", "Pour into oblong baking pan or dish.", "Bake at 375° for 40 minutes.", "Cool and add fresh strawberries and milk, if so desired."]',
---     '["按照列出的順序加入，充分混合。", "倒入長方形烤盤或烤盅中。", "以375°F烘烤40分鐘。", "冷卻，如需，加入新鮮草莓和牛奶。"]'
--- ),
--- (
---     'sushi',
---     '壽司',
---     '["1 c. water", "3 Tbsp. white vinegar", "2 Tbsp. sugar", "3/4 c. short-grain rice", "6 Nori seaweed squares", "soy sauce", "wasabi", "filling of choice (see following)"]',
---     '["1杯水", "3大匙白醋", "2大匙糖", "3/4杯短粒米", "6片海苔", "醬油", "芥末", "自選餡料（見下文）"]',
---     '["Combine rice, water, sugar and vinegar in a saucepan.", "Bring to a boil.", "Turn fire down to low.", "Cover and cook until rice is done.", "Allow to cool to room temperature.", "Toast Nori lightly by waving briefly over an open flame.", "Place on a kitchen towel or a sushi mat.", "Top with a thin layer of rice, leaving 1/2-inch at far end of Nori uncovered.", "Along the proximal end of the square, line up your filling of choice.", "Roll in jelly roll fashion, using the mat or towel as an aid.", "Remember that 1/2-inch of the tail end of the Nori you left uncovered?", "Dampen it with a wet finger and use it to seal your sushi roll. You should end up with a sausage-like black tube, the filling in the middle."]',
---     '["在鍋中混合米、水、糖和醋。", "煮沸。", "轉小火。", "蓋上鍋蓋，煮直到米熟。", "冷卻至室溫。", "將海苔在明火上輕輕揮動，稍微烘烤。", "放在廚房毛巾或壽司墊上。", "鋪上一層薄薄的米，在海苔的遠端留出1/2英寸不覆蓋。", "在方塊的近端，排列你選擇的餡料。", "像捲蛋糕一樣捲起，使用墊子或毛巾作為輔助。", "記得你留下的海苔尾端1/2英寸沒有覆蓋嗎？", "用濕手指弄濕它，用它來密封你的壽司捲。你應該得到一個像香腸一樣的黑色管子，餡料在中间。"]'
--- ),
--- (
---     'tacos',
---     '墨西哥捲餅',
---     '["1 pkg. shaped taco shells or 1 pkg. soft tortillas", "1 lb. ground beef or turkey", "grated Cheddar cheese", "chopped olives", "chopped tomatoes", "shredded cheese", "sour cream", "hot sauce"]',
---     '["1包成型捲餅殼或1包軟玉米餅", "1磅牛肉末或火雞肉", "切達起司碎", "碎橄欖", "碎番茄", "起司絲", "酸奶油", "辣醬"]',
---     '["Brown chopped meat, stirring often.", "Add salt and pepper to taste.", "Drain off fat.", "Put ground meat in a bowl.", "Everyone puts their favorite things on their own tacos.", "Eat and enjoy."]',
---     '["將碎肉煎至棕色，經常攪拌。", "加入適量鹽和黑胡椒。", "瀝乾脂肪。", "將肉末放入碗中。", "每個人在自己的捲餅上放上他們喜歡的東西。", "食用並享用。"]'
--- ),
 -- (
 --     'takoyaki',
 --     '章魚燒',
