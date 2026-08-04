@@ -646,14 +646,14 @@ INSERT INTO `nr` (
     '["1磅壽司級吞拿魚，細切", "3大匙橄欖油", "1/4茶匙芥末粉", "1大匙芝麻", "1/8茶匙粗黑胡椒", "切片法式麵包"]',
     '["In a bowl, stir together olive oil, wasabi powder, sesame seeds, and cracked black pepper. Toss tuna into mixture until evenly coated. Adjust seasoning as desired with additional wasabi powder or black pepper. Serve on sliced French bread."]',
     '["在碗中，混合橄欖油、芥末粉、芝麻和粗黑胡椒。將吞拿魚拌入混合物中，直到均勻裹上。按需加入更多芥末粉或黑胡椒調味。放在切片法式麵包上食用。"]'
-),
-(
-    'waffles',
-    '華夫餅',
-    '["2 c. flour", "2 c. milk", "3 tsp. baking powder", "1/2 tsp. salt", "4 Tbsp. melted butter", "2 eggs, beat separately"]',
-    '["2杯麵粉", "2杯牛奶", "3茶匙泡打粉", "1/2茶匙鹽", "4大匙融化奶油", "2個蛋，分別打發"]',
-    '["Sift flour, salt and baking powder into bowl.", "Beat yolks well and add milk.", "Beat, adding this to the flour mixture, slowly beating until smooth.", "Add melted butter and fold in stiffly beaten egg whites.", "Bake in waffle iron."]',
-    '["將麵粉、鹽和泡打粉過篩入碗中。", "將蛋黃打發，加入牛奶。", "攪打，將此加入麵粉混合物中，慢慢攪打直到光滑。", "加入融化奶油，拌入硬性打發的蛋清。", "在華夫餅機中烘烤。"]'
 );
+-- (
+--     'waffles',
+--     '華夫餅',
+--     '["2 c. flour", "2 c. milk", "3 tsp. baking powder", "1/2 tsp. salt", "4 Tbsp. melted butter", "2 eggs, beat separately"]',
+--     '["2杯麵粉", "2杯牛奶", "3茶匙泡打粉", "1/2茶匙鹽", "4大匙融化奶油", "2個蛋，分別打發"]',
+--     '["Sift flour, salt and baking powder into bowl.", "Beat yolks well and add milk.", "Beat, adding this to the flour mixture, slowly beating until smooth.", "Add melted butter and fold in stiffly beaten egg whites.", "Bake in waffle iron."]',
+--     '["將麵粉、鹽和泡打粉過篩入碗中。", "將蛋黃打發，加入牛奶。", "攪打，將此加入麵粉混合物中，慢慢攪打直到光滑。", "加入融化奶油，拌入硬性打發的蛋清。", "在華夫餅機中烘烤。"]'
+-- );
 
 
