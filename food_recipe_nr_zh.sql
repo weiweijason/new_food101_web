@@ -34,31 +34,31 @@ INSERT INTO `nr` (
     '["1-2塊豬小排", "2大匙醃製香料", "足夠的水覆蓋", "1瓶Open Pit烤肉醬", "1-2杯紅糖"]',
     '["Place ribs in a large pan.", "Cover with water and add pickling spice.", "Boil for 1 hour.", "Remove ribs and place on outdoor grill. Generously brush on BBQ sauce mixture of brown sugar and Open Pit BBQ sauce."]',
     '["將豬排放入大鍋中。", "加水覆蓋，加入醃製香料。", "煮沸1小時。", "取出豬排，放在戶外烤架上。大量刷上紅糖和Open Pit烤肉醬的混合物。"]'
+),
+(
+    'baklava',
+    '巴克拉瓦甜點',
+    '["4 lb. ground nuts (walnuts, pecans or almonds)", "1 c. sugar", "1 1/2 tsp. cinnamon", "1/2 tsp. nutmeg", "2 lb. margarine, melted", "2 lb. filo dough"]',
+    '["4磅磨碎堅果（核桃、山核桃或杏仁）", "1杯糖", "1.5茶匙肉桂", "1/2茶匙肉豆蔻", "2磅融化的人造奶油", "2磅酥皮麵團"]',
+    '["Grind nuts fine and mix with sugar and spices.", "Grease 11 x 16-inch pan (not a cookie sheet) with butter.", "Place 4 sheets of filo into pan.", "Brush each sheet with butter.", "Sprinkle with nuts thinly.", "Cover with 3 sheets of filo, brushing each with butter. Add mixture of nuts again as before.", "Repeat this until all nuts are used.", "End with 3 sheets of filo on top.", "Brush with final butter.", "Slice the entire thing into diamond shapes to aid in baking.", "Preheat oven to 300°.", "Place in oven.", "Cook for 1 hour, until lightly brown.", "Remove from oven.", "Let cool."]',
+    '["將堅果磨細，與糖和香料混合。", "在11x16英寸烤盤（不是餅乾盤）上塗上奶油。", "在盤中放入4張酥皮。", "每張刷上奶油。", "薄薄地撒上堅果。", "覆蓋3張酥皮，每張刷上奶油。再次撒上堅果混合物。", "重複此步驟直到所有堅果用完。", "最後以3張酥皮覆蓋頂部。", "刷上最後一層奶油。", "將整個東西切成菱形以便烘烤。", "預熱烤箱至300°F。", "放入烤箱。", "烘烤1小時，直到呈淺棕色。", "從烤箱取出。", "冷卻。"]'
+),
+(
+    'beef_carpaccio',
+    '生牛肉薄片',
+    '["8 -10 ounces beef tenderloin, from the tip end of the roast", "4 cups arugula or 4 cups mixed greens", "your favorite vinaigrette (amount to taste)", "kosher salt", "fresh ground black pepper", "shaved parmesan cheese"]',
+    '["8-10盎司牛里脊，來自烤牛肉的尖端", "4杯芝麻菜或4杯混合生菜", "你喜歡的油醋汁（適量）", "kosher鹽", "新鮮研磨黑胡椒", "刨絲帕馬森起司"]',
+    '["Wrap the tenderloin in plastic wrap and place in the freezer for 2 hours.", "After 2 hours, unwrap the tenderloin and thinly slice the beef into approximately into 1/8 to 1/4-inch pieces.", "Lay out sheets of plastic wrap and place each slice onto the plastic. Top with another piece of plastic and gently pound the meat with a meat mallet until paper thin.", "Repeat until all of the meat is sliced and pounded.", "Divide the meat evenly among 4 chilled plates. Serve with greens tossed with vinaigrette, salt, pepper and/or Parmesan."]',
+    '["用保鮮膜包裹牛里脊，放入冷凍庫2小時。", "2小時後，打開牛里脊，將牛肉切成約1/8至1/4英寸的薄片。", "鋪上保鮮膜，將每片牛肉放在塑膠上。上面再蓋一層塑膠，用肉鎚輕輕敲打肉直到薄如紙。", "重複直到所有肉都切片並敲打。", "將肉均勻分裝到4個冷藏盤中。搭配油醋汁、鹽、胡椒和/或帕馬森起司拌生菜食用。"]'
+),
+(
+'beef_tartare',
+'生牛肉塔塔',
+'["1 lb. ground sirloin (very lean)", "1 egg", "1 small onion, chopped very fine", "2 Tbsp. olive oil", "1 tsp. Worcestershire sauce", "salt and pepper to taste"]',
+'["1磅牛臀腰肉末（非常瘦）", "1個蛋", "1個小洋蔥，切得很細", "2大匙橄欖油", "1茶匙伍斯特醬", "適量鹽和胡椒"]',
+'["Cut away all visible fat from ground sirloin.", "Grind meat twice.", "Add eggs, onion and olive oil.", "Mix very well.", "Add Worcestershire sauce, salt and pepper to taste.", "Form into mound."]',
+'["切掉牛臀腰肉末中所有可見的脂肪。", "將肉研磨兩次。", "加入蛋、洋蔥和橄欖油。", "充分混合。", "加入伍斯特醬、鹽和胡椒調味。", "堆成小山狀。"]'
 );
--- (
---     'baklava',
---     '巴克拉瓦甜點',
---     '["4 lb. ground nuts (walnuts, pecans or almonds)", "1 c. sugar", "1 1/2 tsp. cinnamon", "1/2 tsp. nutmeg", "2 lb. margarine, melted", "2 lb. filo dough"]',
---     '["4磅磨碎堅果（核桃、山核桃或杏仁）", "1杯糖", "1.5茶匙肉桂", "1/2茶匙肉豆蔻", "2磅融化的人造奶油", "2磅酥皮麵團"]',
---     '["Grind nuts fine and mix with sugar and spices.", "Grease 11 x 16-inch pan (not a cookie sheet) with butter.", "Place 4 sheets of filo into pan.", "Brush each sheet with butter.", "Sprinkle with nuts thinly.", "Cover with 3 sheets of filo, brushing each with butter. Add mixture of nuts again as before.", "Repeat this until all nuts are used.", "End with 3 sheets of filo on top.", "Brush with final butter.", "Slice the entire thing into diamond shapes to aid in baking.", "Preheat oven to 300°.", "Place in oven.", "Cook for 1 hour, until lightly brown.", "Remove from oven.", "Let cool."]',
---     '["將堅果磨細，與糖和香料混合。", "在11x16英寸烤盤（不是餅乾盤）上塗上奶油。", "在盤中放入4張酥皮。", "每張刷上奶油。", "薄薄地撒上堅果。", "覆蓋3張酥皮，每張刷上奶油。再次撒上堅果混合物。", "重複此步驟直到所有堅果用完。", "最後以3張酥皮覆蓋頂部。", "刷上最後一層奶油。", "將整個東西切成菱形以便烘烤。", "預熱烤箱至300°F。", "放入烤箱。", "烘烤1小時，直到呈淺棕色。", "從烤箱取出。", "冷卻。"]'
--- ),
--- (
---     'beef_carpaccio',
---     '生牛肉薄片',
---     '["8 -10 ounces beef tenderloin, from the tip end of the roast", "4 cups arugula or 4 cups mixed greens", "your favorite vinaigrette (amount to taste)", "kosher salt", "fresh ground black pepper", "shaved parmesan cheese"]',
---     '["8-10盎司牛里脊，來自烤牛肉的尖端", "4杯芝麻菜或4杯混合生菜", "你喜歡的油醋汁（適量）", "kosher鹽", "新鮮研磨黑胡椒", "刨絲帕馬森起司"]',
---     '["Wrap the tenderloin in plastic wrap and place in the freezer for 2 hours.", "After 2 hours, unwrap the tenderloin and thinly slice the beef into approximately into 1/8 to 1/4-inch pieces.", "Lay out sheets of plastic wrap and place each slice onto the plastic. Top with another piece of plastic and gently pound the meat with a meat mallet until paper thin.", "Repeat until all of the meat is sliced and pounded.", "Divide the meat evenly among 4 chilled plates. Serve with greens tossed with vinaigrette, salt, pepper and/or Parmesan."]',
---     '["用保鮮膜包裹牛里脊，放入冷凍庫2小時。", "2小時後，打開牛里脊，將牛肉切成約1/8至1/4英寸的薄片。", "鋪上保鮮膜，將每片牛肉放在塑膠上。上面再蓋一層塑膠，用肉鎚輕輕敲打肉直到薄如紙。", "重複直到所有肉都切片並敲打。", "將肉均勻分裝到4個冷藏盤中。搭配油醋汁、鹽、胡椒和/或帕馬森起司拌生菜食用。"]'
--- ),
--- (
--- 'beef_tartare',
--- '生牛肉塔塔',
--- '["1 lb. ground sirloin (very lean)", "1 egg", "1 small onion, chopped very fine", "2 Tbsp. olive oil", "1 tsp. Worcestershire sauce", "salt and pepper to taste"]',
--- '["1磅牛臀腰肉末（非常瘦）", "1個蛋", "1個小洋蔥，切得很細", "2大匙橄欖油", "1茶匙伍斯特醬", "適量鹽和胡椒"]',
--- '["Cut away all visible fat from ground sirloin.", "Grind meat twice.", "Add eggs, onion and olive oil.", "Mix very well.", "Add Worcestershire sauce, salt and pepper to taste.", "Form into mound."]',
--- '["切掉牛臀腰肉末中所有可見的脂肪。", "將肉研磨兩次。", "加入蛋、洋蔥和橄欖油。", "充分混合。", "加入伍斯特醬、鹽和胡椒調味。", "堆成小山狀。"]'
--- ),
 -- (
 -- 'beet_salad',
 -- '甜菜沙拉',
