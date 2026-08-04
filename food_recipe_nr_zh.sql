@@ -1,19 +1,24 @@
-DROP TABLE IF EXISTS nr;
+DROP TABLE IF EXISTS `nr`;
 
 
-CREATE TABLE nr (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE `nr` (
     title VARCHAR(255) NOT NULL,
     title_zh VARCHAR(255) DEFAULT NULL,
     ingredients JSON,
     ingredients_zh JSON,
     directions JSON,
     directions_zh JSON,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /*!40000 ALTER TABLE `nr` DISABLE KEYS */;
-INSERT INTO nr (title, title_zh, ingredients, ingredients_zh, directions, directions_zh) VALUES
+INSERT INTO `nr` (
+    `title`,
+    `title_zh`,
+    `ingredients`,
+    `ingredients_zh`,
+    `directions`,
+    `directions_zh`
+) VALUES
 (
     'apple_pie',
     '蘋果派',
@@ -689,4 +694,5 @@ INSERT INTO nr (title, title_zh, ingredients, ingredients_zh, directions, direct
     '["Sift flour, salt and baking powder into bowl.", "Beat yolks well and add milk.", "Beat, adding this to the flour mixture, slowly beating until smooth.", "Add melted butter and fold in stiffly beaten egg whites.", "Bake in waffle iron."]',
     '["將麵粉、鹽和泡打粉過篩入碗中。", "將蛋黃打發，加入牛奶。", "攪打，將此加入麵粉混合物中，慢慢攪打直到光滑。", "加入融化奶油，拌入硬性打發的蛋清。", "在華夫餅機中烘烤。"]'
 );
+
 
