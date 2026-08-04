@@ -622,38 +622,38 @@ INSERT INTO `nr` (
     '["1包成型捲餅殼或1包軟玉米餅", "1磅牛肉末或火雞肉", "切達起司碎", "碎橄欖", "碎番茄", "起司絲", "酸奶油", "辣醬"]',
     '["Brown chopped meat, stirring often.", "Add salt and pepper to taste.", "Drain off fat.", "Put ground meat in a bowl.", "Everyone puts their favorite things on their own tacos.", "Eat and enjoy."]',
     '["將碎肉煎至棕色，經常攪拌。", "加入適量鹽和黑胡椒。", "瀝乾脂肪。", "將肉末放入碗中。", "每個人在自己的捲餅上放上他們喜歡的東西。", "食用並享用。"]'
+),
+(
+    'takoyaki',
+    '章魚燒',
+    '["10.5 ounces Cake Flour", "3 Eggs - beaten", "4.25 cups Ice Cold Water", "1/2 teaspoon Salt", "1 teaspoon Hondashi Granules", "2 teaspoons Ponzu or Yuzupon Sauce", "1/2 pound Boiled Octopus Legs (cut into 1/2\" pieces)", "4 Green Onions Minced", "1 bunch Pickled Ginger Minced", "1 cup Rice Crispy Cearal", "Oil", "Aonori (Dried Seaweed Powder)", "Takoyaki Sauce", "Mayonnaise", "Bonito Flake"]',
+    '["10.5盎司蛋糕麵粉", "3個蛋 - 打散", "4.25杯冰水", "1/2茶匙鹽", "1茶匙日式出汁顆粒", "2茶匙ポン酢或柚子ポン醬", "1/2磅煮熟章魚腳（切成1/2英寸塊）", "4根蔥切碎", "1束醃薑切碎", "1杯米脆麥片", "油", "海苔粉", "章魚燒醬", "美乃滋", "柴魚片"]',
+    '["Blend the ice water and dashi stock granules until dissolved. Add the sauce and eggs. Add the flour, and mix together gently. Do not over mix, the batter will be slightly lumpy.", "Wad up a paper towel into a fat cigar shape and soak one end with oil. Oil each hole in the pan as well as the surface. Pour batter into each hole 2/3rds full. (pour in a clockwise direction starting at 12:00 so you remember where you started) Add 1 piece of octopus to each hole and sprinkle in a little bit each of the following: green onion, ginger and cereal. When finished fill each hole to the top with batter.", "Use wooden chopsticks to sweep the edge of the first hole you poured. Once it starts to release (about 3 minutes total) sweep the chopstick under to flip the takoyaki on its side 90 degrees. Let the uncooked batter on top fall into the bottom the flip the takoyaki the whole way. Continue cooking and spinning the balls until they are evenly golden brown on all sides. (an additional 4-5 minutes total from the 90 degree flip)", "Top with takoyaki sauce, mayonnaise, bonito flake and aonori. Enjoy!"]',
+    '["將冰水和出汁顆粒混合直到溶解。加入醬和蛋。加入麵粉，輕輕混合。不要過度混合，麵糊會稍微結塊。", "將紙巾揉成粗香腸形狀，一端浸泡油。在鍋的每個洞和表面塗油。將麵糊倒入每個洞，倒至2/3滿。（從12點開始順時針倒，這樣你記得從哪裡開始）每個洞加入1塊章魚，撒上少量以下材料：蔥、薑和麥片。完成後，用麵糊將每個洞填滿。", "用木筷子掃過你倒的第一個洞的邊緣。當它開始脫落（總共約3分鐘）時，用筷子在下方掃過，將章魚燒翻側90度。讓頂部的未煮麵糊掉到底部，將章魚燒完全翻轉。繼續煮並旋轉球，直到各面均勻呈金棕色。（從90度翻轉後再4-5分鐘）", "頂部放上章魚燒醬、美乃滋、柴魚片和海苔粉。享用！"]'
+),
+(
+    'tiramisu',
+    '提拉米蘇',
+    '["8 oz. bittersweet chocolate", "24 ladyfingers", "2 c. strong Espresso coffee, cooled", "6 eggs, separated", "6 heaping Tbsp. granulated sugar", "1 lb. Mascarpone"]',
+    '["8盎司苦甜巧克力", "24根手指餅乾", "2杯濃縮咖啡，冷卻", "6個蛋，分離", "6滿大匙粒糖", "1磅馬斯卡彭起司"]',
+    '["Chop the chocolate coarsely or cut into small pieces.", "Put ladyfingers on a plate and lightly soak them with cold coffee. Arrange half of the ladyfingers in 1 layer on a rectangular or oval serving dish with sides at least 2 inches high."]',
+    '["將巧克力粗略切碎或切成小塊。", "將手指餅乾放在盤子上，用冷咖啡輕輕浸泡。將一半的手指餅乾鋪在長方形或橢圓形餐盤上，盤邊至少2英寸高。"]'
+),
+(
+    'tuna_tartare',
+    '吞拿魚塔塔',
+    '["1 pound sushi grade tuna, finely diced", "3 tablespoons olive oil", "1/4 teaspoon wasabi powder", "1 tablespoon sesame seeds", "1/8 teaspoon cracked black pepper", "sliced French bread"]',
+    '["1磅壽司級吞拿魚，細切", "3大匙橄欖油", "1/4茶匙芥末粉", "1大匙芝麻", "1/8茶匙粗黑胡椒", "切片法式麵包"]',
+    '["In a bowl, stir together olive oil, wasabi powder, sesame seeds, and cracked black pepper. Toss tuna into mixture until evenly coated. Adjust seasoning as desired with additional wasabi powder or black pepper. Serve on sliced French bread."]',
+    '["在碗中，混合橄欖油、芥末粉、芝麻和粗黑胡椒。將吞拿魚拌入混合物中，直到均勻裹上。按需加入更多芥末粉或黑胡椒調味。放在切片法式麵包上食用。"]'
+),
+(
+    'waffles',
+    '華夫餅',
+    '["2 c. flour", "2 c. milk", "3 tsp. baking powder", "1/2 tsp. salt", "4 Tbsp. melted butter", "2 eggs, beat separately"]',
+    '["2杯麵粉", "2杯牛奶", "3茶匙泡打粉", "1/2茶匙鹽", "4大匙融化奶油", "2個蛋，分別打發"]',
+    '["Sift flour, salt and baking powder into bowl.", "Beat yolks well and add milk.", "Beat, adding this to the flour mixture, slowly beating until smooth.", "Add melted butter and fold in stiffly beaten egg whites.", "Bake in waffle iron."]',
+    '["將麵粉、鹽和泡打粉過篩入碗中。", "將蛋黃打發，加入牛奶。", "攪打，將此加入麵粉混合物中，慢慢攪打直到光滑。", "加入融化奶油，拌入硬性打發的蛋清。", "在華夫餅機中烘烤。"]'
 );
--- (
---     'takoyaki',
---     '章魚燒',
---     '["10.5 ounces Cake Flour", "3 Eggs - beaten", "4.25 cups Ice Cold Water", "1/2 teaspoon Salt", "1 teaspoon Hondashi Granules", "2 teaspoons Ponzu or Yuzupon Sauce", "1/2 pound Boiled Octopus Legs (cut into 1/2\" pieces)", "4 Green Onions Minced", "1 bunch Pickled Ginger Minced", "1 cup Rice Crispy Cearal", "Oil", "Aonori (Dried Seaweed Powder)", "Takoyaki Sauce", "Mayonnaise", "Bonito Flake"]',
---     '["10.5盎司蛋糕麵粉", "3個蛋 - 打散", "4.25杯冰水", "1/2茶匙鹽", "1茶匙日式出汁顆粒", "2茶匙ポン酢或柚子ポン醬", "1/2磅煮熟章魚腳（切成1/2英寸塊）", "4根蔥切碎", "1束醃薑切碎", "1杯米脆麥片", "油", "海苔粉", "章魚燒醬", "美乃滋", "柴魚片"]',
---     '["Blend the ice water and dashi stock granules until dissolved. Add the sauce and eggs. Add the flour, and mix together gently. Do not over mix, the batter will be slightly lumpy.", "Wad up a paper towel into a fat cigar shape and soak one end with oil. Oil each hole in the pan as well as the surface. Pour batter into each hole 2/3rds full. (pour in a clockwise direction starting at 12:00 so you remember where you started) Add 1 piece of octopus to each hole and sprinkle in a little bit each of the following: green onion, ginger and cereal. When finished fill each hole to the top with batter.", "Use wooden chopsticks to sweep the edge of the first hole you poured. Once it starts to release (about 3 minutes total) sweep the chopstick under to flip the takoyaki on its side 90 degrees. Let the uncooked batter on top fall into the bottom the flip the takoyaki the whole way. Continue cooking and spinning the balls until they are evenly golden brown on all sides. (an additional 4-5 minutes total from the 90 degree flip)", "Top with takoyaki sauce, mayonnaise, bonito flake and aonori. Enjoy!"]',
---     '["將冰水和出汁顆粒混合直到溶解。加入醬和蛋。加入麵粉，輕輕混合。不要過度混合，麵糊會稍微結塊。", "將紙巾揉成粗香腸形狀，一端浸泡油。在鍋的每個洞和表面塗油。將麵糊倒入每個洞，倒至2/3滿。（從12點開始順時針倒，這樣你記得從哪裡開始）每個洞加入1塊章魚，撒上少量以下材料：蔥、薑和麥片。完成後，用麵糊將每個洞填滿。", "用木筷子掃過你倒的第一個洞的邊緣。當它開始脫落（總共約3分鐘）時，用筷子在下方掃過，將章魚燒翻側90度。讓頂部的未煮麵糊掉到底部，將章魚燒完全翻轉。繼續煮並旋轉球，直到各面均勻呈金棕色。（從90度翻轉後再4-5分鐘）", "頂部放上章魚燒醬、美乃滋、柴魚片和海苔粉。享用！"]'
--- ),
--- (
---     'tiramisu',
---     '提拉米蘇',
---     '["8 oz. bittersweet chocolate", "24 ladyfingers", "2 c. strong Espresso coffee, cooled", "6 eggs, separated", "6 heaping Tbsp. granulated sugar", "1 lb. Mascarpone"]',
---     '["8盎司苦甜巧克力", "24根手指餅乾", "2杯濃縮咖啡，冷卻", "6個蛋，分離", "6滿大匙粒糖", "1磅馬斯卡彭起司"]',
---     '["Chop the chocolate coarsely or cut into small pieces.", "Put ladyfingers on a plate and lightly soak them with cold coffee. Arrange half of the ladyfingers in 1 layer on a rectangular or oval serving dish with sides at least 2 inches high."]',
---     '["將巧克力粗略切碎或切成小塊。", "將手指餅乾放在盤子上，用冷咖啡輕輕浸泡。將一半的手指餅乾鋪在長方形或橢圓形餐盤上，盤邊至少2英寸高。"]'
--- ),
--- (
---     'tuna_tartare',
---     '吞拿魚塔塔',
---     '["1 pound sushi grade tuna, finely diced", "3 tablespoons olive oil", "1/4 teaspoon wasabi powder", "1 tablespoon sesame seeds", "1/8 teaspoon cracked black pepper", "sliced French bread"]',
---     '["1磅壽司級吞拿魚，細切", "3大匙橄欖油", "1/4茶匙芥末粉", "1大匙芝麻", "1/8茶匙粗黑胡椒", "切片法式麵包"]',
---     '["In a bowl, stir together olive oil, wasabi powder, sesame seeds, and cracked black pepper. Toss tuna into mixture until evenly coated. Adjust seasoning as desired with additional wasabi powder or black pepper. Serve on sliced French bread."]',
---     '["在碗中，混合橄欖油、芥末粉、芝麻和粗黑胡椒。將吞拿魚拌入混合物中，直到均勻裹上。按需加入更多芥末粉或黑胡椒調味。放在切片法式麵包上食用。"]'
--- ),
--- (
---     'waffles',
---     '華夫餅',
---     '["2 c. flour", "2 c. milk", "3 tsp. baking powder", "1/2 tsp. salt", "4 Tbsp. melted butter", "2 eggs, beat separately"]',
---     '["2杯麵粉", "2杯牛奶", "3茶匙泡打粉", "1/2茶匙鹽", "4大匙融化奶油", "2個蛋，分別打發"]',
---     '["Sift flour, salt and baking powder into bowl.", "Beat yolks well and add milk.", "Beat, adding this to the flour mixture, slowly beating until smooth.", "Add melted butter and fold in stiffly beaten egg whites.", "Bake in waffle iron."]',
---     '["將麵粉、鹽和泡打粉過篩入碗中。", "將蛋黃打發，加入牛奶。", "攪打，將此加入麵粉混合物中，慢慢攪打直到光滑。", "加入融化奶油，拌入硬性打發的蛋清。", "在華夫餅機中烘烤。"]'
--- );
 
 
