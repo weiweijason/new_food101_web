@@ -95,19 +95,22 @@ INSERT INTO `nr` (
 '["1 pkg. soft shells (taco or burrito)", "1 doz. eggs", "1 lb. Polish sausage", "1 medium tomato, diced", "1 medium potato, diced", "1 medium onion, diced", "1/2 c. milk"]',
 '["1包軟殼（捲餅或墨西哥捲餅）", "1打蛋", "1磅波蘭香腸", "1個中等番茄，切丁", "1個中等馬鈴薯，切丁", "1個中等洋蔥，切丁", "1/2杯牛奶"]',
 '["Dice and saute sausage, potato and onion in large skillet. Brown and add tomato pieces.", "Crack eggs and stir until well blended as if you''re scrambling the eggs in large bowl.", "Add milk; stir.", "When sausage mixture is browned, add egg mixture and scramble.", "When the eggs are cooked, put them into the burrito shells (about 3/4 cup into each) and wrap shells around egg mixture.", "Put two stuffed burritos in foil and bake for 15 minutes."]',
-'["在大平底鍋中將香腸、馬鈴薯和洋蔥切丁並炒熟。煎至棕色，加入番茄塊。", "在打蛋碗中將蛋打散並攪拌直到充分混合，就像你在炒蛋一樣。", "加入牛奶；攪拌。", "當香腸混合物呈棕色時，加入蛋混合物並炒散。", "當蛋煮熟時，將它們放入捲餅殼中（每個約3/4杯），將殼包裹在蛋混合物周圍。", "將兩個填滿的捲餅放在鋁箔紙上，烘烤15分鐘。"]'),
+'["在大平底鍋中將香腸、馬鈴薯和洋蔥切丁並炒熟。煎至棕色，加入番茄塊。", "在打蛋碗中將蛋打散並攪拌直到充分混合，就像你在炒蛋一樣。", "加入牛奶；攪拌。", "當香腸混合物呈棕色時，加入蛋混合物並炒散。", "當蛋煮熟時，將它們放入捲餅殼中（每個約3/4杯），將殼包裹在蛋混合物周圍。", "將兩個填滿的捲餅放在鋁箔紙上，烘烤15分鐘。"]'
+),
 
 ('bruschetta','義式烤麵包',
 '["2 c. chopped ripe tomatoes", "2 Tbsp. olive oil", "1 clove garlic, minced", "1/2 tsp. salt", "4 thick slices Italian bread", "1 Tbsp. olive oil"]',
 '["2杯切碎熟番茄", "2大匙橄欖油", "1瓣大蒜，切碎", "1/2茶匙鹽", "4片厚義大利麵包", "1大匙橄欖油"]',
 '["Mix first 4 ingredients in a small bowl.", "Let stand so tomatoes release their juices.", "Brush both sides of bread with olive oil.", "Broil 4 to 5 inches from heat source on both sides until lightly browned.", "Place bread on serving plates and spoon topping over slices.", "Serve immediately."]',
-'["在小碗中混合前4種材料。", "靜置讓番茄釋放汁液。", "在麵包兩面刷上橄欖油。", "在距離熱源4至5英寸處兩面烤至淺棕色。", "將麵包放在餐盤上，將配料舀在切片上。", "立即食用。"]'),
+'["在小碗中混合前4種材料。", "靜置讓番茄釋放汁液。", "在麵包兩面刷上橄欖油。", "在距離熱源4至5英寸處兩面烤至淺棕色。", "將麵包放在餐盤上，將配料舀在切片上。", "立即食用。"]'
+),
 
 ('caesar_salad','凱薩沙拉',
 '["2 Tbsp. grated Parmesan cheese", "2 Tbsp. water", "2 Tbsp. red wine vinegar", "1 tsp. Worcestershire sauce", "1 Tbsp. olive oil", "1 clove garlic", "1/4 tsp. dry mustard", "1 large bunch romaine lettuce, cleaned and torn into pieces", "1/3 c. croutons (optional)"]',
 '["2大匙帕馬森起司碎", "2大匙水", "2大匙紅酒醋", "1茶匙伍斯特醬", "1大匙橄欖油", "1瓣大蒜", "1/4茶匙乾芥末", "1大顆羅馬生菜，洗淨並撕成塊", "1/3杯麵包丁（可選）"]',
 '["Combine all ingredients together except lettuce in food processor and blend until smooth.", "Pour over lettuce, tossing well.", "Top with croutons, if desired.", "Yields 4 servings."]',
-'["除生菜外，將所有材料放入食物處理機中混合直到光滑。", "倒在生菜上，充分拌勻。", "如需，放上麵包丁。", "可做4份。"]'),
+'["除生菜外，將所有材料放入食物處理機中混合直到光滑。", "倒在生菜上，充分拌勻。", "如需，放上麵包丁。", "可做4份。"]'
+),
 
 ('cannoli','義大利奶油香酥卷',
 '["1 (15 oz.) container Ricotta cheese", "2/3 c. confectioners sugar", "1/2 tsp. grated orange peel", "1/2 tsp. vanilla", "2 Tbsp. mini chocolate chips", "10 sugar ice cream cones"]',
@@ -119,36 +122,42 @@ INSERT INTO `nr` (
 '["2 pt. cherry tomatoes, halved", "4 oz. part-skim Mozzarella cheese, cut into 1/4-inch cubes", "1/3 c. slivered green olives", "1/3 c. chopped fresh basil", "2 Tbsp. balsamic vinegar", "1 Tbsp. olive oil", "1/2 tsp. salt"]',
 '["2品脫櫻桃番茄，切半", "4盎司部分脫脂莫札瑞拉起司，切成1/4英寸塊", "1/3杯切片綠橄欖", "1/3杯切碎新鮮羅勒", "2大匙香醋", "1大匙橄欖油", "1/2茶匙鹽"]',
 '["In medium bowl, combine all of the ingredients.", "Toss and serve.", "Will serve 4. High in vitamins A and C. One of the best sources of lycopene."]',
-'["在中碗中，混合所有材料。", "拌勻並食用。", "4人份。富含維生素A和C。是茄紅素的最佳來源之一。"]'),
+'["在中碗中，混合所有材料。", "拌勻並食用。", "4人份。富含維生素A和C。是茄紅素的最佳來源之一。"]'
+),
 ('carrot_cake','胡蘿蔔蛋糕',
 '["2 c. flour, sifted", "1 tsp. soda", "1 tsp. salt", "2 c. sugar", "1 tsp. cinnamon", "1 1/2 c. oil", "4 eggs", "2 c. grated carrots", "1 c. nuts"]',
 '["2杯麵粉，過篩", "1茶匙小蘇打", "1茶匙鹽", "2杯糖", "1茶匙肉桂", "1.5杯油", "4個蛋", "2杯磨碎胡蘿蔔", "1杯堅果"]',
 '["Place dry ingredients in a large bowl and mix thoroughly.", "Add rest of ingredients and mix well.", "Bake in well-greased and floured pans.", "Bake at 350° for 30 minutes.", "Remove from pans and cool.", "Makes 2 (9-inch) or 3 (8-inch) layers."]',
-'["將乾性材料放入大碗中，充分混合。", "加入剩下的材料，充分混合。", "在塗油並撒麵粉的烤盤中烘烤。", "以350°F烘烤30分鐘。", "從烤盤中取出，冷卻。", "可做2層（9英寸）或3層（8英寸）。"]'),
+'["將乾性材料放入大碗中，充分混合。", "加入剩下的材料，充分混合。", "在塗油並撒麵粉的烤盤中烘烤。", "以350°F烘烤30分鐘。", "從烤盤中取出，冷卻。", "可做2層（9英寸）或3層（8英寸）。"]'
+),
 
 ('ceviche','酸橘汁醃魚',
 '["1 lb. whitefish fillets (raw)", "juice of 1 lime", "2 medium size tomatoes, peeled", "2 green chilies, chopped", "1 small onion, thinly sliced", "1/4 tsp. oregano", "3 sprigs cilantro, chopped", "slices of 1 avocado", "wedges of 1 tomato"]',
 '["1磅白魚柳（生）", "1個萊姆汁", "2個中等番茄，去皮", "2個青椒，切碎", "1個小洋蔥，切片", "1/4茶匙牛至", "3枝香菜，切碎", "1個酪梨切片", "1個番茄切塊"]',
 '["Cut uncooked fish into small pieces.", "Add lime juice to cover fish; cover and refrigerate 3 to 4 hours, or until fish become opaque.", "Stir occasionally."]',
-'["將未煮的魚切成小塊。", "加入萊姆汁覆蓋魚；覆蓋，冷藏3至4小時，或直到魚變不透明。", "偶爾攪拌。"]'),
+'["將未煮的魚切成小塊。", "加入萊姆汁覆蓋魚；覆蓋，冷藏3至4小時，或直到魚變不透明。", "偶爾攪拌。"]'
+),
 
 ('cheesecake','芝士蛋糕',
 '["1/2 c. sugar", "8 oz. cream cheese", "8 oz. Cool Whip", "1 c. sour cream", "2 tsp. vanilla", "1 frozen graham cracker crust"]',
 '["1/2杯糖", "8盎司奶油起司", "8盎司酷 Whip", "1杯酸奶油", "2茶匙香草精", "1個冷凍奶油餅乾派皮"]',
 '["Mix all ingredients together and pour into graham cracker crust. Add fresh fruit or any canned fruit pie filling on top. Refrigerate 2 hours."]',
-'["將所有材料混合均勻，倒入奶油餅乾派皮中。在頂部加入新鮮水果或任何罐裝水果派餡。冷藏2小時。"]'),
+'["將所有材料混合均勻，倒入奶油餅乾派皮中。在頂部加入新鮮水果或任何罐裝水果派餡。冷藏2小時。"]'
+),
 
 ('cheese_plate','起司拼盤',
 '["3 ounces sliced drunken goat cheese", "3 ounces sliced manchego cheese (may sub any sharp, sturdy white cheese)", "20 onion flavored crackers", "1/4 cup blackberry jam", "2 tablespoons sunflower seeds", "2 tablespoons pepitas (shelled pumpkin seeds)"]',
 '["3盎司切片醉山羊起司", "3盎司切片曼切戈起司（可用任何濃味、堅實的白起司替代）", "20片洋蔥風味餅乾", "1/4杯黑莓果醬", "2大匙葵花籽", "2大匙南瓜籽"]',
 '["Get out a nice square platter and 2 small bowls (which fit on the platter).", "Place goat cheese fanned out in one corner.", "Fan the manchego out on the opposite corner.", "Place jam/preserves in one bowl and place in an empty corner of the plate.", "Then mix the seeds together in the remaining bowl and place in the opposite corner.", "Feel free to garnish the plate with fresh berries and mint if you have some.", "Place crackers on another plate and serve!", "Guests will take 1 cracker, put 1 piece of cheese on it, spread a small amt of jam on the cheese and top with a small sprinkling of the seed. DELISH! (NOTE: You can also serve them on a platter already made up in this manner)."]',
-'["拿出一個漂亮的方形盤子和2個小碗（可以放在盤子上）。", "將山羊起司在一個角落扇形排列。", "在相對的角落扇形排列曼切戈起司。", "將果醬/果醬放入一個碗中，放在盤子的空角落。", "然後將種子混合在剩下的碗中，放在相對的角落。", "如果有新鮮漿果和薄荷，可以自由裝飾盤子。", "將餅乾放在另一個盤子上，上桌！", "客人會拿1片餅乾，在上面放1片起司，在起司上塗少量果醬，頂部撒上少量種子。美味！（注意：你也可以將它們以這種方式組裝在盤子上上桌）。"]'),
+'["拿出一個漂亮的方形盤子和2個小碗（可以放在盤子上）。", "將山羊起司在一個角落扇形排列。", "在相對的角落扇形排列曼切戈起司。", "將果醬/果醬放入一個碗中，放在盤子的空角落。", "然後將種子混合在剩下的碗中，放在相對的角落。", "如果有新鮮漿果和薄荷，可以自由裝飾盤子。", "將餅乾放在另一個盤子上，上桌！", "客人會拿1片餅乾，在上面放1片起司，在起司上塗少量果醬，頂部撒上少量種子。美味！（注意：你也可以將它們以這種方式組裝在盤子上上桌）。"]'
+),
 
 ('chicken_curry','咖哩雞',
 '["4 (6 oz.) boneless, skinned chicken breasts", "3 Tbsp. flour", "1 Tbsp. curry powder", "4 Tbsp. oil", "1 Tbsp. sugar", "2 chicken bouillon cubes", "1 c. water", "16 oz. can apricots", "1/2 c. chopped onion", "1 c. sliced mushrooms", "2 Tbsp. soy sauce", "2 Tbsp. lemon juice"]',
 '["4個（6盎司）去骨去皮雞胸肉", "3大匙麵粉", "1大匙咖哩粉", "4大匙油", "1大匙糖", "2塊雞高湯塊", "1杯水", "16盎司罐裝杏", "1/2杯切碎洋蔥", "1杯切片蘑菇", "2大匙醬油", "2大匙檸檬汁"]',
 '["Rub chicken breasts with curry powder and put in baking dish. Pour on orange juice sweetened with a little honey.", "Bake until done in very slow oven (or adjust for microwave).", "Thicken juices with cornstarch.", "Serve with brown or white rice.", "(Slow oven is 300° and would take about 1 1/2 hours, depending on the number of chicken breasts.)"]',
-'["在雞胸肉上塗上咖哩粉，放入烤盤。倒入加少量蜂蜜的柳橙汁。", "在非常慢的烤箱中烘烤直到熟（或根據微波爐調整）。", "用玉米澱粉濃縮汁液。", "搭配糙米或白米食用。", "（慢烤箱為300°F，約需1.5小時，取決於雞胸肉的數量。）"]'),
+'["在雞胸肉上塗上咖哩粉，放入烤盤。倒入加少量蜂蜜的柳橙汁。", "在非常慢的烤箱中烘烤直到熟（或根據微波爐調整）。", "用玉米澱粉濃縮汁液。", "搭配糙米或白米食用。", "（慢烤箱為300°F，約需1.5小時，取決於雞胸肉的數量。）"]'
+),
 
  (
     'chicken_quesadilla',
