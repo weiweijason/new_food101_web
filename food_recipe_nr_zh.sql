@@ -1,5 +1,7 @@
-DROP TABLE IF EXISTS `nr`;
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
 
+DROP TABLE IF EXISTS `nr`;
 
 CREATE TABLE `nr` (
     `title` text,

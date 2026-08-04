@@ -24,8 +24,8 @@ DB_PASSWORD = os.getenv("DB_PASSWORD", "weiwei2003921124")
 DB_HOST = os.getenv("DB_HOST", "localhost")
 DB_NAME = os.getenv("DB_NAME", "food_recipe")
 
-DATABASE_URL = f"mysql+pymysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:3306/{DB_NAME}"
-engine = create_engine(DATABASE_URL, pool_pre_ping=True)
+DATABASE_URL = f"mysql+pymysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:3306/{DB_NAME}?charset=utf8mb4"
+engine = create_engine(DATABASE_URL, pool_pre_ping=True, connect_args={'charset': 'utf8mb4'})
 
 
 def check_database_counts():
