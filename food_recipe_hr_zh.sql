@@ -1,3 +1,14 @@
+DROP TABLE IF EXISTS `hr`;
+
+CREATE TABLE `hr` (
+  `title` text,
+  `title_zh` text DEFAULT NULL,
+  `ingredients` json DEFAULT NULL,
+  `ingredients_zh` json DEFAULT NULL,
+  `directions` json DEFAULT NULL,
+  `directions_zh` json DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
 INSERT INTO `hr` (
     `title`, 
     `title_zh`, 
