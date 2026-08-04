@@ -26,16 +26,15 @@ INSERT INTO `nr` (
     '["2杯水", "1.5杯糖", "2茶匙塔塔粉", "23片Ritz餅乾", "1個未烤派皮", "2茶匙奶油", "1茶匙肉桂"]',
     '["Bring water, sugar and cream of tartar to a boil and boil 1 minute.", "Add Ritz crackers, one at a time.", "Allow to boil 2 minutes after last cracker is dropped in.", "Remove from heat. Pour into unbaked pie shell.", "Dot filling with butter and sprinkle cinnamon over filling.", "Bake 20 minutes at 425° (pastry strips can be added across the top before baking, if desired)."]',
     '["將水、糖和塔塔粉煮沸，煮1分鐘。", "逐一加入Ritz餅乾。", "最後一片餅乾放入後再煮2分鐘。", "離火。倒入未烤的派皮中。", "在餡料上點上奶油，撒上肉桂。", "以425°F烘烤20分鐘（如需，可在烘烤前在頂部加上酥皮條）。"]'
+),
+(
+    'baby_back_ribs',
+    '豬小排',
+    '["1-2 slabs of baby back ribs", "2 Tbsp pickling spice", "water to cover", "1 bottle Open Pit BBQ sauce", "1-2 c. brown sugar"]',
+    '["1-2塊豬小排", "2大匙醃製香料", "足夠的水覆蓋", "1瓶Open Pit烤肉醬", "1-2杯紅糖"]',
+    '["Place ribs in a large pan.", "Cover with water and add pickling spice.", "Boil for 1 hour.", "Remove ribs and place on outdoor grill. Generously brush on BBQ sauce mixture of brown sugar and Open Pit BBQ sauce."]',
+    '["將豬排放入大鍋中。", "加水覆蓋，加入醃製香料。", "煮沸1小時。", "取出豬排，放在戶外烤架上。大量刷上紅糖和Open Pit烤肉醬的混合物。"]'
 );
--- ,
--- (
---     'baby_back_ribs',
---     '豬小排',
---     '["1-2 slabs of baby back ribs", "2 Tbsp pickling spice", "water to cover", "1 bottle Open Pit BBQ sauce", "1-2 c. brown sugar"]',
---     '["1-2塊豬小排", "2大匙醃製香料", "足夠的水覆蓋", "1瓶Open Pit烤肉醬", "1-2杯紅糖"]',
---     '["Place ribs in a large pan.", "Cover with water and add pickling spice.", "Boil for 1 hour.", "Remove ribs and place on outdoor grill. Generously brush on BBQ sauce mixture of brown sugar and Open Pit BBQ sauce."]',
---     '["將豬排放入大鍋中。", "加水覆蓋，加入醃製香料。", "煮沸1小時。", "取出豬排，放在戶外烤架上。大量刷上紅糖和Open Pit烤肉醬的混合物。"]'
--- ),
 -- (
 --     'baklava',
 --     '巴克拉瓦甜點',
