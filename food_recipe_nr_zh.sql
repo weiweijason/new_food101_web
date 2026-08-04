@@ -58,139 +58,139 @@ INSERT INTO `nr` (
 '["1磅牛臀腰肉末（非常瘦）", "1個蛋", "1個小洋蔥，切得很細", "2大匙橄欖油", "1茶匙伍斯特醬", "適量鹽和胡椒"]',
 '["Cut away all visible fat from ground sirloin.", "Grind meat twice.", "Add eggs, onion and olive oil.", "Mix very well.", "Add Worcestershire sauce, salt and pepper to taste.", "Form into mound."]',
 '["切掉牛臀腰肉末中所有可見的脂肪。", "將肉研磨兩次。", "加入蛋、洋蔥和橄欖油。", "充分混合。", "加入伍斯特醬、鹽和胡椒調味。", "堆成小山狀。"]'
+),
+(
+'beet_salad',
+'甜菜沙拉',
+'["1 can beets, drained well and liquid reserved", "1 c. sugar", "1 (6 oz.) pkg. raspberry Jell-O", "1 Tbsp. unflavored gelatin", "1/2 c. wine vinegar", "1 tsp. onion, grated", "1 tsp. mustard seed"]',
+'["1罐甜菜，瀝乾並保留汁液", "1杯糖", "1包（6盎司）覆盆子果凍粉", "1大匙無味吉利丁", "1/2杯酒醋", "1茶匙洋蔥，磨碎", "1茶匙芥末籽"]',
+'["Mash beets.", "Combine reserved liquid with enough water to make 3 cups.", "Heat and add sugar.", "Add Jell-O and gelatin; dissolve.", "Let mixture cool.", "Pour vinegar over beets.", "Fold beets, onion, and mustard seed into jello mixture.", "Allow to cool and gel."]',
+'["將甜菜壓碎。", "將保留的汁液與足夠的水混合，製成3杯。", "加熱，加入糖。", "加入果凍粉和吉利丁；溶解。", "讓混合物冷卻。", "將醋倒在甜菜上。", "將甜菜、洋蔥和芥末籽拌入果凍混合物中。", "冷卻至凝固。"]'
+),
+(
+'beignets',
+'貝奈特炸糕',
+'["1/2 c. warm water", "1 pkg. dry yeast", "2 tsp. sugar", "3/4 c. milk", "1/2 tsp. vanilla", "1/4 c. unsalted butter, melted", "1 egg, lightly beaten", "1/3 c. sugar", "1 tsp. salt", "1/2 tsp. grated nutmeg", "3 1/2 c. flour", "vegetable oil (for frying)", "powdered sugar"]',
+'["1/2杯溫水", "1包乾酵母", "2茶匙糖", "3/4杯牛奶", "1/2茶匙香草精", "1/4杯無鹽奶油，融化", "1個蛋，輕打", "1/3杯糖", "1茶匙鹽", "1/2茶匙磨碎肉豆蔻", "3.5杯麵粉", "植物油（用於油炸）", "糖粉"]',
+'["In a small bowl, combine water, yeast and 2 teaspoons sugar. Let stand about 10 minutes, until yeast foams.", "Meanwhile, combine milk, vanilla, butter, egg, 1/3 cup sugar, salt and nutmeg.", "Stir in the yeast mixture.", "Add the flour, one cup at a time, mixing well after each addition.", "After three cups have been added, knead in the remaining flour, 1 to 2 tablespoons at a time.", "Knead until smooth, about 10 minutes.", "Place dough in an oiled bowl, turning to coat.", "Cover and let rise in a warm place until doubled in bulk, about 1 1/2 hours.", "Punch down dough and roll to a 1/2-inch thickness.", "Cut the dough into 2-inch diamond shapes.", "Place on ungreased baking sheets.", "Cover and let rise in a warm place until doubled, about 1 hour.", "Pour oil to a depth of 3-inches in a heavy pot or fryer.", "Heat to 365° and fry the beignets, 4 or 5 at a time, for 2 to 3 minutes on each side.", "Drain on paper towel and place in a warm oven while frying the remaining beignets.", "Sprinkle with powdered sugar before serving warm.", "Makes about 30."]',
+'["在小碗中，混合水、酵母和2茶匙糖。靜置約10分鐘，直到酵母起泡。", "同時，混合牛奶、香草精、奶油、蛋、1/3杯糖、鹽和肉豆蔻。", "加入酵母混合物，攪拌均勻。", "逐杯加入麵粉，每次加入後充分混合。", "加入三杯後，將剩下的麵粉揉入，每次1至2大匙。", "揉至光滑，約10分鐘。", "將麵團放入塗油的碗中，翻轉使其均勻塗油。", "覆蓋，在溫暖的地方發酵直到體積翻倍，約1.5小時。", "將麵團壓扁，滾成1/2英寸厚。", "將麵團切成2英寸的菱形。", "放在未塗油的烤盤上。", "覆蓋，在溫暖的地方發酵直到體積翻倍，約1小時。", "在厚鍋或炸鍋中倒入3英寸深的油。", "加熱至365°F，每次炸4或5個貝奈特，每面炸2至3分鐘。", "放在紙巾上瀝乾，在炸剩下的貝奈特時放在溫暖的烤箱中。", "溫熱食用前撒上糖粉。", "可做約30個。"]'
+),
+(
+'bibimbap',
+'韓式拌飯',
+'["3 tablespoons soy sauce", "3 tablespoons white sugar", "5 tablespoons sesame oil, divided, or to taste", "1 tablespoon garlic, minced", "1 teaspoon minced fresh ginger root", "1/2 pound beef brisket, thinly sliced, or to taste", "1 cup uncooked white rice", "1 1/2 cups water", "1 cup dried shiitake mushrooms", "1 small eggplant, cut into 1/4-inch slices", "salt to taste", "1 small yellow squash, cut into 1/4-inch slices", "2 carrots, chopped", "1 cup broccoli florets", "1 cup bean sprouts", "2 eggs", "1 1/2 tablespoons rice vinegar", "4 leaves red leaf lettuce, cut widthwise into strips", "1 daikon radish, peeled and cut into matchsticks", "2 green onions, chopped (optional)"]',
+'["3大匙醬油", "3大匙白砂糖", "5大匙芝麻油，分次使用或適量", "1大匙大蒜，切碎", "1茶匙新鮮薑末", "1/2磅牛腩，切片，或適量", "1杯未煮白米", "1.5杯水", "1杯乾香菇", "1個小茄子，切成1/4英寸片", "適量鹽", "1個小黃瓜，切成1/4英寸片", "2根胡蘿蔔，切碎", "1杯西蘭花小花", "1杯豆芽", "2個蛋", "1.5大匙米醋", "4片紅葉生菜，橫向切條", "1條白蘿蔔，去皮切成細條", "2根蔥，切碎（可選）"]',
+'["Mix soy sauce, sugar, sesame oil, garlic, and ginger together in a bowl. Add beef brisket and cover with plastic wrap. Marinate in the refrigerator for 30 minutes.", "Rinse rice until water turns clear. Pour into a rice cooker and add 1 1/2 cups water. Seal and select setting according to manufacturer''s instructions; cook until tender, 20 to 30 minutes. Keep warm.", "Place mushrooms in a bowl of warm water. Soak for 20 minutes.", "Coat eggplant with salt on all sides and allow to ''sweat,'' about 10 minutes. Rinse with cool water."]',
+'["在碗中混合醬油、糖、芝麻油、大蒜和薑。加入牛腩，用保鮮膜覆蓋。在冰箱中醃製30分鐘。", "將米洗至水變清澈。倒入電飯煲，加入1.5杯水。按照製造商的說明密封並選擇設定；煮至軟嫩，20至30分鐘。保持溫暖。", "將香菇放入溫水中。浸泡20分鐘。", "在茄子各面撒上鹽，讓其''出汗''，約10分鐘。用冷水沖洗。"]'
+),
+(
+'bread_pudding',
+'麵包布丁',
+'["12 slices white bread", "1 (8 oz.) pkg. cream cheese, cubed", "12 eggs", "2 c. milk", "1/3 c. maple syrup", "1/4 tsp. salt"]',
+'["12片白麵包", "1包（8盎司）奶油起司，切塊", "12個蛋", "2杯牛奶", "1/3杯楓糖漿", "1/4茶匙鹽"]',
+'["Remove and discard crusts from bread; cut bread into cubes. Toss lightly with cream cheese cubes.", "Place in greased 13 x 9 x 2-inch baking pan.", "In a large mixing bowl, beat eggs.", "Add milk, syrup and salt.", "Mix well.", "Pour over bread mixture.", "Cover and refrigerate 8 hours or overnight."]',
+'["去除並丟棄麵包的皮；將麵包切成塊。與奶油起司塊輕輕混合。", "放入塗油的13x9x2英寸烤盤中。", "在大攪拌碗中，打蛋。", "加入牛奶、糖漿和鹽。", "充分混合。", "倒在麵包混合物上。", "覆蓋，冷藏8小時或過夜。"]'
+),
+('breakfast_burrito','早餐捲餅',
+'["1 pkg. soft shells (taco or burrito)", "1 doz. eggs", "1 lb. Polish sausage", "1 medium tomato, diced", "1 medium potato, diced", "1 medium onion, diced", "1/2 c. milk"]',
+'["1包軟殼（捲餅或墨西哥捲餅）", "1打蛋", "1磅波蘭香腸", "1個中等番茄，切丁", "1個中等馬鈴薯，切丁", "1個中等洋蔥，切丁", "1/2杯牛奶"]',
+'["Dice and saute sausage, potato and onion in large skillet. Brown and add tomato pieces.", "Crack eggs and stir until well blended as if you''re scrambling the eggs in large bowl.", "Add milk; stir.", "When sausage mixture is browned, add egg mixture and scramble.", "When the eggs are cooked, put them into the burrito shells (about 3/4 cup into each) and wrap shells around egg mixture.", "Put two stuffed burritos in foil and bake for 15 minutes."]',
+'["在大平底鍋中將香腸、馬鈴薯和洋蔥切丁並炒熟。煎至棕色，加入番茄塊。", "在打蛋碗中將蛋打散並攪拌直到充分混合，就像你在炒蛋一樣。", "加入牛奶；攪拌。", "當香腸混合物呈棕色時，加入蛋混合物並炒散。", "當蛋煮熟時，將它們放入捲餅殼中（每個約3/4杯），將殼包裹在蛋混合物周圍。", "將兩個填滿的捲餅放在鋁箔紙上，烘烤15分鐘。"]'
+),
+
+('bruschetta','義式烤麵包',
+'["2 c. chopped ripe tomatoes", "2 Tbsp. olive oil", "1 clove garlic, minced", "1/2 tsp. salt", "4 thick slices Italian bread", "1 Tbsp. olive oil"]',
+'["2杯切碎熟番茄", "2大匙橄欖油", "1瓣大蒜，切碎", "1/2茶匙鹽", "4片厚義大利麵包", "1大匙橄欖油"]',
+'["Mix first 4 ingredients in a small bowl.", "Let stand so tomatoes release their juices.", "Brush both sides of bread with olive oil.", "Broil 4 to 5 inches from heat source on both sides until lightly browned.", "Place bread on serving plates and spoon topping over slices.", "Serve immediately."]',
+'["在小碗中混合前4種材料。", "靜置讓番茄釋放汁液。", "在麵包兩面刷上橄欖油。", "在距離熱源4至5英寸處兩面烤至淺棕色。", "將麵包放在餐盤上，將配料舀在切片上。", "立即食用。"]'
+),
+
+('caesar_salad','凱薩沙拉',
+'["2 Tbsp. grated Parmesan cheese", "2 Tbsp. water", "2 Tbsp. red wine vinegar", "1 tsp. Worcestershire sauce", "1 Tbsp. olive oil", "1 clove garlic", "1/4 tsp. dry mustard", "1 large bunch romaine lettuce, cleaned and torn into pieces", "1/3 c. croutons (optional)"]',
+'["2大匙帕馬森起司碎", "2大匙水", "2大匙紅酒醋", "1茶匙伍斯特醬", "1大匙橄欖油", "1瓣大蒜", "1/4茶匙乾芥末", "1大顆羅馬生菜，洗淨並撕成塊", "1/3杯麵包丁（可選）"]',
+'["Combine all ingredients together except lettuce in food processor and blend until smooth.", "Pour over lettuce, tossing well.", "Top with croutons, if desired.", "Yields 4 servings."]',
+'["除生菜外，將所有材料放入食物處理機中混合直到光滑。", "倒在生菜上，充分拌勻。", "如需，放上麵包丁。", "可做4份。"]'
+),
+
+('cannoli','義大利奶油香酥卷',
+'["1 (15 oz.) container Ricotta cheese", "2/3 c. confectioners sugar", "1/2 tsp. grated orange peel", "1/2 tsp. vanilla", "2 Tbsp. mini chocolate chips", "10 sugar ice cream cones"]',
+'["1盒（15盎司）瑞可塔起司", "2/3杯糖粉", "1/2茶匙磨碎橙皮", "1/2茶匙香草精", "2大匙迷你巧克力豆", "10個糖冰淇淋筒"]',
+'["In a large bowl with electric mixer at low, beat Ricotta, sugar, orange peel and vanilla just until smooth.", "Stir in chocolate chips.", "Cover.", "Refrigerate for 30 minutes.", "Spoon mixture into ice cream cones.", "Serves 10."]',
+'["在大碗中用電動攪拌器低速攪打瑞可塔起司、糖、橙皮和香草精直到光滑。", "加入巧克力豆，攪拌均勻。", "覆蓋。", "冷藏30分鐘。", "將混合物舀入冰淇淋筒中。", "10人份。"]'),
+
+('caprese_salad','卡普里沙拉',
+'["2 pt. cherry tomatoes, halved", "4 oz. part-skim Mozzarella cheese, cut into 1/4-inch cubes", "1/3 c. slivered green olives", "1/3 c. chopped fresh basil", "2 Tbsp. balsamic vinegar", "1 Tbsp. olive oil", "1/2 tsp. salt"]',
+'["2品脫櫻桃番茄，切半", "4盎司部分脫脂莫札瑞拉起司，切成1/4英寸塊", "1/3杯切片綠橄欖", "1/3杯切碎新鮮羅勒", "2大匙香醋", "1大匙橄欖油", "1/2茶匙鹽"]',
+'["In medium bowl, combine all of the ingredients.", "Toss and serve.", "Will serve 4. High in vitamins A and C. One of the best sources of lycopene."]',
+'["在中碗中，混合所有材料。", "拌勻並食用。", "4人份。富含維生素A和C。是茄紅素的最佳來源之一。"]'
+),
+('carrot_cake','胡蘿蔔蛋糕',
+'["2 c. flour, sifted", "1 tsp. soda", "1 tsp. salt", "2 c. sugar", "1 tsp. cinnamon", "1 1/2 c. oil", "4 eggs", "2 c. grated carrots", "1 c. nuts"]',
+'["2杯麵粉，過篩", "1茶匙小蘇打", "1茶匙鹽", "2杯糖", "1茶匙肉桂", "1.5杯油", "4個蛋", "2杯磨碎胡蘿蔔", "1杯堅果"]',
+'["Place dry ingredients in a large bowl and mix thoroughly.", "Add rest of ingredients and mix well.", "Bake in well-greased and floured pans.", "Bake at 350° for 30 minutes.", "Remove from pans and cool.", "Makes 2 (9-inch) or 3 (8-inch) layers."]',
+'["將乾性材料放入大碗中，充分混合。", "加入剩下的材料，充分混合。", "在塗油並撒麵粉的烤盤中烘烤。", "以350°F烘烤30分鐘。", "從烤盤中取出，冷卻。", "可做2層（9英寸）或3層（8英寸）。"]'
+),
+
+('ceviche','酸橘汁醃魚',
+'["1 lb. whitefish fillets (raw)", "juice of 1 lime", "2 medium size tomatoes, peeled", "2 green chilies, chopped", "1 small onion, thinly sliced", "1/4 tsp. oregano", "3 sprigs cilantro, chopped", "slices of 1 avocado", "wedges of 1 tomato"]',
+'["1磅白魚柳（生）", "1個萊姆汁", "2個中等番茄，去皮", "2個青椒，切碎", "1個小洋蔥，切片", "1/4茶匙牛至", "3枝香菜，切碎", "1個酪梨切片", "1個番茄切塊"]',
+'["Cut uncooked fish into small pieces.", "Add lime juice to cover fish; cover and refrigerate 3 to 4 hours, or until fish become opaque.", "Stir occasionally."]',
+'["將未煮的魚切成小塊。", "加入萊姆汁覆蓋魚；覆蓋，冷藏3至4小時，或直到魚變不透明。", "偶爾攪拌。"]'
+),
+
+('cheesecake','芝士蛋糕',
+'["1/2 c. sugar", "8 oz. cream cheese", "8 oz. Cool Whip", "1 c. sour cream", "2 tsp. vanilla", "1 frozen graham cracker crust"]',
+'["1/2杯糖", "8盎司奶油起司", "8盎司酷 Whip", "1杯酸奶油", "2茶匙香草精", "1個冷凍奶油餅乾派皮"]',
+'["Mix all ingredients together and pour into graham cracker crust. Add fresh fruit or any canned fruit pie filling on top. Refrigerate 2 hours."]',
+'["將所有材料混合均勻，倒入奶油餅乾派皮中。在頂部加入新鮮水果或任何罐裝水果派餡。冷藏2小時。"]'
+),
+
+('cheese_plate','起司拼盤',
+'["3 ounces sliced drunken goat cheese", "3 ounces sliced manchego cheese (may sub any sharp, sturdy white cheese)", "20 onion flavored crackers", "1/4 cup blackberry jam", "2 tablespoons sunflower seeds", "2 tablespoons pepitas (shelled pumpkin seeds)"]',
+'["3盎司切片醉山羊起司", "3盎司切片曼切戈起司（可用任何濃味、堅實的白起司替代）", "20片洋蔥風味餅乾", "1/4杯黑莓果醬", "2大匙葵花籽", "2大匙南瓜籽"]',
+'["Get out a nice square platter and 2 small bowls (which fit on the platter).", "Place goat cheese fanned out in one corner.", "Fan the manchego out on the opposite corner.", "Place jam/preserves in one bowl and place in an empty corner of the plate.", "Then mix the seeds together in the remaining bowl and place in the opposite corner.", "Feel free to garnish the plate with fresh berries and mint if you have some.", "Place crackers on another plate and serve!", "Guests will take 1 cracker, put 1 piece of cheese on it, spread a small amt of jam on the cheese and top with a small sprinkling of the seed. DELISH! (NOTE: You can also serve them on a platter already made up in this manner)."]',
+'["拿出一個漂亮的方形盤子和2個小碗（可以放在盤子上）。", "將山羊起司在一個角落扇形排列。", "在相對的角落扇形排列曼切戈起司。", "將果醬/果醬放入一個碗中，放在盤子的空角落。", "然後將種子混合在剩下的碗中，放在相對的角落。", "如果有新鮮漿果和薄荷，可以自由裝飾盤子。", "將餅乾放在另一個盤子上，上桌！", "客人會拿1片餅乾，在上面放1片起司，在起司上塗少量果醬，頂部撒上少量種子。美味！（注意：你也可以將它們以這種方式組裝在盤子上上桌）。"]'
+),
+
+('chicken_curry','咖哩雞',
+'["4 (6 oz.) boneless, skinned chicken breasts", "3 Tbsp. flour", "1 Tbsp. curry powder", "4 Tbsp. oil", "1 Tbsp. sugar", "2 chicken bouillon cubes", "1 c. water", "16 oz. can apricots", "1/2 c. chopped onion", "1 c. sliced mushrooms", "2 Tbsp. soy sauce", "2 Tbsp. lemon juice"]',
+'["4個（6盎司）去骨去皮雞胸肉", "3大匙麵粉", "1大匙咖哩粉", "4大匙油", "1大匙糖", "2塊雞高湯塊", "1杯水", "16盎司罐裝杏", "1/2杯切碎洋蔥", "1杯切片蘑菇", "2大匙醬油", "2大匙檸檬汁"]',
+'["Rub chicken breasts with curry powder and put in baking dish. Pour on orange juice sweetened with a little honey.", "Bake until done in very slow oven (or adjust for microwave).", "Thicken juices with cornstarch.", "Serve with brown or white rice.", "(Slow oven is 300° and would take about 1 1/2 hours, depending on the number of chicken breasts.)"]',
+'["在雞胸肉上塗上咖哩粉，放入烤盤。倒入加少量蜂蜜的柳橙汁。", "在非常慢的烤箱中烘烤直到熟（或根據微波爐調整）。", "用玉米澱粉濃縮汁液。", "搭配糙米或白米食用。", "（慢烤箱為300°F，約需1.5小時，取決於雞胸肉的數量。）"]'
+),
+
+ (
+    'chicken_quesadilla',
+    '雞肉烤餅',
+    '["flour tortillas", "chicken breast (boneless) strips", "Chihuahua cheese, grated", "green onions, chopped (optional)", "butter (real butter)"]',
+    '["麵粉玉米餅", "雞胸肉（去骨）條", "奇瓦瓦起司，磨碎", "蔥，切碎（可選）", "奶油（真奶油）"]',
+    '["Season chicken and cook.", "Lightly butter pan.", "Put tortilla in pan.", "Place chicken, onion and cheese on 1/2 of tortilla and fold in half.", "Cook until fairly toasted on one side and flip over. Cook until toasted and cheese is melted."]',
+    '["調味雞肉並煮熟。", "在鍋中輕輕塗上奶油。", "將玉米餅放入鍋中。", "在玉米餅的1/2上放雞肉、洋蔥和起司，對折。", "煮到一面相當烤焦，然後翻面。煮到烤焦且起司融化。"]'
+),
+(
+    'chicken_wings',
+    '雞翅',
+    '["1 pkg. chicken wings", "1 c. sugar", "1 c. soy sauce", "1 1/2 tsp. ginger", "1/4 tsp. pepper", "1/4 tsp. m.s.g.", "1/2 c. chopped green onion"]',
+    '["1包雞翅", "1杯糖", "1杯醬油", "1.5茶匙薑", "1/4茶匙黑胡椒", "1/4茶匙味精", "1/2杯切碎蔥"]',
+    '["Mix all ingredients with chicken wings and marinate in refrigerator overnight.", "Bake in uncovered pan in single layers at 325° for 1 1/2 hours.", "Stir midway through."]',
+    '["將所有材料與雞翅混合，在冰箱中醃製過夜。", "在未覆蓋的烤盤中單層以325°F烘烤1.5小時。", "中途攪拌。"]'
+),
+(
+    'chocolate_cake',
+    '巧克力蛋糕',
+    '["2 c. flour", "2 c. sugar", "1 tsp. salt", "1 tsp. baking powder", "2 tsp. baking soda", "3/4 c. cocoa powder", "1 c. oil", "1 c. hot coffee", "2 eggs", "1 tsp. vanilla"]',
+    '["2杯麵粉", "2杯糖", "1茶匙鹽", "1茶匙泡打粉", "2茶匙小蘇打", "3/4杯可可粉", "1杯油", "1杯熱咖啡", "2個蛋", "1茶匙香草精"]',
+    '["Mix together and put in 9 x 13-inch cake pan or 9-inch round pans.", "Bake at 350° for 35 to 40 minutes.", "Very moist chocolate cake."]',
+    '["混合均勻，放入9x13英寸蛋糕盤或9英寸圓盤中。", "以350°F烘烤35至40分鐘。", "非常濕潤的巧克力蛋糕。"]'
+),
+(
+    'chocolate_mousse',
+    '巧克力慕斯',
+    '["12 oz. Nestle semi-sweet chocolate morsels", "6 Tbsp. cold water", "4 Tbsp. sugar", "6 eggs, separated", "1 1/2 pt. heavy cream", "2 tsp. vanilla", "2 pkg. ladyfingers (unfilled type)", "sprinkling of chocolate sprinkles", "2 Tbsp. sugar"]',
+    '["12盎司雀巢半甜巧克力豆", "6大匙冷水", "4大匙糖", "6個蛋，分離蛋清和蛋黃", "1.5品脫鮮奶油", "2茶匙香草精", "2包手指餅乾（未填充型）", "少量巧克力碎", "2大匙糖"]',
+    '["Make one day in advance!", "Line bottom of spring-form pan with wax paper (trace pan bottom onto wax paper; cut and fit into pan bottom).", "Melt chocolate morsels and 6 tablespoons water in double boiler.", "Add sugar.", "Remove from heat.", "Add 6 egg yolks.", "Beat egg whites until stiff.", "Fold into chocolate mixture.", "(Do in large bowl.)", "Beat 1 pint heavy cream, adding vanilla.", "Fold into chocolate mixture.", "Line bottom and sides of pan with ladyfingers (there will be a couple of leftover ones) to form picket fence. Chill overnight.", "Two hours before serving, beat 1/2 pint heavy cream with 2 tablespoons sugar.", "Pour over mousse, then sprinkle with chocolate sprinkles immediately before serving."]',
+    '["提前一天製作！", "在活底烤盤底部鋪上蠟紙（將盤底描在蠟紙上；剪下並放入盤底）。", "在雙層鍋中融化巧克力豆和6大匙水。", "加入糖。", "離火。", "加入6個蛋黃。", "將蛋清打發至硬性發泡。", "拌入巧克力混合物。", "（在大碗中進行。）", "打發1品脫鮮奶油，加入香草精。", "拌入巧克力混合物。", "用手指餅乾鋪滿盤底和盤邊（會剩下幾個）形成柵欄狀。過夜冷藏。", "食用前2小時，將1/2品脫鮮奶油與2大匙糖打發。", "倒在慕斯上，然後在食用前立即撒上巧克力碎。"]'
 );
--- (
--- 'beet_salad',
--- '甜菜沙拉',
--- '["1 can beets, drained well and liquid reserved", "1 c. sugar", "1 (6 oz.) pkg. raspberry Jell-O", "1 Tbsp. unflavored gelatin", "1/2 c. wine vinegar", "1 tsp. onion, grated", "1 tsp. mustard seed"]',
--- '["1罐甜菜，瀝乾並保留汁液", "1杯糖", "1包（6盎司）覆盆子果凍粉", "1大匙無味吉利丁", "1/2杯酒醋", "1茶匙洋蔥，磨碎", "1茶匙芥末籽"]',
--- '["Mash beets.", "Combine reserved liquid with enough water to make 3 cups.", "Heat and add sugar.", "Add Jell-O and gelatin; dissolve.", "Let mixture cool.", "Pour vinegar over beets.", "Fold beets, onion, and mustard seed into jello mixture.", "Allow to cool and gel."]',
--- '["將甜菜壓碎。", "將保留的汁液與足夠的水混合，製成3杯。", "加熱，加入糖。", "加入果凍粉和吉利丁；溶解。", "讓混合物冷卻。", "將醋倒在甜菜上。", "將甜菜、洋蔥和芥末籽拌入果凍混合物中。", "冷卻至凝固。"]'
--- ),
--- (
--- 'beignets',
--- '貝奈特炸糕',
--- '["1/2 c. warm water", "1 pkg. dry yeast", "2 tsp. sugar", "3/4 c. milk", "1/2 tsp. vanilla", "1/4 c. unsalted butter, melted", "1 egg, lightly beaten", "1/3 c. sugar", "1 tsp. salt", "1/2 tsp. grated nutmeg", "3 1/2 c. flour", "vegetable oil (for frying)", "powdered sugar"]',
--- '["1/2杯溫水", "1包乾酵母", "2茶匙糖", "3/4杯牛奶", "1/2茶匙香草精", "1/4杯無鹽奶油，融化", "1個蛋，輕打", "1/3杯糖", "1茶匙鹽", "1/2茶匙磨碎肉豆蔻", "3.5杯麵粉", "植物油（用於油炸）", "糖粉"]',
--- '["In a small bowl, combine water, yeast and 2 teaspoons sugar. Let stand about 10 minutes, until yeast foams.", "Meanwhile, combine milk, vanilla, butter, egg, 1/3 cup sugar, salt and nutmeg.", "Stir in the yeast mixture.", "Add the flour, one cup at a time, mixing well after each addition.", "After three cups have been added, knead in the remaining flour, 1 to 2 tablespoons at a time.", "Knead until smooth, about 10 minutes.", "Place dough in an oiled bowl, turning to coat.", "Cover and let rise in a warm place until doubled in bulk, about 1 1/2 hours.", "Punch down dough and roll to a 1/2-inch thickness.", "Cut the dough into 2-inch diamond shapes.", "Place on ungreased baking sheets.", "Cover and let rise in a warm place until doubled, about 1 hour.", "Pour oil to a depth of 3-inches in a heavy pot or fryer.", "Heat to 365° and fry the beignets, 4 or 5 at a time, for 2 to 3 minutes on each side.", "Drain on paper towel and place in a warm oven while frying the remaining beignets.", "Sprinkle with powdered sugar before serving warm.", "Makes about 30."]',
--- '["在小碗中，混合水、酵母和2茶匙糖。靜置約10分鐘，直到酵母起泡。", "同時，混合牛奶、香草精、奶油、蛋、1/3杯糖、鹽和肉豆蔻。", "加入酵母混合物，攪拌均勻。", "逐杯加入麵粉，每次加入後充分混合。", "加入三杯後，將剩下的麵粉揉入，每次1至2大匙。", "揉至光滑，約10分鐘。", "將麵團放入塗油的碗中，翻轉使其均勻塗油。", "覆蓋，在溫暖的地方發酵直到體積翻倍，約1.5小時。", "將麵團壓扁，滾成1/2英寸厚。", "將麵團切成2英寸的菱形。", "放在未塗油的烤盤上。", "覆蓋，在溫暖的地方發酵直到體積翻倍，約1小時。", "在厚鍋或炸鍋中倒入3英寸深的油。", "加熱至365°F，每次炸4或5個貝奈特，每面炸2至3分鐘。", "放在紙巾上瀝乾，在炸剩下的貝奈特時放在溫暖的烤箱中。", "溫熱食用前撒上糖粉。", "可做約30個。"]'
--- ),
--- (
--- 'bibimbap',
--- '韓式拌飯',
--- '["3 tablespoons soy sauce", "3 tablespoons white sugar", "5 tablespoons sesame oil, divided, or to taste", "1 tablespoon garlic, minced", "1 teaspoon minced fresh ginger root", "1/2 pound beef brisket, thinly sliced, or to taste", "1 cup uncooked white rice", "1 1/2 cups water", "1 cup dried shiitake mushrooms", "1 small eggplant, cut into 1/4-inch slices", "salt to taste", "1 small yellow squash, cut into 1/4-inch slices", "2 carrots, chopped", "1 cup broccoli florets", "1 cup bean sprouts", "2 eggs", "1 1/2 tablespoons rice vinegar", "4 leaves red leaf lettuce, cut widthwise into strips", "1 daikon radish, peeled and cut into matchsticks", "2 green onions, chopped (optional)"]',
--- '["3大匙醬油", "3大匙白砂糖", "5大匙芝麻油，分次使用或適量", "1大匙大蒜，切碎", "1茶匙新鮮薑末", "1/2磅牛腩，切片，或適量", "1杯未煮白米", "1.5杯水", "1杯乾香菇", "1個小茄子，切成1/4英寸片", "適量鹽", "1個小黃瓜，切成1/4英寸片", "2根胡蘿蔔，切碎", "1杯西蘭花小花", "1杯豆芽", "2個蛋", "1.5大匙米醋", "4片紅葉生菜，橫向切條", "1條白蘿蔔，去皮切成細條", "2根蔥，切碎（可選）"]',
--- '["Mix soy sauce, sugar, sesame oil, garlic, and ginger together in a bowl. Add beef brisket and cover with plastic wrap. Marinate in the refrigerator for 30 minutes.", "Rinse rice until water turns clear. Pour into a rice cooker and add 1 1/2 cups water. Seal and select setting according to manufacturer''s instructions; cook until tender, 20 to 30 minutes. Keep warm.", "Place mushrooms in a bowl of warm water. Soak for 20 minutes.", "Coat eggplant with salt on all sides and allow to ''sweat,'' about 10 minutes. Rinse with cool water."]',
--- '["在碗中混合醬油、糖、芝麻油、大蒜和薑。加入牛腩，用保鮮膜覆蓋。在冰箱中醃製30分鐘。", "將米洗至水變清澈。倒入電飯煲，加入1.5杯水。按照製造商的說明密封並選擇設定；煮至軟嫩，20至30分鐘。保持溫暖。", "將香菇放入溫水中。浸泡20分鐘。", "在茄子各面撒上鹽，讓其''出汗''，約10分鐘。用冷水沖洗。"]'
--- ),
--- (
--- 'bread_pudding',
--- '麵包布丁',
--- '["12 slices white bread", "1 (8 oz.) pkg. cream cheese, cubed", "12 eggs", "2 c. milk", "1/3 c. maple syrup", "1/4 tsp. salt"]',
--- '["12片白麵包", "1包（8盎司）奶油起司，切塊", "12個蛋", "2杯牛奶", "1/3杯楓糖漿", "1/4茶匙鹽"]',
--- '["Remove and discard crusts from bread; cut bread into cubes. Toss lightly with cream cheese cubes.", "Place in greased 13 x 9 x 2-inch baking pan.", "In a large mixing bowl, beat eggs.", "Add milk, syrup and salt.", "Mix well.", "Pour over bread mixture.", "Cover and refrigerate 8 hours or overnight."]',
--- '["去除並丟棄麵包的皮；將麵包切成塊。與奶油起司塊輕輕混合。", "放入塗油的13x9x2英寸烤盤中。", "在大攪拌碗中，打蛋。", "加入牛奶、糖漿和鹽。", "充分混合。", "倒在麵包混合物上。", "覆蓋，冷藏8小時或過夜。"]'
--- ),
--- ('breakfast_burrito','早餐捲餅',
--- '["1 pkg. soft shells (taco or burrito)", "1 doz. eggs", "1 lb. Polish sausage", "1 medium tomato, diced", "1 medium potato, diced", "1 medium onion, diced", "1/2 c. milk"]',
--- '["1包軟殼（捲餅或墨西哥捲餅）", "1打蛋", "1磅波蘭香腸", "1個中等番茄，切丁", "1個中等馬鈴薯，切丁", "1個中等洋蔥，切丁", "1/2杯牛奶"]',
--- '["Dice and saute sausage, potato and onion in large skillet. Brown and add tomato pieces.", "Crack eggs and stir until well blended as if you''re scrambling the eggs in large bowl.", "Add milk; stir.", "When sausage mixture is browned, add egg mixture and scramble.", "When the eggs are cooked, put them into the burrito shells (about 3/4 cup into each) and wrap shells around egg mixture.", "Put two stuffed burritos in foil and bake for 15 minutes."]',
--- '["在大平底鍋中將香腸、馬鈴薯和洋蔥切丁並炒熟。煎至棕色，加入番茄塊。", "在打蛋碗中將蛋打散並攪拌直到充分混合，就像你在炒蛋一樣。", "加入牛奶；攪拌。", "當香腸混合物呈棕色時，加入蛋混合物並炒散。", "當蛋煮熟時，將它們放入捲餅殼中（每個約3/4杯），將殼包裹在蛋混合物周圍。", "將兩個填滿的捲餅放在鋁箔紙上，烘烤15分鐘。"]'
--- ),
-
--- ('bruschetta','義式烤麵包',
--- '["2 c. chopped ripe tomatoes", "2 Tbsp. olive oil", "1 clove garlic, minced", "1/2 tsp. salt", "4 thick slices Italian bread", "1 Tbsp. olive oil"]',
--- '["2杯切碎熟番茄", "2大匙橄欖油", "1瓣大蒜，切碎", "1/2茶匙鹽", "4片厚義大利麵包", "1大匙橄欖油"]',
--- '["Mix first 4 ingredients in a small bowl.", "Let stand so tomatoes release their juices.", "Brush both sides of bread with olive oil.", "Broil 4 to 5 inches from heat source on both sides until lightly browned.", "Place bread on serving plates and spoon topping over slices.", "Serve immediately."]',
--- '["在小碗中混合前4種材料。", "靜置讓番茄釋放汁液。", "在麵包兩面刷上橄欖油。", "在距離熱源4至5英寸處兩面烤至淺棕色。", "將麵包放在餐盤上，將配料舀在切片上。", "立即食用。"]'
--- ),
-
--- ('caesar_salad','凱薩沙拉',
--- '["2 Tbsp. grated Parmesan cheese", "2 Tbsp. water", "2 Tbsp. red wine vinegar", "1 tsp. Worcestershire sauce", "1 Tbsp. olive oil", "1 clove garlic", "1/4 tsp. dry mustard", "1 large bunch romaine lettuce, cleaned and torn into pieces", "1/3 c. croutons (optional)"]',
--- '["2大匙帕馬森起司碎", "2大匙水", "2大匙紅酒醋", "1茶匙伍斯特醬", "1大匙橄欖油", "1瓣大蒜", "1/4茶匙乾芥末", "1大顆羅馬生菜，洗淨並撕成塊", "1/3杯麵包丁（可選）"]',
--- '["Combine all ingredients together except lettuce in food processor and blend until smooth.", "Pour over lettuce, tossing well.", "Top with croutons, if desired.", "Yields 4 servings."]',
--- '["除生菜外，將所有材料放入食物處理機中混合直到光滑。", "倒在生菜上，充分拌勻。", "如需，放上麵包丁。", "可做4份。"]'
--- ),
-
--- ('cannoli','義大利奶油香酥卷',
--- '["1 (15 oz.) container Ricotta cheese", "2/3 c. confectioners sugar", "1/2 tsp. grated orange peel", "1/2 tsp. vanilla", "2 Tbsp. mini chocolate chips", "10 sugar ice cream cones"]',
--- '["1盒（15盎司）瑞可塔起司", "2/3杯糖粉", "1/2茶匙磨碎橙皮", "1/2茶匙香草精", "2大匙迷你巧克力豆", "10個糖冰淇淋筒"]',
--- '["In a large bowl with electric mixer at low, beat Ricotta, sugar, orange peel and vanilla just until smooth.", "Stir in chocolate chips.", "Cover.", "Refrigerate for 30 minutes.", "Spoon mixture into ice cream cones.", "Serves 10."]',
--- '["在大碗中用電動攪拌器低速攪打瑞可塔起司、糖、橙皮和香草精直到光滑。", "加入巧克力豆，攪拌均勻。", "覆蓋。", "冷藏30分鐘。", "將混合物舀入冰淇淋筒中。", "10人份。"]'),
-
--- ('caprese_salad','卡普里沙拉',
--- '["2 pt. cherry tomatoes, halved", "4 oz. part-skim Mozzarella cheese, cut into 1/4-inch cubes", "1/3 c. slivered green olives", "1/3 c. chopped fresh basil", "2 Tbsp. balsamic vinegar", "1 Tbsp. olive oil", "1/2 tsp. salt"]',
--- '["2品脫櫻桃番茄，切半", "4盎司部分脫脂莫札瑞拉起司，切成1/4英寸塊", "1/3杯切片綠橄欖", "1/3杯切碎新鮮羅勒", "2大匙香醋", "1大匙橄欖油", "1/2茶匙鹽"]',
--- '["In medium bowl, combine all of the ingredients.", "Toss and serve.", "Will serve 4. High in vitamins A and C. One of the best sources of lycopene."]',
--- '["在中碗中，混合所有材料。", "拌勻並食用。", "4人份。富含維生素A和C。是茄紅素的最佳來源之一。"]'
--- ),
--- ('carrot_cake','胡蘿蔔蛋糕',
--- '["2 c. flour, sifted", "1 tsp. soda", "1 tsp. salt", "2 c. sugar", "1 tsp. cinnamon", "1 1/2 c. oil", "4 eggs", "2 c. grated carrots", "1 c. nuts"]',
--- '["2杯麵粉，過篩", "1茶匙小蘇打", "1茶匙鹽", "2杯糖", "1茶匙肉桂", "1.5杯油", "4個蛋", "2杯磨碎胡蘿蔔", "1杯堅果"]',
--- '["Place dry ingredients in a large bowl and mix thoroughly.", "Add rest of ingredients and mix well.", "Bake in well-greased and floured pans.", "Bake at 350° for 30 minutes.", "Remove from pans and cool.", "Makes 2 (9-inch) or 3 (8-inch) layers."]',
--- '["將乾性材料放入大碗中，充分混合。", "加入剩下的材料，充分混合。", "在塗油並撒麵粉的烤盤中烘烤。", "以350°F烘烤30分鐘。", "從烤盤中取出，冷卻。", "可做2層（9英寸）或3層（8英寸）。"]'
--- ),
-
--- ('ceviche','酸橘汁醃魚',
--- '["1 lb. whitefish fillets (raw)", "juice of 1 lime", "2 medium size tomatoes, peeled", "2 green chilies, chopped", "1 small onion, thinly sliced", "1/4 tsp. oregano", "3 sprigs cilantro, chopped", "slices of 1 avocado", "wedges of 1 tomato"]',
--- '["1磅白魚柳（生）", "1個萊姆汁", "2個中等番茄，去皮", "2個青椒，切碎", "1個小洋蔥，切片", "1/4茶匙牛至", "3枝香菜，切碎", "1個酪梨切片", "1個番茄切塊"]',
--- '["Cut uncooked fish into small pieces.", "Add lime juice to cover fish; cover and refrigerate 3 to 4 hours, or until fish become opaque.", "Stir occasionally."]',
--- '["將未煮的魚切成小塊。", "加入萊姆汁覆蓋魚；覆蓋，冷藏3至4小時，或直到魚變不透明。", "偶爾攪拌。"]'
--- ),
-
--- ('cheesecake','芝士蛋糕',
--- '["1/2 c. sugar", "8 oz. cream cheese", "8 oz. Cool Whip", "1 c. sour cream", "2 tsp. vanilla", "1 frozen graham cracker crust"]',
--- '["1/2杯糖", "8盎司奶油起司", "8盎司酷 Whip", "1杯酸奶油", "2茶匙香草精", "1個冷凍奶油餅乾派皮"]',
--- '["Mix all ingredients together and pour into graham cracker crust. Add fresh fruit or any canned fruit pie filling on top. Refrigerate 2 hours."]',
--- '["將所有材料混合均勻，倒入奶油餅乾派皮中。在頂部加入新鮮水果或任何罐裝水果派餡。冷藏2小時。"]'
--- ),
-
--- ('cheese_plate','起司拼盤',
--- '["3 ounces sliced drunken goat cheese", "3 ounces sliced manchego cheese (may sub any sharp, sturdy white cheese)", "20 onion flavored crackers", "1/4 cup blackberry jam", "2 tablespoons sunflower seeds", "2 tablespoons pepitas (shelled pumpkin seeds)"]',
--- '["3盎司切片醉山羊起司", "3盎司切片曼切戈起司（可用任何濃味、堅實的白起司替代）", "20片洋蔥風味餅乾", "1/4杯黑莓果醬", "2大匙葵花籽", "2大匙南瓜籽"]',
--- '["Get out a nice square platter and 2 small bowls (which fit on the platter).", "Place goat cheese fanned out in one corner.", "Fan the manchego out on the opposite corner.", "Place jam/preserves in one bowl and place in an empty corner of the plate.", "Then mix the seeds together in the remaining bowl and place in the opposite corner.", "Feel free to garnish the plate with fresh berries and mint if you have some.", "Place crackers on another plate and serve!", "Guests will take 1 cracker, put 1 piece of cheese on it, spread a small amt of jam on the cheese and top with a small sprinkling of the seed. DELISH! (NOTE: You can also serve them on a platter already made up in this manner)."]',
--- '["拿出一個漂亮的方形盤子和2個小碗（可以放在盤子上）。", "將山羊起司在一個角落扇形排列。", "在相對的角落扇形排列曼切戈起司。", "將果醬/果醬放入一個碗中，放在盤子的空角落。", "然後將種子混合在剩下的碗中，放在相對的角落。", "如果有新鮮漿果和薄荷，可以自由裝飾盤子。", "將餅乾放在另一個盤子上，上桌！", "客人會拿1片餅乾，在上面放1片起司，在起司上塗少量果醬，頂部撒上少量種子。美味！（注意：你也可以將它們以這種方式組裝在盤子上上桌）。"]'
--- ),
-
--- ('chicken_curry','咖哩雞',
--- '["4 (6 oz.) boneless, skinned chicken breasts", "3 Tbsp. flour", "1 Tbsp. curry powder", "4 Tbsp. oil", "1 Tbsp. sugar", "2 chicken bouillon cubes", "1 c. water", "16 oz. can apricots", "1/2 c. chopped onion", "1 c. sliced mushrooms", "2 Tbsp. soy sauce", "2 Tbsp. lemon juice"]',
--- '["4個（6盎司）去骨去皮雞胸肉", "3大匙麵粉", "1大匙咖哩粉", "4大匙油", "1大匙糖", "2塊雞高湯塊", "1杯水", "16盎司罐裝杏", "1/2杯切碎洋蔥", "1杯切片蘑菇", "2大匙醬油", "2大匙檸檬汁"]',
--- '["Rub chicken breasts with curry powder and put in baking dish. Pour on orange juice sweetened with a little honey.", "Bake until done in very slow oven (or adjust for microwave).", "Thicken juices with cornstarch.", "Serve with brown or white rice.", "(Slow oven is 300° and would take about 1 1/2 hours, depending on the number of chicken breasts.)"]',
--- '["在雞胸肉上塗上咖哩粉，放入烤盤。倒入加少量蜂蜜的柳橙汁。", "在非常慢的烤箱中烘烤直到熟（或根據微波爐調整）。", "用玉米澱粉濃縮汁液。", "搭配糙米或白米食用。", "（慢烤箱為300°F，約需1.5小時，取決於雞胸肉的數量。）"]'
--- ),
-
---  (
---     'chicken_quesadilla',
---     '雞肉烤餅',
---     '["flour tortillas", "chicken breast (boneless) strips", "Chihuahua cheese, grated", "green onions, chopped (optional)", "butter (real butter)"]',
---     '["麵粉玉米餅", "雞胸肉（去骨）條", "奇瓦瓦起司，磨碎", "蔥，切碎（可選）", "奶油（真奶油）"]',
---     '["Season chicken and cook.", "Lightly butter pan.", "Put tortilla in pan.", "Place chicken, onion and cheese on 1/2 of tortilla and fold in half.", "Cook until fairly toasted on one side and flip over. Cook until toasted and cheese is melted."]',
---     '["調味雞肉並煮熟。", "在鍋中輕輕塗上奶油。", "將玉米餅放入鍋中。", "在玉米餅的1/2上放雞肉、洋蔥和起司，對折。", "煮到一面相當烤焦，然後翻面。煮到烤焦且起司融化。"]'
--- ),
--- (
---     'chicken_wings',
---     '雞翅',
---     '["1 pkg. chicken wings", "1 c. sugar", "1 c. soy sauce", "1 1/2 tsp. ginger", "1/4 tsp. pepper", "1/4 tsp. m.s.g.", "1/2 c. chopped green onion"]',
---     '["1包雞翅", "1杯糖", "1杯醬油", "1.5茶匙薑", "1/4茶匙黑胡椒", "1/4茶匙味精", "1/2杯切碎蔥"]',
---     '["Mix all ingredients with chicken wings and marinate in refrigerator overnight.", "Bake in uncovered pan in single layers at 325° for 1 1/2 hours.", "Stir midway through."]',
---     '["將所有材料與雞翅混合，在冰箱中醃製過夜。", "在未覆蓋的烤盤中單層以325°F烘烤1.5小時。", "中途攪拌。"]'
--- ),
--- (
---     'chocolate_cake',
---     '巧克力蛋糕',
---     '["2 c. flour", "2 c. sugar", "1 tsp. salt", "1 tsp. baking powder", "2 tsp. baking soda", "3/4 c. cocoa powder", "1 c. oil", "1 c. hot coffee", "2 eggs", "1 tsp. vanilla"]',
---     '["2杯麵粉", "2杯糖", "1茶匙鹽", "1茶匙泡打粉", "2茶匙小蘇打", "3/4杯可可粉", "1杯油", "1杯熱咖啡", "2個蛋", "1茶匙香草精"]',
---     '["Mix together and put in 9 x 13-inch cake pan or 9-inch round pans.", "Bake at 350° for 35 to 40 minutes.", "Very moist chocolate cake."]',
---     '["混合均勻，放入9x13英寸蛋糕盤或9英寸圓盤中。", "以350°F烘烤35至40分鐘。", "非常濕潤的巧克力蛋糕。"]'
--- ),
--- (
---     'chocolate_mousse',
---     '巧克力慕斯',
---     '["12 oz. Nestle semi-sweet chocolate morsels", "6 Tbsp. cold water", "4 Tbsp. sugar", "6 eggs, separated", "1 1/2 pt. heavy cream", "2 tsp. vanilla", "2 pkg. ladyfingers (unfilled type)", "sprinkling of chocolate sprinkles", "2 Tbsp. sugar"]',
---     '["12盎司雀巢半甜巧克力豆", "6大匙冷水", "4大匙糖", "6個蛋，分離蛋清和蛋黃", "1.5品脫鮮奶油", "2茶匙香草精", "2包手指餅乾（未填充型）", "少量巧克力碎", "2大匙糖"]',
---     '["Make one day in advance!", "Line bottom of spring-form pan with wax paper (trace pan bottom onto wax paper; cut and fit into pan bottom).", "Melt chocolate morsels and 6 tablespoons water in double boiler.", "Add sugar.", "Remove from heat.", "Add 6 egg yolks.", "Beat egg whites until stiff.", "Fold into chocolate mixture.", "(Do in large bowl.)", "Beat 1 pint heavy cream, adding vanilla.", "Fold into chocolate mixture.", "Line bottom and sides of pan with ladyfingers (there will be a couple of leftover ones) to form picket fence. Chill overnight.", "Two hours before serving, beat 1/2 pint heavy cream with 2 tablespoons sugar.", "Pour over mousse, then sprinkle with chocolate sprinkles immediately before serving."]',
---     '["提前一天製作！", "在活底烤盤底部鋪上蠟紙（將盤底描在蠟紙上；剪下並放入盤底）。", "在雙層鍋中融化巧克力豆和6大匙水。", "加入糖。", "離火。", "加入6個蛋黃。", "將蛋清打發至硬性發泡。", "拌入巧克力混合物。", "（在大碗中進行。）", "打發1品脫鮮奶油，加入香草精。", "拌入巧克力混合物。", "用手指餅乾鋪滿盤底和盤邊（會剩下幾個）形成柵欄狀。過夜冷藏。", "食用前2小時，將1/2品脫鮮奶油與2大匙糖打發。", "倒在慕斯上，然後在食用前立即撒上巧克力碎。"]'
--- ),
 -- (
 --     'churros',
 --     '吉拿棒',
