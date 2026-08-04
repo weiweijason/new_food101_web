@@ -638,15 +638,15 @@ INSERT INTO `nr` (
     '["8盎司苦甜巧克力", "24根手指餅乾", "2杯濃縮咖啡，冷卻", "6個蛋，分離", "6滿大匙粒糖", "1磅馬斯卡彭起司"]',
     '["Chop the chocolate coarsely or cut into small pieces.", "Put ladyfingers on a plate and lightly soak them with cold coffee. Arrange half of the ladyfingers in 1 layer on a rectangular or oval serving dish with sides at least 2 inches high."]',
     '["將巧克力粗略切碎或切成小塊。", "將手指餅乾放在盤子上，用冷咖啡輕輕浸泡。將一半的手指餅乾鋪在長方形或橢圓形餐盤上，盤邊至少2英寸高。"]'
-),
-(
-    'tuna_tartare',
-    '吞拿魚塔塔',
-    '["1 pound sushi grade tuna, finely diced", "3 tablespoons olive oil", "1/4 teaspoon wasabi powder", "1 tablespoon sesame seeds", "1/8 teaspoon cracked black pepper", "sliced French bread"]',
-    '["1磅壽司級吞拿魚，細切", "3大匙橄欖油", "1/4茶匙芥末粉", "1大匙芝麻", "1/8茶匙粗黑胡椒", "切片法式麵包"]',
-    '["In a bowl, stir together olive oil, wasabi powder, sesame seeds, and cracked black pepper. Toss tuna into mixture until evenly coated. Adjust seasoning as desired with additional wasabi powder or black pepper. Serve on sliced French bread."]',
-    '["在碗中，混合橄欖油、芥末粉、芝麻和粗黑胡椒。將吞拿魚拌入混合物中，直到均勻裹上。按需加入更多芥末粉或黑胡椒調味。放在切片法式麵包上食用。"]'
 );
+-- (
+--     'tuna_tartare',
+--     '吞拿魚塔塔',
+--     '["1 pound sushi grade tuna, finely diced", "3 tablespoons olive oil", "1/4 teaspoon wasabi powder", "1 tablespoon sesame seeds", "1/8 teaspoon cracked black pepper", "sliced French bread"]',
+--     '["1磅壽司級吞拿魚，細切", "3大匙橄欖油", "1/4茶匙芥末粉", "1大匙芝麻", "1/8茶匙粗黑胡椒", "切片法式麵包"]',
+--     '["In a bowl, stir together olive oil, wasabi powder, sesame seeds, and cracked black pepper. Toss tuna into mixture until evenly coated. Adjust seasoning as desired with additional wasabi powder or black pepper. Serve on sliced French bread."]',
+--     '["在碗中，混合橄欖油、芥末粉、芝麻和粗黑胡椒。將吞拿魚拌入混合物中，直到均勻裹上。按需加入更多芥末粉或黑胡椒調味。放在切片法式麵包上食用。"]'
+-- ),
 -- (
 --     'waffles',
 --     '華夫餅',
