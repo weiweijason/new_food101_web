@@ -248,6 +248,166 @@ INSERT INTO `nr` (
     '["在厚中號平底鍋中，以大火融化奶油。當奶油開始變棕色時，加入蘑菇，拌勻。", "偶爾攪拌炒，直到蘑菇邊緣變棕色，2至3分鐘。", "加入蔥，再煮1分鐘。將蘑菇轉移到盤子上，用鹽和黑胡椒調味。", "將起司分到4片麵包上。", "每片放上蘑菇，距離麵包邊緣約1/4英寸。加上一枝龍蒿，用剩下的4片麵包覆蓋。", "以中火預熱鑄鐵烤盤或平底鍋10分鐘。每面烤三明治4分鐘或直到麵包呈淺棕色且起司融化。", "切成半作為第一道菜，或切成四分之一作為開胃菜。"]'
 ),
 (
+    'deviled_eggs',
+    '魔鬼蛋',
+    '["6 eggs", "1 Tbsp. mustard", "1 Tbsp. sugar", "1/4 c. Miracle Whip", "1/8 tsp. salt", "dash of pepper"]',
+    '["6個蛋", "1大匙芥末", "1大匙糖", "1/4杯Miracle Whip沙拉醬", "1/8茶匙鹽", "少許黑胡椒"]',
+    '["Cook eggs 10 minutes, then drain off water.", "Cover with cold water to cool eggs some, then peel hard-boiled eggs.", "Cut into halves lengthwise", "and", "scoop", "yolks out into bowl.", "Mash with fork until", "real", "fine, add mustard, Miracle Whip, sugar, salt and pepper.", "Spoon", "into", "egg", "halves", "and", "sprinkle with paprika."]',
+    '["煮蛋10分鐘，然後瀝乾水分。", "用冷水覆蓋讓蛋稍微冷卻，然後剝開水煮蛋。", "縱向切半", "並", "將", "蛋黃", "舀入碗中。", "用叉子壓碎直到", "非常", "細緻，加入芥末、Miracle Whip沙拉醬、糖、鹽和黑胡椒。", "將混合物", "舀入", "蛋", "半", "中", "並", "撒上紅椒粉。"]'
+),
+(
+    'donuts',
+    '甜甜圈',
+    '["1 can biscuits (10)", "powdered sugar"]',
+    '["1罐餅乾（10個）", "糖粉"]',
+    '["Cut", "small", "hole in middle of biscuits.", "I use medicine bottle.", "Deep fry biscuits and the holes until brown.", "Roll in powdered sugar."]',
+    '["在餅乾中間切一個", "小", "洞。", "我用藥物瓶。", "將餅乾和洞深炸至棕色。", "滾上糖粉。"]'
+),
+(
+    'dumplings',
+    '餃子',
+    '["1 c. flour", "1 tsp. baking powder", "pinch of salt", "1 large egg", "1 tsp. melted butter", "1/3 c. milk"]',
+    '["1杯麵粉", "1茶匙泡打粉", "少許鹽", "1個大蛋", "1茶匙融化奶油", "1/3杯牛奶"]',
+    '["Sift dry ingredients into a bowl.", "Beat in the egg until it is well mixed.", "Then add the milk and work it with a heavy spoon until smooth.", "Drop by tablespoon into boiling broth or salted water.", "Let boil with lid closed for 10 minutes."]',
+    '["將乾性材料篩入碗中。", "打入蛋，攪拌直到充分混合。", "然後加入牛奶，用湯匙攪拌直到光滑。", "用湯匙將麵糊滴入沸騰的高湯或鹽水中。", "蓋上鍋蓋煮沸10分鐘。"]'
+),
+(
+    'edamame',
+    '毛豆',
+    '["1 (12 ounce) package frozen edamame (soybeans) in their pods", "2 tablespoons extra-virgin olive oil", "2 cloves garlic, minced", "1 teaspoon sea salt", "1/2 teaspoon ground black pepper"]',
+    '["1包（12盎司）帶殼冷凍毛豆", "2大匙特級初榨橄欖油", "2瓣大蒜，切碎", "1茶匙海鹽", "1/2茶匙現磨黑胡椒"]',
+    '["Preheat oven to 375 degrees F (190 degrees C).", "Toss edamame, olive oil, garlic, sea salt, and black pepper together in a large bowl until well-coated. Spread in a single layer on a baking sheet.", "Roast in the preheated oven, stirring halfway through, until edamame shells start to brown, about 20 minutes. Serve whole, popping beans out of the shell to eat."]',
+    '["預熱烤箱至375°F（190°C）。", "在一個大碗中將毛豆、橄欖油、大蒜、海鹽和黑胡椒混合，直到均勻包裹。在烤盤上鋪成單層。", "在預熱的烤箱中烘烤，中途攪拌一次，直到毛豆殼開始變棕色，約20分鐘。整顆食用，將豆仁從殼中剝出。"]'
+),
+(
+    'eggs_benedict',
+    '班尼迪克蛋（焗烤版）',
+    '["8 slices bread, buttered on both sides", "1 lb. bacon, fried crisp", "1 (8 oz.) pkg. shredded Cheddar cheese", "1 c. milk", "1 doz. eggs", "salt and pepper to taste", "1/2 c. chopped onion", "1/2 c. chopped green pepper", "1 large can mushrooms"]',
+    '["8片麵包，兩面塗奶油", "1磅培根，煎至酥脆", "1包（8盎司）切達起司絲", "1杯牛奶", "1打蛋", "適量鹽和黑胡椒", "1/2杯切碎洋蔥", "1/2杯切碎青椒", "1大罐蘑菇"]',
+    '["Line 9 x 13-inch pan with bread.", "Cover with bacon and shredded cheese.", "Beat milk, eggs, salt and pepper together.", "Add onion and green pepper and fold in mushrooms.", "Pour over bread, bacon and cheese.", "Cover and refrigerate overnight."]',
+    '["在9x13英寸烤盤中鋪上麵包。", "覆蓋培根和起司絲。", "將牛奶、蛋、鹽和黑胡椒打散混合。", "加入洋蔥、青椒並拌入蘑菇。", "倒在麵包、培根和起司上。", "覆蓋並冷藏過夜。"]'
+),
+(
+    'escargots',
+    '法式田螺',
+    '["24 snails", "2 cloves crushed garlic", "1 tsp. fresh parsley", "1 tsp. chopped green onion", "1/2 tsp. salt", "1/8 tsp. pepper", "4 Tbsp. white wine", "2/3 c. butter"]',
+    '["24個田螺", "2瓣壓碎大蒜", "1茶匙新鮮歐芹", "1茶匙碎蔥", "1/2茶匙鹽", "1/8茶匙黑胡椒", "4大匙白葡萄酒", "2/3杯奶油"]',
+    '["Heat oven to 400°. Mix wine, parsley, butter, garlic, salt, pepper and onion in saucepan.", "Heat.", "Rinse and strain snails."]',
+    '["將烤箱預熱至400°F。在鍋中混合葡萄酒、歐芹、奶油、大蒜、鹽、黑胡椒和蔥。", "加熱。", "沖洗田螺並瀝乾。"]'
+),
+(
+    'falafel',
+    '炸鷹嘴豆餅',
+    '["1 1/2 c. dried chickpeas (garbanzo beans, about 12 oz.)", "2 c. chopped fresh cilantro", "1 tsp. cumin", "1 tsp. allspice", "1/4 tsp. salt", "1/4 tsp. black pepper", "1/8 tsp. ground red pepper", "5 garlic cloves, peeled", "1 onion, quartered", "1 leek, trimmed and cut into 3 pieces", "6 Tbsp. olive oil, divided", "Yogurt-Tahini Dip", "8 (6-inch) pitas, cut in half"]',
+    '["1.5杯乾燥鷹嘴豆（約12盎司）", "2杯切碎新鮮香菜", "1茶匙孜然", "1茶匙五香粉", "1/4茶匙鹽", "1/4茶匙黑胡椒", "1/8茶匙辣椒粉", "5瓣大蒜，去皮", "1個洋蔥，切四塊", "1根韭菜，修剪並切3段", "6大匙橄欖油，分次使用", "優格芝麻醬蘸醬", "8個（6英寸）皮塔餅，切半"]',
+    '["Sort and wash chickpeas and place in large bowl. Cover with water to 2 inches above beans. Cover and let stand for 8 hours. Drain beans. Combine chickpeas, cilantro and next 8 ingredients in a food processor until mixture resembles coarse meal. Divide chickpea mixture into 16 equal portions, shaping each into 1/2 inch thick patties. Heat 2 Tbsp. oil in a large non-stick skillet. Add 5 patties and cook 3 minutes on each side or until golden brown. Repeat procedure twice with remaining oil and patties. Spread 1 Tbsp. Yogurt-Tahini Dip in each pita half. Fill with 1 patty. Serves 8 (2 pita halves each)."]',
+    '["挑選並清洗鷹嘴豆，放入大碗中。加水沒過豆子2英寸。覆蓋並浸泡8小時。瀝乾豆子。將鷹嘴豆、香菜及接下來8種材料放入食物處理機，直到混合物像粗麩皮狀。將鷹嘴豆混合物分成16等份，每份捏成1/2英寸厚的餅。在大不沾鍋中加熱2大匙油。放入5個餅，每面煎3分鐘或直到金棕色。用剩下的油和餅重複兩次此步驟。在每個皮塔餅半邊塗上1大匙優格芝麻醬。填入1個餅。可做8人份（每人2半個皮塔餅）。"]'
+),
+(
+    'filet_mignon',
+    '菲力牛排',
+    '["1/4 c. dry red wine", "2 Tbsp. soy sauce", "1/4 tsp. dried tarragon", "2 beef tenderloin steaks", "vegetable cooking spray"]',
+    '["1/4杯乾紅酒", "2大匙醬油", "1/4茶匙乾燥龍蒿", "2塊牛里脊牛排", "蔬菜噴霧油"]',
+    '["Combine first three ingredients in large Ziploc bag.", "Add steaks.", "Refrigerate 3 hours, turning occasionally.", "Remove steaks from marinade.", "Place on coated rack in shallow, roasting pan. Broil 6 inches from heat for 5 minutes each side."]',
+    '["將前三種材料放入大保鮮袋中。", "加入牛排。", "冷藏3小時，偶爾翻動。", "將牛排從醃料中取出。", "放在淺烤盤的塗油烤架上。距離熱源6英寸，每面烘烤5分鐘。"]'
+),
+(
+    'fish_and_chips',
+    '炸魚薯條',
+    '["3 c. pancake mix", "3 to 4 c. club soda", "4 oz. envelope Ranch dressing mix", "2 to 3 lb. fish"]',
+    '["3杯鬆餅粉", "3至4杯蘇打水", "4盎司包鄉村醬粉", "2至3磅魚"]',
+    '["Mix first three ingredients until the consistency of buttermilk.", "Then dip fish in flour and let dry a few minutes. Then dip in batter."]',
+    '["將前三種材料混合直到呈現酪乳稠度。", "然後將魚蘸上麵粉，晾乾幾分鐘。再蘸上面糊。"]'
+),
+(
+    'foie_gras',
+    '鵝肝醬',
+    '["1/2 lb. chicken giblets or chicken liver", "1 1/4 tsp. salt", "1/2 c. butter", "2 tsp. Worcestershire sauce", "1 tsp. mustard", "1/2 tsp. nutmeg", "1/4 tsp. cloves", "1/8 tsp. cayenne pepper", "2 Tbsp. onion juice"]',
+    '["1/2磅雞雜或雞肝", "1.25茶匙鹽", "1/2杯奶油", "2茶匙伍斯特醬", "1茶匙芥末", "1/2茶匙肉豆蔻", "1/4茶匙丁香", "1/8茶匙辣椒粉", "2大匙洋蔥汁"]',
+    '["Simmer giblets in water to cover until tender, about 20 minutes for liver; 1 to 3 hours for gizzard.", "Add the salt when almost done.", "Cool in the stock.", "Grind the giblets or liver to a smooth paste; add butter, seasonings and enough of the stock to make a paste.", "Add more seasonings, if desired.", "Place in a greased glass bowl and store in the refrigerator.", "Tomato catsup may be used for additional seasoning.", "Makes 1 cup."]',
+    '["將雞雜加水蓋過，小火燉煮直到軟嫩，肝約20分鐘；胗1至3小時。", "快熟時加入鹽。", "在高湯中冷卻。", "將雞雜或肝研磨成光滑糊狀；加入奶油、調味料及足夠的高湯使其成糊狀。", "如需，可加入更多調味料。", "放入塗油的玻璃碗中，冷藏保存。", "番茄醬可用於額外調味。", "可做1杯。"]'
+),
+(
+    'french_fries',
+    '法式薯條',
+    '["10 oz. potatoes", "1 tsp. oil", "1/4 tsp. paprika", "1/8 tsp. salt"]',
+    '["10盎司馬鈴薯", "1茶匙油", "1/4茶匙紅椒粉", "1/8茶匙鹽"]',
+    '["Cut potatoes into 1/2 inch wide sticks.", "Place in old water (ice) about 30 minutes.", "Pat dry.", "Place potatoes in plastic bag with other ingredients.", "Shake to coat.", "Arrange on large cookie sheet in a single layer.", "Bake at 425° for 30 minutes, stirring once or twice until golden brown."]',
+    '["將馬鈴薯切成1/2英寸寬的條。", "放入冰水中約30分鐘。", "拍乾水分。", "將馬鈴薯與其他材料放入塑膠袋中。", "搖晃使其均勻裹粉。", "在大的烤盤上鋪成單層。", "以425°F烘烤30分鐘，中途攪拌1至2次，直到呈金棕色。"]'
+),
+(
+    'french_onion_soup',
+    '法式洋蔥湯',
+    '["1/4 lb. butter", "2 1/2 lb. onions, sliced", "1 qt. beef stock (3 cans Campbell''s beef stock)", "1 qt. chicken stock (3 cans Campbell''s chicken stock)", "2 Tbsp. Worcestershire sauce", "1 bay leaf", "1 1/2 tsp. garlic salt", "1 tsp. black pepper (you may wish to use less)", "salt to taste (you may not want any)"]',
+    '["1/4磅奶油", "2.5磅洋蔥，切片", "1夸脫牛高湯（3罐康寶牛高湯）", "1夸脫雞高湯（3罐康寶雞高湯）", "2大匙伍斯特醬", "1片月桂葉", "1.5茶匙大蒜鹽", "1茶匙黑胡椒（可酌情減少）", "適量鹽（可不加）"]',
+    '["Heat butter in heavy kettle.", "Add sliced onions; brown well, stirring constantly.", "Add beef and chicken stock, the Worcestershire sauce, bay leaf, garlic salt and pepper.", "Allow to simmer for 40 minutes.", "Remove the bay leaf; add salt.", "Prepare with a slice of toasted French bread (1/2-inch thick).", "Add a thick slice of Swiss cheese (1/4-inch thick), overlapping the bowl.", "Put under the broiler until cheese is melted and bubbly."]',
+    '["在厚底鍋中加熱奶油。", "加入切片洋蔥；不斷攪拌直到煎至深棕色。", "加入牛高湯和雞高湯、伍斯特醬、月桂葉、大蒜鹽和黑胡椒。", "小火燉煮40分鐘。", "取出月桂葉；加入鹽。", "準備一片烤過的法式麵包（1/2英寸厚）。", "放上一片厚瑞士起司（1/4英寸厚），覆蓋碗口。", "放入烤箱烘烤直到起司融化並冒泡。"]'
+),
+(
+    'french_toast',
+    '法式吐司',
+    '["4 eggs", "1 c. milk", "1 Tbsp. sugar", "1/2 tsp. salt", "8 slices day-old bread", "syrup, jelly or 10xxx sugar"]',
+    '["4個蛋", "1杯牛奶", "1大匙糖", "1/2茶匙鹽", "8片隔日麵包", "糖漿、果醬或粗砂糖"]',
+    '["Beat eggs, milk, sugar and salt together in shallow dish. Heat shortening in skillet or on griddle.", "Dip bread slices, one at a time, into egg mixture.", "Turn and coat evenly.", "Fry until lightly brown on both sides.", "Serve with syrup, jelly or 10xxx sugar."]',
+    '["在淺盤中將蛋、牛奶、糖和鹽打散混合。在平底鍋或鐵板上加熱油。", "將麵包片逐一浸入蛋液中。", "翻面確保均勻裹上。", "煎到兩面呈淺棕色。", "搭配糖漿、果醬或粗砂糖食用。"]'
+),
+(
+    'fried_calamari',
+    '炸魷魚',
+    '["1 lb. calamari, cleaned and cut into 1-inch circles", "1 c. flour", "salt and pepper to taste", "2 c. vegetable oil or as needed"]',
+    '["1磅魷魚，清洗並切成1英寸圓圈", "1杯麵粉", "適量鹽和黑胡椒", "2杯植物油或適量"]',
+    '["Wash and dry calamari as best as possible to avoid splattering. Heat oil until it sizzles when you put in a piece of calamari (test it first).", "Dredge calamari lightly in flour and deep fry until golden brown.", "Serve hot with lemon juice, tartar sauce, cocktail sauce or hot sauce."]',
+    '["盡量清洗並擦乾魷魚以避免油濺。加熱油直到放入魷魚時發出滋滋聲（先測試一下）。", "將魷魚輕裹麵粉，深炸直到呈金棕色。", "熱食，搭配檸檬汁、塔塔醬、雞尾酒醬或辣醬。"]'
+),
+(
+    'fried_rice',
+    '炒飯',
+    '["1 c. white rice", "1/2 c. frozen peas and carrots", "2 to 3 Tbsp. onions, diced", "1 egg, slightly beaten", "2 Tbsp. real bacon bits", "1 Tbsp. butter or margarine", "light soy sauce to taste"]',
+    '["1杯白米", "1/2杯冷凍豌豆和胡蘿蔔", "2至3大匙洋蔥，切丁", "1個蛋，輕打", "2大匙真培根粒", "1大匙奶油或人造奶油", "適量淡醬油"]',
+    '["Cook rice and let cool.", "Heat butter in a large skillet or wok over medium-high heat.", "Add onions and stir-fry until soft.", "Push onions to the side, add egg and scramble until cooked.", "Add rice, peas, carrots, and bacon bits. Stir-fry for 2-3 minutes.", "Add soy sauce and toss to combine. Serve hot."]',
+    '["煮好米並放涼。", "在大平底鍋或炒鍋中以中高火加熱奶油。", "加入洋蔥，炒至軟。", "將洋蔥推到一邊，加入蛋並炒熟。", "加入米、豌豆、胡蘿蔔和培根粒。炒2-3分鐘。", "加入醬油，攪拌均勻。熱食。"]'
+),
+(
+    'frozen_yogurt',
+    '優格冰沙',
+    '["8 oz. fresh strawberries", "8 oz. nonfat yogurt", "1/2 tsp. Equal sweetener"]',
+    '["8盎司新鮮草莓", "8盎司脫脂優格", "1/2茶匙代糖"]',
+    '["Put strawberries in blender.", "Mix until pureed.", "Mix with yogurt and sweetener to taste.", "Freeze."]',
+    '["將草莓放入果汁機。", "攪打成泥。", "與優格和代糖混合，依口味調整。", "冷凍。"]'
+),
+(
+    'garlic_bread',
+    '蒜味麵包',
+    '["2 Tbsp. butter flavored sprinkles", "2 Tbsp. hot tap water", "1 Tbsp. grated Parmesan cheese", "1 tsp. dried oregano", "1 clove garlic, minced", "1 loaf French bread, cut in 8 slices"]',
+    '["2大匙奶油風味糖屑", "2大匙熱自來水", "1大匙帕馬森起司碎", "1茶匙乾牛至", "1瓣大蒜，切碎", "1條法式麵包，切成8片"]',
+    '["In a cup, stir sprinkles into the water until dissolved.", "Stir in Parmesan, oregano and garlic.", "With a pastry brush, lightly coat both sides of each bread slice with mixture.", "Form bread back into a loaf and place on sheet of aluminum foil. Wrap well. Bake at 350° for 15 minutes."]',
+    '["在杯中，將糖屑攪入水中直到溶解。", "加入帕馬森起司、牛至和大蒜，攪拌均勻。", "用刷子，在每片麵包的兩面輕輕塗上混合物。", "將麵包重新組合成一條，放在鋁箔紙上。包好。以350°F烘烤15分鐘。"]'
+),
+(
+    'gnocchi',
+    '義大利土豆麵疙瘩',
+    '["1 lb. Ricotta cheese", "2 c. flour", "1 egg"]',
+    '["1磅瑞可塔起司", "2杯麵粉", "1個蛋"]',
+    '["Beat egg before you mix in rest of ingredients.", "Flour hands and separate dough into 4 sections.", "Roll each section into snakes on a floured surface.", "Cut 1-inch pieces out of the snakes and, with thumb, press flat.", "Fast freeze (about 10 minutes) on a cookie sheet.", "When hard, cook in boiling water (salted) for 5 minutes after they rise to the top of the pot.", "Serve with spaghetti sauce."]',
+    '["在混合剩下的材料前先打蛋。", "手上沾麵粉，將麵團分成4份。", "在撒麵粉的表面上將每份滾成蛇形。", "從蛇形上切下1英寸的塊，用拇指壓平。", "在餅乾盤上快速冷凍（約10分鐘）。", "當變硬時，在沸水（加鹽）中煮5分鐘，直到它們浮到鍋頂。", "搭配義大利麵醬食用。"]'
+),
+(
+    'greek_salad',
+    '希臘沙拉',
+    '["1 small head lettuce", "1 small cucumber, sliced", "1 or 2 tomatoes, cut as desired", "1 green pepper, cut into strips", "1 small onion, sliced or 4 scallions, chopped", "2 stalks celery, chopped", "6 radishes, sliced", "1/4 c. parsley, finely cut with scissors", "1/2 c. crumbled Feta cheese", "Calamata or Greek black olives", "anchovies (optional)"]',
+    '["1小顆生菜", "1根小黃瓜，切片", "1或2個番茄，按需切割", "1個青椒，切條", "1個小洋蔥，切片或4根蔥，切碎", "2根芹菜，切碎", "6個小蘿蔔，切片", "1/4杯歐芹，用剪刀細切", "1/2杯碎菲達起司", "卡拉馬塔或希臘黑橄欖", "鰹魚（可選）"]',
+    '["Break lettuce into small pieces.", "Place in large bowl with remaining vegetables.", "Pour enough dressing to lightly coat each piece.", "Garnish with Feta cheese, olives and anchovies."]',
+    '["將生菜撕成小塊。", "與剩下的蔬菜一起放入大碗中。", "倒入足夠的調味汁輕輕覆蓋每塊。", "用菲達起司、橄欖和鰹魚裝飾。"]'
+),
+(
+    'grilled_cheese_sandwich',
+    '烤起司三明治',
+    '["2 Tbsp. unsalted butter", "4 large mushrooms, sliced", "2 medium green onions, minced", "1/4 tsp. salt", "1/8 tsp. freshly ground pepper", "4 oz. cold Brie, cut into 1/8-inch thick slices", "8 slices firm textured white bread, crusts removed", "4 sprigs fresh tarragon"]',
+    '["2大匙無鹽奶油", "4個大蘑菇，切片", "2根中等蔥，切碎", "1/4茶匙鹽", "1/8茶匙新鮮研磨黑胡椒", "4盎司冷布里起司，切成1/8英寸厚片", "8片堅實質地白麵包，去皮", "4枝新鮮龍蒿"]',
+    '["In a heavy medium skillet, melt the butter over high heat. When the butter begins to brown, add the mushrooms and toss to coat.", "Saute, stirring occasionally, until the mushrooms have browned around the edges, 2 to 3 minutes.", "Add the green onions and cook for 1 minute longer. Transfer the mushrooms to a plate and season with salt and pepper.", "Divide the cheese among 4 slices of bread.", "Top each with the mushrooms, leaving about 1/4-inch from the edge of the bread. Add a tarragon sprig and cover with the remaining 4 slices of bread.", "Preheat a cast-iron ridged griddle or skillet for 10 minutes over moderate heat. Grill the sandwiches for 4 minutes per side or until the bread is lightly browned and the cheese has melted.", "Serve halved as a first course or quartered as an hors d''oeuvre."]',
+    '["在厚中號平底鍋中，以大火融化奶油。當奶油開始變棕色時，加入蘑菇，拌勻。", "偶爾攪拌炒，直到蘑菇邊緣變棕色，2至3分鐘。", "加入蔥，再煮1分鐘。將蘑菇轉移到盤子上，用鹽和黑胡椒調味。", "將起司分到4片麵包上。", "每片放上蘑菇，距離麵包邊緣約1/4英寸。加上一枝龍蒿，用剩下的4片麵包覆蓋。", "以中火預熱鑄鐵烤盤或平底鍋10分鐘。每面烤三明治4分鐘或直到麵包呈淺棕色且起司融化。", "切成半作為第一道菜，或切成四分之一作為開胃菜。"]'
+),
+(
     'grilled_salmon',
     '烤鮭魚',
     '["2 Cloves Garlic (Crushed)", "1/3 c. California Orange Juice", "1/3 c. Soy Sauce", "3 Tbsp. Ketchup", "1 Tbsp. Honey", "1/2 tsp. Ginger", "4 Kodiak Salmon Steaks"]',
